@@ -168,113 +168,32 @@
 
 ### 实用工具
 
-#### [tiptop](https://github.com/nschloe/tiptop)
-
-* 操作系统资源监控工具, 类似于top, TUI较为精美
-
-#### [英雄联盟对局先知](https://github.com/real-web-world/hh-lol-prophet)
-
-* 根据客户端接口预测对局中的大腿
-
-#### [Linux工具使用手册](https://linuxtools-rst.readthedocs.io/zh_CN/latest/base/index.html)
-
-* 个人整理的doc
-
-#### [gperftool-heapprofiler](https://gperftools.github.io/gperftools/heapprofile.html)
-
-* gperftool是一个分析工具, 可用于分析性能和内存使用, 本文主要介绍内存部分的分析
-* gperftool的源码在[这里](https://github.com/gperftools/gperftools)
-* [这个](https://www.cnblogs.com/GODYCA/archive/2013/05/28/3104281.html)博客也介绍了一些使用方法
-
-#### [warpd](https://github.com/rvaiya/warpd)
-
-* 工具; MacOS; Linux; 鼠标; 键盘控制鼠标
-* 上手难度看起来比较大
-
-#### [Efficient Linux at the Command Line](https://salttiger.com/efficient-linux-at-the-command-line/)
-
-* [图书介绍](https://www.oreilly.com/library/view/efficient-linux-at/9781098113391/), [图书下载](https://pan.baidu.com/s/1lwsJ2dvDJZ_2iTOkDsrAGg?pwd=ts5z)
-
-#### [爬取你需要的数据:爬虫技术](https://book.crifan.org/books/crawl_your_data_spider_technology/website/)
-
-* 爬虫技术; 教程
-* 作者还维护了一系列的教程,见[这里](https://github.com/crifan/crifan_ebook_readme)
-
-#### [工具:espanso](https://espanso.org/)
-
-* 一个增强打字体验的工具, 使用文档在[这里](https://espanso.org/docs/get-started/)
-
-#### [工具:licecap](https://www.cockos.com/licecap/)
-
-* 截屏并保存至gif, 有[windows](https://www.cockos.com/licecap/licecap128-install.exe)和[MacOS](https://www.cockos.com/licecap/licecap131.dmg)版本
-
-#### [工具:TranslucentTB](https://github.com/TranslucentTB/TranslucentTB)
-
-* Windows 任务栏美化工具, 透明工具栏
-
-#### [工具:QuickLook](https://www.microsoft.com/zh-cn/p/quicklook/9nv4bs3l1h4s#activetab=pivot:overviewtab)
-
-* windows下用空格键预览文件
-
-#### [EarTrumpet](https://eartrumpet.app/)
-
-* Windows下应用音量单独调整
-
-#### [mouseinc](https://shuax.com/project/mouseinc/)
-
-* Windows鼠标手势工具
-
-#### [Total Commander](https://www.ghisler.com/)
-
-* 老牌文件管理器; Windows
-
-#### [SurfingKeys](https://github.com/brookhong/Surfingkeys)
-
-* Chrome 快捷键工具, [这里](https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)可以安装, 类似[vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
-
-#### [WizTree](https://diskanalyzer.com/)
-
-* 磁盘空间显示, 在[这里](https://diskanalyzer.com/files/wiztree_4_08_setup.exe)下载, 与[spacesniffer](http://www.uderzo.it/main_products/space_sniffer/)类似
-
-#### [Ditto](https://ditto-cp.sourceforge.io/)
-
-* Windows剪切板管理工具, Windows Store版本在[这里](https://www.microsoft.com/en-us/store/p/ditto-cp/9nblggh3zbjq)下载
-
-
-#### [油猴脚本: Open link directly](https://greasyfork.org/zh-CN/scripts/442187-open-the-link-directly)
-
-* 跳过第三方跳转, 油猴脚本
-
-#### [My MacOS HotKeys](https://www.jamieonkeys.dev/posts/keyboard-shortcuts/)
-
-* 作者的一些Mac快捷键, 供参考
-
-#### [MacOS:Raycast](https://sspai.com/post/72540)
-
-* MacOS启动器类应用, [下载](https://www.raycast.com/), 与utools类似, 上手成本较低
-* 剪贴板历史: 类似Windows下Ditto
-* 窗口管理: 替代Rectangle
-* 卸载应用: 腾讯柠檬
-* Snippets: 文本替换
-* 状态栏菜单
-* 查词: dictionary
-* 有第三方extention
-
-#### [视频: Git for Professionals](https://youtu.be/Uszj_k0DGsg)
-
-* Youtube视频
-
-#### [MacOS:proxyman](https://proxyman.io/?continueFlag=bfad8aef2f2b537615f634a87deb0d67)
-
-* 抓包工具
-
-#### [博客:Bash One-Liner Explained(中文翻译)](https://kodango.com/bash-one-liners-explained-part-one?continueFlag=bfad8aef2f2b537615f634a87deb0d67)
-
-* 一行bash命令实现一个功能, 带解释
-
-#### [工具:traceroute](https://wangchujiang.com/linux-command/c/traceroute.html)
-
-* 网络追踪工具
+名称|平台|同类|教程|说明
+:-|:-:|:-:|:-:|--
+tiptop|[Linux](https://github.com/nschloe/tiptop)|top|-|操作系统资源监控工具, TUI较为精美
+LOL先知|[Win](https://github.com/real-web-world/hh-lol-prophet)|-|-|根据客户端接口预测对局中的大腿
+Linux工具使用手册|Linux|-|[教程](https://linuxtools-rst.readthedocs.io/zh_CN/latest/base/index.html)|作者整理的doc
+gperftool|[Linux](https://github.com/gperftools/gperftools)|perf|[教程1](https://gperftools.github.io/gperftools/heapprofile.html)<br>[教程2](https://www.cnblogs.com/GODYCA/archive/2013/05/28/3104281.html)|gperftool可用于分析性能和内存使用
+warpd|[Mac/Linux](https://github.com/rvaiya/warpd)|vimium|-|键盘控制鼠标,上手难度较大
+Efficient Linux at the Command Line|Linux|-|[教程](https://pan.baidu.com/s/1lwsJ2dvDJZ_2iTOkDsrAGg?pwd=ts5z)|-|[图书介绍](https://www.oreilly.com/library/view/efficient-linux-at/9781098113391/)
+爬取你需要的数据:爬虫技术|*|-|[教程](https://book.crifan.org/books/crawl_your_data_spider_technology/website/)|[同类型教程](https://github.com/crifan/crifan_ebook_readme)
+[espanso](https://espanso.org/)|[Win/Mac/Linux](https://espanso.org/)|-|[教程](https://espanso.org/docs/get-started/)|增强打字体验的工具
+[licecap](https://www.cockos.com/licecap/)|[Win](https://www.cockos.com/licecap/licecap128-install.exe)/[Mac](https://www.cockos.com/licecap/licecap131.dmg)|-|-|截屏并保存至gif
+[TranslucentTB](https://github.com/TranslucentTB/TranslucentTB)|[Win](https://github.com/TranslucentTB/TranslucentTB)|-|-|任务栏美化工具, 透明工具栏
+[QuickLook](https://www.microsoft.com/zh-cn/p/quicklook/9nv4bs3l1h4s#activetab=pivot:overviewtab)|[Win-Store](https://www.microsoft.com/zh-cn/p/quicklook/9nv4bs3l1h4s#activetab=pivot:overviewtab)|-|-|用空格键预览文件
+[EarTrumpet](https://eartrumpet.app/)|[Win](https://eartrumpet.app)|-|-|应用音量单独调整
+[mouseinc](https://shuax.com/project/mouseinc/)|[Win](https://shuax.com/project/mouseinc/)|-|-|鼠标手势工具
+[Total Commander](https://www.ghisler.com/)|[Win](https://www.ghisler.com/)|explorer|-|老牌文件管理器
+[SurfingKeys](https://github.com/brookhong/Surfingkeys)|[Chrome](https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)|[Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)|-|快捷键工具
+[WizTree](https://diskanalyzer.com/)|[Win](https://diskanalyzer.com/files/wiztree_4_08_setup.exe)|[spacesniffer](http://www.uderzo.it/main_products/space_sniffer/)|-|磁盘空间显示
+[Ditto](https://ditto-cp.sourceforge.io/)|[Win/Mac/Linux](https://ditto-cp.sourceforge.io/)|-|-|剪切板管理工具
+[油猴脚本: Open link directly](https://greasyfork.org/zh-CN/scripts/442187-open-the-link-directly)|[Chrome](https://greasyfork.org/zh-CN/scripts/442187-open-the-link-directly)|-|-|跳过第三方跳转
+[My MacOS HotKeys](https://www.jamieonkeys.dev/posts/keyboard-shortcuts/)|Mac|-|[教程](https://www.jamieonkeys.dev/posts/keyboard-shortcuts/)|作者的一些Mac快捷键, 供参考
+[Raycast](https://www.raycast.com/)|[Mac](https://www.raycast.com/)|utools|[教程](https://sspai.com/post/72540)|MacOS启动器类应用:<br><tab>剪贴板历史: 类似Windows下Ditto<br>窗口管理: 替代Rectangle<br>卸载应用: 腾讯柠檬<br>Snippets: 文本替换<br>状态栏菜单<br>查词: dictionary<br>有第三方extention
+[Git for Professionals](https://youtu.be/Uszj_k0DGsg)|-|-|[视频](https://youtu.be/Uszj_k0DGsg)|Youtube视频
+[proxyman](https://proxyman.io/?continueFlag=bfad8aef2f2b537615f634a87deb0d67)|[Mac](https://proxyman.io/?continueFlag=bfad8aef2f2b537615f634a87deb0d67)|-|-|抓包工具
+[Bash One-Liner Explained](https://kodango.com/bash-one-liners-explained-part-one?continueFlag=bfad8aef2f2b537615f634a87deb0d67)|-|-|[教程](https://kodango.com/bash-one-liners-explained-part-one?continueFlag=bfad8aef2f2b537615f634a87deb0d67)|一行bash命令实现一个功能, 带解释, 中文翻译版
+traceroute|Linux yum|-|[教程](https://wangchujiang.com/linux-command/c/traceroute.html)|网络追踪工具
 
 ### 日常生活
 
@@ -313,4 +232,3 @@
 #### [新闻:从分割走向整合：推进国内统一大市场建设的阻力与对策](https://mp.weixin.qq.com/s/P121K8I0dsWUgQbwyItFjg)
 
 * 统一大市场的讨论
-
