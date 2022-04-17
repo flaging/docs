@@ -154,9 +154,9 @@
 
 * Linux/k8s/network为主, 很多中文的高质量译文
 
-#### [教程:Operating System: Three Easy Pieces(OSTEP)](pages.cs.wisc.edu/~remzi/OSTEP/)
+#### [教程:Operating System: Three Easy Pieces(OSTEP)](http://pages.cs.wisc.edu/~remzi/OSTEP/)
 
-* 操作系统神书, [英文版](pages.cs.wisc.edu/~remzi/OSTEP/)/[中文版](pages.cs.wisc.edu/~remzi/OSTEP/Chinese/)
+* 操作系统神书, [英文版](http://pages.cs.wisc.edu/~remzi/OSTEP/)/[中文版](http://pages.cs.wisc.edu/~remzi/OSTEP/Chinese/)
 
 #### [博客推荐:Luyu Huang's Tech Blog](https://luyuhuang.tech/?continueFlag=bfad8aef2f2b537615f634a87deb0d67)
 
