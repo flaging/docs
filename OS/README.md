@@ -4,7 +4,7 @@
 
 ### 图书
 
-* Operating system: Three Easy Piece(OSTEP)
+* Operating system: Three Easy Piece(OSTEP): [英文版](http://pages.cs.wisc.edu/~remzi/OSTEP/)/[中文版](http://pages.cs.wisc.edu/~remzi/OSTEP/Chinese/)
 * Computer System: A Programmer's Perspective(CSAPP)
 
 ### 视频
