@@ -1,5 +1,196 @@
 # 福来鸽的网络周报
 
+## 2022-04-23
+
+### 机器学习
+
+#### [ColossalAI](https://github.com/hpcaitech/ColossalAI)
+
+* 大规模深度学习训练平台, 支持分布式
+
+#### [MLPerf Inference Benchmark Suites](https://github.com/mlcommons/inference)
+
+#### [onnx-util](https://github.com/saurabh-shandilya/onnx-utils)
+
+* onnx剪辑工具
+
+#### [Huggingface transformers](https://github.com/huggingface/transformers)
+
+* transformer的推理库
+
+### 编程语言
+
+#### [TypeError: only length-1 arrays can be converted to Python scalars while plot showing](https://stackoverflow.com/questions/36680402/typeerror-only-length-1-arrays-can-be-converted-to-python-scalars-while-plot-sh)
+
+* python matplotlib输入需要是一组数
+
+#### [python基础_格式化输出（%用法和format用法）](https://www.cnblogs.com/fat39/p/7159881.html)
+
+* ``` print('%o' % 20) ```
+* ``` print('d1: {d1} \td2: {d2}'.format(d1=1, d2=2)) ```
+* ``` print('d1: {2} \td2: {1}'.format(d2, d1)) ```
+* ``` print('{0:b}'.format(3)) #二进制输出```
+* format还有更多用法
+
+格式|含义|格式|含义|格式|含义
+:-:|:-:|:-:|:-:|:-:|:-:
+%o|8进制|%d|10进制|%x|16进制
+%f|float|%e|科学计数法|%g|科学计数法/小数
+round(1.123, 2)|取整|%3.2f|前三位对齐,保留2位|%s|字符串
+%10s|占10位右对齐|%-10s|左对齐占10位|%.2s|截取两位
+%i|整数|%c|字符|%u|无符号数
+%X|大写16进制|%%|文字
+
+#### [Rust语言圣经](https://course.rs/about-book.html)
+
+* Rust教程
+
+#### [30天自制C++服务器](https://github.com/yuesong-feng/30dayMakeCppServer)
+
+* C++教程; C++服务开发
+
+#### [#Python How To Use A Variable Number of Arguments in Python Functions](https://towardsdatascience.com/how-to-use-variable-number-of-arguments-in-python-functions-d3a49a9b7db6)
+
+* python不定参数数量的方法
+  * args 按位置输入
+  * **kwargs 输入dict
+
+#### [CS110L: Safety in System Programing](https://reberhardt.com/cs110l/spring-2021/)
+
+* 斯坦福大学课程; Rust
+
+### 异构硬件
+
+#### [CPU性能和Cache](https://plantegg.github.io/2021/07/19/CPU%E6%80%A7%E8%83%BD%E5%92%8CCACHE/)
+
+* CPU性能介绍
+
+#### [CPU相关书籍推荐和部分芯片微架构](https://zhuanlan.zhihu.com/p/497495797?utm_source=com.microsoft.todos&utm_medium=social&utm_oi=49336847171584)
+
+* CPU相关图书推荐; 另有多张CPU架构图片(如RISC-V)
+
+#### [Tensil tutorial for YOLO v4 Tiny on Ultra96 V2](https://k155la3.blog/2022/04/04/tensil-tutorial-for-yolo-v4-tiny-on-ultra96-v2/?continueFlag=bfad8aef2f2b537615f634a87deb0d67)
+
+* 在FPGA上实现了一个深度神经网络
+
+### 系统原理
+
+#### [openSUSE:系统分析和优化指南](https://thirdyouth.github.io/suse-system-tuning/index.html)
+
+* 官方性能分析文档的中文翻译版
+
+#### [PDF计算机体系结构:量化方法(PDF)](https://github.com/QSCTech/zju-icicles/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/%E6%95%99%E6%9D%90/%E7%AC%AC5%E7%89%88/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%EF%BC%9A%E9%87%8F%E5%8C%96%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95%EF%BC%88%E7%AC%AC%E4%BA%94%E7%89%88%EF%BC%89%EF%BC%88%E4%B8%AD%E6%96%87%E7%89%88%EF%BC%89.pdf)
+
+* 教材推荐; 所在[repo](https://github.com/QSCTech/zju-icicles)为浙大计算机课程整理.
+
+#### [eBPF完全入门指南](https://mp.weixin.qq.com/s?__biz=MzU1MzY4NzQ1OA==&mid=2247504531&idx=1&sn=a21527de08fcc3b2966f63b938e158f2&utm_source=tuicool&utm_medium=referral)
+
+* eBPF介绍文章
+
+#### [软件理论基础与实践](https://xiongyingfei.github.io/SF/2022/lectures)
+
+* 北大课程;数理逻辑、形式语义、类型系统、Coq; 熊英飞
+
+#### [chibicc](https://github.com/rui314/chibicc)
+
+* c编译器实现;code 1w行;commit bugfree;
+
+#### [osdt-weekly](https://github.com/hellogcc/osdt-weekly)
+
+* 开源开发者工具周报; LLVM/GDB/TVM/QEMU/GCC等;
+
+#### [南京大学:计算机系统基础](https://nju-projectn.github.io/ics-pa-gitbook/ics2022/)
+
+* 与蒋炎岩操作系统基础一脉相承
+
+### 博客推荐
+
+#### [Interview Questions](https://github.com/cloudnloud/interview-questions)
+
+* k8s/linux/git/docker/db等分领域问题
+
+#### [博客推荐:关于数据库的一切](http://www.fmwconcepts.com/imagemagick/space/index.php)
+
+* 博主: 罗济高; 数据库领域; PostgreSQL
+
+#### [博客推荐:MorningSpace](https://morningspace.github.io/)
+
+* k8s, git;
+
+#### [计算机大佬博客推荐](https://weibo.com/7483028645/LoqqIvd5A)
+
+* 个人:[yoshuabengio](https://yoshuabengio.org/?continueFlag=cdb48726f74fe95a2e0a2009a9d8d5b8)/[Peter Norvig](https://norvig.com/?continueFlag=cdb48726f74fe95a2e0a2009a9d8d5b8)/[Paul Graham(Y combinator)](http://www.paulgraham.com/?continueFlag=cdb48726f74fe95a2e0a2009a9d8d5b8)/[Scott Meyers](http://scottmeyers.blogspot.com/?continueFlag=cdb48726f74fe95a2e0a2009a9d8d5b8)
+* 组织: [Microsoft Research](https://www.microsoft.com/en-us/research/blog/)/[MSRA](https://www.msra.cn/zh-cn/news)/[Google Research](https://ai.googleblog.com/?continueFlag=cdb48726f74fe95a2e0a2009a9d8d5b8)/[Meta Research](https://research.facebook.com/blog/)/[Linux Foundation](https://www.linuxfoundation.org/blog/?continueFlag=cdb48726f74fe95a2e0a2009a9d8d5b8)/[OREILLY](https://www.oreilly.com/radar/?continueFlag=cdb48726f74fe95a2e0a2009a9d8d5b8)/[MIT](https://news.mit.edu/)/[Y Combinator](https://www.ycombinator.com/blog?continueFlag=cdb48726f74fe95a2e0a2009a9d8d5b8)
+* 语言: [Rust](https://blog.rust-lang.org/)/[C++](https://abseil.io/blog/?continueFlag=cdb48726f74fe95a2e0a2009a9d8d5b8)/[Test](https://testing.googleblog.com/?continueFlag=cdb48726f74fe95a2e0a2009a9d8d5b8)
+
+#### [BlogHub](https://bloghub.fun/?utm_campaign=%E9%87%8E%E7%94%9F%E6%9E%B6%E6%9E%84%E5%B8%88&utm_medium=email&utm_source=Revue%20newsletter)
+
+* 国内技术博客聚合
+
+#### [GithubRank](https://githubrank.com/?utm_campaign=%E9%87%8E%E7%94%9F%E6%9E%B6%E6%9E%84%E5%B8%88&utm_medium=email&utm_source=Revue%20newsletter)
+
+* github大佬排名
+
+### 实用工具
+
+#### [vim帮助文档](https://yianwillis.github.io/vimcdoc/doc/help.html)
+#### [gperftools](https://luyuhuang.tech/2022/04/10/gperftools.html)
+
+* gperf tools的几种使用方法
+
+#### 图书下载网站
+
+* [bookzz](https://www.bookzz.ren/?continueFlag=cdb48726f74fe95a2e0a2009a9d8d5b8)
+* [zlib](https://zh.libsolutions.net/?continueFlag=cdb48726f74fe95a2e0a2009a9d8d5b8)
+* [libgen](https://libgen.li/index.php)
+
+#### [VSCode解决Vim插件不能使用ctrl-c的问题](https://blog.csdn.net/sea_snow/article/details/83375726)
+
+* File -> Preference -> Settings->vim.useCtrlKeys:false
+
+#### [Markdown表格内如何进行换行?](https://blog.csdn.net/microcosmv/article/details/51868178)
+
+* html换行符```<br>```
+
+#### [Linux下调试与性能分析工具的总结](https://developer.aliyun.com/article/632400)
+
+* kernel ftrace工具使用
+  * 位于/sys/kernel/debug/trace路径下
+* gdb的一些使用命令
+* valgrind使用命令
+
+#### [Fred's ImageMagick Scripts](http://www.fmwconcepts.com/imagemagick/space/index.php)
+
+* 图像处理脚本
+
+#### [How to add a new audio (not mixing) into a video using ffmpeg?](https://stackoverflow.com/questions/11779490/how-to-add-a-new-audio-not-mixing-into-a-video-using-ffmpeg#11783474)
+
+* 详细解释了如何使用ffmpeg为视频增加音轨
+
+#### [awesome-latex-drawing](https://github.com/xinychen/awesome-latex-drawing)
+
+* latex画图教程
+
+#### [魔都头像生成器](https://h5.moo-e.com/roomis/?continueFlag=cdb48726f74fe95a2e0a2009a9d8d5b8)
+
+#### [warp](https://www.warp.dev/)
+
+* 新型终端; MacOS
+
+#### [nitter](https://nitter.net/)
+
+* twitter的新浏览方式, 可以直接搜索用户并浏览, 风格清爽; 代码库在[这里](https://github.com/zedeus/nitter)
+
+#### [HertzBeat](https://github.com/dromara/hertzbeat)
+
+* 云监控系统
+
+### 日常生活
+
+#### [非常时期囤货指南](https://github.com/toutiaoio/A-Guide-To-Stockpiling)
+
+* 列举封城前需要购买的物资
+
 ## 2022-04-16
 
 ### 机器学习
@@ -195,6 +386,17 @@ Efficient Linux at the Command Line|Linux|-|[教程](https://pan.baidu.com/s/1lw
 [Bash One-Liner Explained](https://kodango.com/bash-one-liners-explained-part-one?continueFlag=bfad8aef2f2b537615f634a87deb0d67)|-|-|[教程](https://kodango.com/bash-one-liners-explained-part-one?continueFlag=bfad8aef2f2b537615f634a87deb0d67)|一行bash命令实现一个功能, 带解释, 中文翻译版
 traceroute|Linux yum|-|[教程](https://wangchujiang.com/linux-command/c/traceroute.html)|网络追踪工具
 
+#### [How to solve "ptrace operation not permitted" when trying to attach GDB to a process?](https://stackoverflow.com/questions/19215177/how-to-solve-ptrace-operation-not-permitted-when-trying-to-attach-gdb-to-a-pro)
+
+* ptrace can't run with gdb
+
+#### [tmux: Getting extra characters when pasting](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard/issues/31#issuecomment-56107455)
+
+* tmux 粘贴时候有多余字符: ```printf '\e[?2004l'``` 或者 ```printf '\e[?2004h'```
+
+#### [strace: 谁杀了我的进程](https://www.cnblogs.com/xybaby/p/8098229.html)
+
+* ```strace -T -tt -e trace=all -p 1035```
 ### 日常生活
 
 #### [如何成为一个学习机器](http://blog.jiayuanzhang.com/post/how-to-be-a-learning-machine/?utm_campaign=%E9%87%8E%E7%94%9F%E6%9E%B6%E6%9E%84%E5%B8%88&utm_medium=email&utm_source=Revue%20newsletter)
