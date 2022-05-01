@@ -1,5 +1,285 @@
 # 福来鸽的网络周报
 
+## 2022-04-30
+
+### 机器学习
+
+#### [数据中心白皮书](http://www.caict.ac.cn/kxyj/qwfb/bps/202204/t20220422_400391.htm)
+
+* 中国信通原报告;2022年4月;全文下载:[PDF](http://www.caict.ac.cn/kxyj/qwfb/bps/202204/P020220422707354529853.pdf)
+
+#### [Real World Recommendation System - Part 1](https://blog.fennel.ai/p/real-world-recommendation-system?s=r)
+
+* 推荐系统介绍,第二部分尚未更新
+
+#### [【Transformer 所有模型串讲】Auto-encoding模型 -Bert 1](https://zhuanlan.zhihu.com/p/493932190)
+
+* 简介transformer;[专栏](https://www.zhihu.com/column/c_1380571607480651776)共有5节.
+
+#### [Transformer性能优化：运算和显存](https://zhuanlan.zhihu.com/p/474554018)
+
+* transformer分析和优化.
+
+#### [onnx-opcounter](https://github.com/gmalivenko/onnx-opcounter)
+
+* onnx的数据量和计算量解析工具,并不是特别好用
+
+#### [onnx2torch](https://github.com/ENOT-AutoDL/onnx2torch?fbclid=IwAR1HpWxialVy-ILdHUYR8CJ_EsUyxbjhrMkZbWPWkQ0DuNuwvYDEpNVuhqc)
+
+* onnx转pytorch工具: 看起来是转换了,但是对象类型还是和原生pytorch代码不太一样
+
+#### [onnx-simplifier](https://github.com/daquexian/onnx-simplifier)
+
+* onnx简化工具
+
+#### [PaddleDetection](https://github.com/PaddlePaddle/PaddleDetection)
+
+* paddle目标检测套件
+
+#### [Can't find model 'de_core_news_sm'... only on debug mod](https://github.com/explosion/spaCy/issues/4638)
+
+* 数据集下载问题
+* ```python -m spacy download de_core_news_sm```
+
+#### [ONNX 模型分析与使用](https://zhuanlan.zhihu.com/p/371177698)
+
+* ONNX proto的解析, 万物皆可proto
+
+#### [pytorch-opCounter](https://github.com/Lyken17/pytorch-OpCounter)
+
+* thop, 计算量和数据量检测
+* 同类产品还有torchsummary/torchstat
+
+#### [onnx2torch](https://github.com/ENOT-AutoDL/onnx2torch)
+
+* onnx转换为torch
+* 但是转换后的torch模型并不能用thop计算数据量
+
+#### [PyTorch 内部机制(翻译)](https://archwalker.github.io/blog/2019/05/27/pytorch-internals.html)
+
+* pytorch原理解析
+* 另原版本在[这里](http://blog.ezyang.com/2019/05/pytorch-internals/)
+
+#### [Tensorflow Proto](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/core/protobuf/meta_graph.proto)
+
+* Tensorflow的Proto定义
+
+#### [基于onnx的网络裁剪](https://zhuanlan.zhihu.com/p/212893519)
+
+* onnx网络修改方法介绍
+
+### 编程语言
+
+#### [Policy](http://www.modernescpp.com/index.php/policy-and-traits)
+
+* C++新特性; 本网站值得关注
+
+#### [#python Think in Python 2e](https://tairraos.github.io/ThinkPython/index.html)
+
+* 一本python教程
+
+#### [#C++ C++程序设计](https://www.bilibili.com/video/BV1Vf4y1P7pq?spm_id_from=333.999.0.0)
+
+* b站课程; 南方科大于仕琪(openCV中国团队负责人), 另外主页还有[HID2021](https://space.bilibili.com/519963684/channel/seriesdetail?sid=323687&ctype=0)和[HID2020](https://space.bilibili.com/519963684/channel/seriesdetail?sid=323689&ctype=0)的论文解读
+
+### 异构硬件
+
+#### [FPGA并行编程](xupsh.github.io/pp4fpgas-cn/)
+
+* FPGA编程;Parallel Programming for FPGAs的中文翻译版
+
+### 系统原理
+
+#### [You should be reading academic computer science papers](https://stackoverflow.blog/2022/04/07/you-should-be-reading-academic-computer-science-papers/)
+
+* stackoverflow 官方博客推荐阅读计算机论文
+* 论文集
+  * [Great Papers in Computer Science(1996)](https://www.google.com/books/edition/Great_Papers_in_Computer_Science/GmgZAQAAIAAJ?hl=en&kptab=overview)
+  * [Ideas That Created the Future--Classic Papers of Computer Science(2021)](https://mitpress.mit.edu/books/ideas-created-future)
+  * [Papers we love(github)](https://github.com/papers-we-love/papers-we-love)
+* 论文
+  * [Dynamo: Amazon's High Available Key Value Store](https://github.com/papers-we-love/papers-we-love/blob/f28b9c9f6c52a81aa9e60521c794f1c3aeafa9a7/datastores/dynamo-amazons-highly-available-key-value-store.pdf)
+  * [A Unified Theory of Garbage Collection](https://www.cs.cornell.edu/courses/cs6120/2019fa/blog/unified-theory-gc/)
+  * [Communicating Sequential Processes](http://www.cs.ucf.edu/courses/cop4020/sum2009/CSP-hoare.pdf)
+  * [Out of the Tar Pit](https://github.com/papers-we-love/papers-we-love/blob/f28b9c9f6c52a81aa9e60521c794f1c3aeafa9a7/design/out-of-the-tar-pit.pdf)
+* 视频集
+  [Youtube: PapersWeLove](https://www.youtube.com/c/PapersWeLove/videos)
+
+
+#### [Docker中如何限制CPU的使用](http://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/%E5%AE%B9%E5%99%A8%E5%AE%9E%E6%88%98%E9%AB%98%E6%89%8B%E8%AF%BE/05%20%E5%AE%B9%E5%99%A8CPU%EF%BC%881%EF%BC%89%EF%BC%9A%E6%80%8E%E4%B9%88%E9%99%90%E5%88%B6%E5%AE%B9%E5%99%A8%E7%9A%84CPU%E4%BD%BF%E7%94%A8%EF%BC%9F.md)
+
+* 限制CPU使用的原理
+
+#### [LLVM之父Chris Lattner：编译器的黄金时代](https://zhuanlan.zhihu.com/p/500904014?utm_source=com.microsoft.todos&utm_medium=social&utm_oi=49336847171584)
+
+* 编译器从AI编译器开始复兴, 目前已经有星星之火可以燎原之势了.
+
+#### [TCP性能和发送接收窗口、Buffer的关系](https://plantegg.github.io/2019/09/28/%E5%B0%B1%E6%98%AF%E8%A6%81%E4%BD%A0%E6%87%82TCP--%E6%80%A7%E8%83%BD%E5%92%8C%E5%8F%91%E9%80%81%E6%8E%A5%E6%94%B6Buffer%E7%9A%84%E5%85%B3%E7%B3%BB/)
+
+* 网络协议栈解析
+
+#### [CS-143 斯坦福编译原理(中文翻译)](https://www.bilibili.com/video/BV1cE411f78c/)
+
+本文是bilibili搬运版,并且不完整;课程在[斯坦福页面官网](https://web.stanford.edu/class/cs143/), youtube上有15集的英文版(在[这里](https://www.youtube.com/watch?v=SNWHmnWzJAI&list=PLoCMsyE1cvdUZRe1udlyjpzTww1U5olL2&ab_channel=LectureArchive)), b站还有该课程的[补充部分](https://www.bilibili.com/video/BV1oE411V7cd/)
+
+#### [现代存储系统背后的算法](https://iswade.github.io/translate/btree_vs_lsmtree/)
+
+* 主要讲解存储系统的B-tree和LSM-tree区别
+
+#### [2015 CMU 15-213 CSAPP 深入理解计算机系统 课程视频](https://www.bilibili.com/video/BV1iW411d7hd?from=search&seid=11952614108851410743)
+
+* 视频教程;字幕在[这里](https://github.com/EugeneLiu/translationCSAPP)
+
+#### [从零开始的UEFI裸机编程](https://kagurazakakotori.github.io/ubmp-cn/index.html)
+
+* UEFI编程教程;无需依赖库
+
+#### [Implementing a Key-Value Store](https://codecapsule.com/2012/11/07/ikvs-implementing-a-key-value-store-table-of-contents/?continueFlag=0c2f362fd425fbeef707eadd88e1a6bd)
+
+* KV存储也是一个可以研究的话题
+
+#### [eBPF入门与实践指南](https://mp.weixin.qq.com/s/7PzowwNYSwmSNe-3NxX2gw)
+
+* eBPF成为了一个标准的高性能执行引擎
+
+#### [计算机体系结构基础(胡伟武)](https://github.com/foxsen/archbase)
+
+* 龙芯版教材
+
+### 实用工具
+
+#### [打印源代码行](https://wizardforcel.gitbooks.io/100-gdb-tips/content/print-source-lines.html)
+
+* gdb打印源代码技巧
+
+#### [gdb调试的layout使用](https://www.cnblogs.com/dylancao/p/9213235.html)
+
+* gdb有不同的layout, 比如src/asm/split等
+
+#### [用Valgrind检测内存泄漏](https://yuanfentiank789.github.io/2018/11/01/%E7%94%A8Valgrind%E6%A3%80%E6%B5%8B%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F/)
+
+* valgrind使用教程
+
+#### [Creating a cluster with kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)
+
+* 创建k8s集群
+
+#### [如何使用 pprof 调试 golang 应用](https://wallenotes.github.io/2020/04/05/%E7%BC%96%E7%A8%8B/%E8%B0%83%E8%AF%95/how-to-use-go-pprof/)
+
+* gperftool使用方式
+* 使用教程2:[cpuprofiler](https://gperftools.github.io/gperftools/cpuprofile.html),[heapprofiler](https://gperftools.github.io/gperftools/heapprofile.html)
+* 使用教程3:[网址](https://cloud.tencent.com/developer/article/1433465)
+* 使用教程4:[网址](https://www.openjq.com/thread-6858-1-1.html)
+* 使用教程5:[网址](https://github.com/NIGHTFIGHTING/gperftools-tutorial)
+
+#### [Execute an instruction/command in gdb](https://stackoverflow.com/questions/63533955/execute-an-instruction-command-in-gdb)
+
+* starti命令无法使用
+
+#### [Linux-Shell](http://datascript.top/2021/06/03/linux-shell/?continueFlag=7518eeeb402c5210c2d1940add6896ba)
+
+* 博主整理的一些常用linux命令
+
+#### [Dockerfile ENV](https://yeasy.gitbook.io/docker_practice/image/dockerfile/env)
+
+* ```ENV <KEY1>=<VAL1> <KEY2>=<VAL2> ...```
+* ```ARG <KEY1>=<VAL1> <KEY2>=<VAL2> ...```, 见[这里](https://zhuanlan.zhihu.com/p/119301742)
+
+#### [in linux which source return nothing](https://stackoverflow.com/questions/17487514/in-linux-which-source-returns-nothing)
+
+* source是bash命令,在sh中没有,所以某些docker中sh运行脚本时候source找不到命令
+
+#### [Docker容器中运行ls，出现ls: can't open '.': Permission denied错误](https://blog.csdn.net/weixin_38469592/article/details/92803993)
+
+* docker内ls失败的错误: selinux权限严格
+* 解决方法
+  * 临时: 添加参数```--privileged=true```
+  * 更改权限:```chcon -Rt svirt_sandbox_file_t <dir>```
+  * 更改selinux配置:```setenforce 0```
+
+#### [Copy directory to another directory using ADD command](https://stackoverflow.com/questions/26504846/copy-directory-to-another-directory-using-add-command)
+
+* 向docker中拷贝文件夹; Dockerfile
+* ```ADD go /usr/local/```
+
+#### [Linux lsof command explained with 12 practical examples](https://vitux.com/linux-lsof-command-explained-with-12-practical-examples/)
+
+* lsof命令介绍
+
+#### [lookscanned](https://github.com/rwv/lookscanned.io)
+
+* 将PDF转换为扫码格式
+
+#### [60秒完成Linux系统的性能分析(译)](https://jeremyxu2010.github.io/2019/12/60%E7%A7%92%E5%AE%8C%E6%88%90linux%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E8%AF%91/#heading)
+
+* 一些排查工具介绍; 原文在[这里](https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55)
+* 同系列:[其他排查工具介绍](https://netflixtechblog.com/netflix-at-velocity-2015-linux-performance-tools-51964ddb81cf)
+
+#### [netstat的实现方法分析](http://jialeicui.github.io/blog/netstat.html)
+
+* linux万物皆文件, 可以从虚拟文件系统中找到对应的状态值.
+
+#### [docker从入门到实践](https://yeasy.gitbook.io/docker_practice/)
+
+* docker使用教程
+
+#### [新式 Linux 命令行工具大全](https://linux.cn/article-14488-1.html?utm_source=rss&utm_medium=rss)
+
+* Linux工具类型和功能整理
+
+#### [The AWK Programming Language(中译)](github.com/wuzhouhui/awk)
+
+* awk也可以被看作为一种语言
+
+#### [Shell 程序设计教程](http://kuanghy.github.io/shell-tutorial/)
+
+* 一个shell教程
+
+#### [强制删除 StatefulSet 中的 Pods](https://kubernetes.io/zh/docs/tasks/run-application/force-delete-stateful-set-pod/)
+
+* ```kubectl delete pods <pod> --grace-period=0 --force```
+
+#### [ui.vision](https://ui.vision/)
+
+* 网页自动化工具;自动化表单填写
+
+#### [mermaid](https://github.com/mermaid-js/mermaid)
+
+* 流程图引擎;github已支持,但gitpage尚未支持
+
+### 工作生活
+
+#### [微博-微彰琦谈:哑铃型读书策略](https://weibo.com/1102141664/LpJF6tZOf)
+
+* 哑铃型读书策略
+  * 一头重点读最经典的框架性基础书籍，比如历史，哲学和经济学基础书籍
+  * 另一头是所在领域的工具书，以证券领域为例，证券、基金等从业资格丛书系列，CFA和CPA系列
+* 基础书籍推荐
+  * 乔治·韦尔斯 《全球通史》
+  * 《剑桥中国史》
+  * 冯友兰 《中国哲学简史》
+  * 理查德·塔纳斯 《西方思想史》
+  * 何兆武 《西方哲学精神》
+  * 吴国盛 《科学的历程》
+  * 萨缪尔森 《经济学 18版》
+  * 托马斯·索维尔 《经济学的思维方式》
+
+#### [微博视频:风骚律师前情回顾](https://weibo.com/tv/show/1034:4760808513798230?from=old_pc_videoshow)
+
+* 据说最新一季评分很高哦
+
+#### [handle-汉兜](https://github.com/antfu/handle)
+
+* 填词小游戏,每天更新所猜的词语
+
+#### [New graduate EU offers - is It possible to negotiate?](https://ludoro.github.io/blog/career/2022/02/14/newgrad.html)
+
+* 博主介绍了欧洲公司的招聘和面试情况
+
+#### [Cook](https://github.com/YunYouJun/cook)
+
+* 隔离食材做饭教程; 本教程还参考了一个名为"隔离食用大全"的[腾讯文档](https://docs.qq.com/sheet/DZUpJS0tQZm1YYWlt?tab=9ups24).
+
 ## 2022-04-23
 
 ### 机器学习
