@@ -1,5 +1,601 @@
 # 福来鸽的网络周报
 
+## 2022-05-07
+
+### 机器学习
+
+#### [论文:OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068)
+
+* 程序在[这里](https://github.com/facebookresearch/metaseq), 论文在[这里](https://arxiv.org/pdf/2205.01068)
+
+#### [复旦大学邱锡鹏](https://xpqiu.github.io/)
+
+* NLP论文集
+* [如何写好科研论文](https://xpqiu.github.io/slides/%E5%A6%82%E4%BD%95%E5%86%99%E7%A7%91%E7%A0%94%E8%AE%BA%E6%96%87202203.pdf)
+
+#### [知识图谱可视化技术在美团的实践与探索](https://tech.meituan.com/2022/04/14/the-practice-and-exploration-of-knowledge-graph-visualization-technology-in-meituan.html)
+
+#### [The Kaggle Book](https://github.com/PacktPublishing/The-Kaggle-Book)
+
+* kaggle竞赛讲解
+
+#### [DALL-E 2 - Pytorch](https://github.com/lucidrains/DALLE2-pytorch)
+
+* text-to-image
+
+#### [在 Python 中使用机器学习来检测钓鱼链接](https://linux.cn/article-14535-1.html?utm_source=feedly&utm_medium=rss)
+
+* 随机森林
+
+#### [Text Summarization with Huggingface Transformers and Python](https://rubikscode.net/2022/04/25/text-summarization-with-huggingface-transformers/)
+
+* 文本摘要
+
+#### [paperwithcode:Bringing Old Films Back to Life](https://paperswithcode.com/paper/bringing-old-films-back-to-life)
+
+#### [ML and NLP Publications in 2021](https://www.marekrei.com/blog/ml-and-nlp-publications-in-2021/)
+
+* 机器学习趋势总结
+
+#### [NLP-Paper](https://github.com/DengBoCong/nlp-paper)
+
+* 字节跳动; NLP论文代码整理;
+* 包含 NLP 领域下的对话语音领域，复现模型以及数据处理
+
+#### [斯坦福Chris Manning: 大模型剑指通用人工智能？](https://mp.weixin.qq.com/s/pnd2Q-5duMtL0OLzrDJ2JA)
+
+#### [Goopt](https://github.com/jokenox/Goopt)
+
+* 基于GPT-3的搜索引擎
+
+#### [huggingface onnx export](https://github.com/huggingface/notebooks/blob/main/examples/onnx-export.ipynb)
+
+* huggingface官方文档:onnx模型导出
+
+#### [第十七章 模型压缩及移动端部署](https://csbwang.github.io/dl_ch17)
+
+* 深度学习教程;共18章,全文可看[这里](https://csbwang.github.io/tags.html)
+
+#### [Tvm一些基本技术](https://wujianming110117.blog.csdn.net/article/details/115782177)
+
+* 算子融合;数据变换;张量优化
+
+#### [Welcome to Paddle-Inference’s documentation!](https://paddle-inference.readthedocs.io/en/latest/)
+
+* paddle推理引擎
+
+#### [transformer库快速体验文本生成](https://weibo.com/1402400261/Lqc4B8JGw)
+
+![图片](https://wx3.sinaimg.cn/mw2000/5396ee05ly1h1muj5to5yj21ey0tujx5.jpg)
+
+#### [ML-Notebooks](https://github.com/dair-ai/ML-Notebooks)
+
+* pytorch教程
+
+### 异构硬件
+
+#### [OpenSource GPU](https://github.com/hughperkins/VeriGPU)
+
+* veriGPU, 基于RISC-V ISA的verilog GPU开源项目
+
+#### [CUDA多个流的使用](https://blog.51cto.com/u_15127618/3929160)
+
+* cuda多stream编程示例
+* [其他多stream教程](https://zhuanlan.zhihu.com/p/51402722)
+
+#### [SmartNICs to xPUs – Why is the Use of Accelerators Accelerating?](https://www.brighttalk.com/webcast/663/536971)
+
+* 会议:2022-05-20
+
+#### [CPU缓存一致性协议- 深入理解内存屏障](icefrozen.github.io/article/why-memory-barriers-1/)
+
+* CPU缓存一致性协议解析
+
+### 编程语言
+
+#### [Go编程语言与环境](https://dl.acm.org/doi/10.1145/3488716)
+
+* go语言综述,来自语言核心团队,pdf版在[这里](https://dl.acm.org/doi/pdf/10.1145/3488716)
+
+#### [BTree implementation for Go](https://github.com/google/btree)
+
+* google官方的go语言btree实现
+
+#### [PL Papers You Might Love](https://newsletter.papersyoumightlove.pl/)
+
+* program language papers, rss链接在[这里](https://newsletter.papersyoumightlove.pl/)
+
+#### [现代化 C 使用体验](https://liujiacai.net/blog/2022/04/30/modern-c/)
+
+#### [Using std::chrono](https://akrzemi1.wordpress.com/2022/04/11/using-stdchrono/)
+
+* chrono库介绍
+
+#### [Three Benchmarks of C++20 Ranges vs Standard Algorithms](https://www.cppstories.com/2022/ranges-perf/)
+
+* C++测试
+
+#### [reloadium](https://github.com/reloadware/reloadium)
+
+* python 变量实时显示插件; 目前只支持pycharm
+
+#### [C 语言编程透视](https://tinylab-1.gitbook.io/cbook/?continueFlag=5736f6f7a67304664b0f56b2e45e0238)
+
+* C语言教程
+
+#### [learncpp](https://www.learncpp.com/)
+
+* C++知识点查阅
+
+#### [redb](https://github.com/cberner/redb)
+
+* KV-store;rust
+
+#### [C++ Concurrency in Action 2ed 笔记](https://github.com/downdemo/Cpp-Concurrency-in-Action-2ed)
+
+#### [C++编译器中的优化](fuzhe1989.github.io/2020/01/22/optimizations-in-cpp-compilers/)
+
+* 编译器和代码生产方面的概念
+* 编译器为你所做的令人印象深刻的转换工作
+* 优化方式的一些实际例子
+
+#### [Linux下跨语言调用C++实践](https://tech.meituan.com/2022/04/21/cross-language-call.html)
+
+* 美团;java/python调用C++
+
+#### [Go语言从入门到精通](https://github.com/java-aodeng/golang-examples)
+
+* go语言教程
+
+### 系统原理
+
+#### [如何写出高性能代码之优化内存回收(GC)](https://segmentfault.com/a/1190000041787331)
+
+#### [Linux中基于eBPF的恶意利用与检测机制](https://tech.meituan.com/2022/03/29/how-to-detect-bad-ebpf-used-in-linux.html)
+
+#### [CMU-15445 数据库内核(中文讲解)](https://www.bilibili.com/video/BV1bQ4y1Y7iT/?spm_id_from=333.788)
+
+* 将课程用中文讲解了一遍,适合中文选手
+* 作者微博[@许晓笛](https://weibo.com/u/1068096134)
+
+#### [关于 TCP, 我学到什么](https://111hunter.github.io/2021-01-08-tcp/)
+
+#### [Distributed Systems Shibboleths](https://jolynch.github.io/posts/distsys_shibboleths/)
+
+* 分布式系统的一些观点
+
+#### [一个周末掌握光线追踪教程](https://xjoshua.github.io/tags/#Render)
+
+* 光线追踪,图形学
+
+#### [LLVM GPU Working Group Meeting Agenda / Notes](https://docs.google.com/document/d/1m_oSe1HwtWdQ2JUmMRTAVHbUS7Dv4MRsqptiYcgK6iI/mobilebasic#bookmark=id.i5jobxbcv8r7)
+
+* LLVM GPU组的会议记要,格式十分好看
+
+#### [PranaDB](https://github.com/cashapp/pranadb)
+
+* ```PranaDB = kafka + SQL```
+
+#### [Operating Systems](https://oscourse.org/)
+
+* 浙大操作系统教学网站
+
+#### [分布式论文经典《Time, Clocks, and the Ordering of Events in a Distributed System》](https://www.microsoft.com/en-us/research/publication/time-clocks-ordering-events-distributed-system/)
+
+* [中文译文](https://ouonline.net/time-clocks-and-the-ordering-of-events-in-a-distributed-system-cn?continueFlag=662acb971541af40cb0fe9bfa562324c)
+* 微博[@张铁蕾](https://weibo.com/n/%E5%BC%A0%E9%93%81%E8%95%BE)解读:[全文](http://zhangtielei.com/posts/blog-time-clock-ordering.html?continueFlag=662acb971541af40cb0fe9bfa562324c)
+
+#### [写给入门者的LLVM介绍](https://zhuanlan.zhihu.com/p/472813616)
+
+#### [四大功能！带你初识 Fabric | 容器网络系列第2期](http://weekly.dockone.io/article/2434894)
+
+* 容器网络介绍
+
+#### [ETCD源码剖析](https://csunny.gitbook.io/etcd)
+
+#### [深入分析LINUX内核源码](http://www.kerneltravel.net/book/)
+
+* Linux内核源码解读;
+* [本博客](http://www.kerneltravel.net/)还有许多内核相关资料
+
+#### [http2 explained](https://http2-explained.haxx.se/zh/part1)
+
+* http2介绍;多语言支持(中英等)
+
+#### [redis-3.0-annotated](https://github.com/huangz1990/redis-3.0-annotated)
+
+* redis注释版
+
+#### [The Adventures of OS: Making a RISC-V Operating System using Rust](https://osblog.stephenmarz.com/)
+
+* rust;risc-v;OS
+* 后续更新在[这里](https://blog.stephenmarz.com/category/os/)
+
+#### [eBPF编程指北](https://mp.weixin.qq.com/s/6CU61NDq-_96jVv8aVar_g)
+
+* eBPF编程教程
+
+#### [udev文件系统的使用和基本工作原理分析](https://blog.51cto.com/lukeguo/1242460)
+
+* udev介绍;[简介2](https://www.cnblogs.com/zhouhbing/p/4025748.html);
+
+#### [设计模式二三事](https://tech.meituan.com/2022/03/10/interesting-talk-about-design-patterns.html)
+
+* 美团技术:[网站](https://tech.meituan.com/)
+
+#### [Transparently running binaries from any architecture in Linux with QEMU and binfmt_misc](https://ownyourbits.com/2018/06/13/transparently-running-binaries-from-any-architecture-in-linux-with-qemu-and-binfmt_misc/?continueFlag=5736f6f7a67304664b0f56b2e45e0238)
+
+* 应用运行,虚拟,QEMU,Linux
+
+#### [《设计数据密集型应用》中文翻译](https://github.com/Vonng/ddia)
+
+* 数据密集型应用; 设计
+
+#### [60秒完成Linux系统的性能分析(译)](https://jeremyxu2010.github.io/2019/12/60%E7%A7%92%E5%AE%8C%E6%88%90linux%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E8%AF%91/)
+
+* netflix, [原文](https://medium.com/netflix-techblog/linux-performance-analysis-in-60-000-milliseconds-accc10403c55)
+
+#### [操作系统-死锁](jasonxqh.github.io/2021/05/17/操作系统-死锁/)
+
+* 什么是死锁、死锁的条件是什么、死锁如何预防、活锁是什么等
+
+#### [分布式系统的一致性与共识算法的博文](https://weibo.com/2194035935/LpTU7gj1j)
+
+* [分布式系统的一致性与共识算法-基础理论](chinalhr.github.io/post/distributed-systems-consistency-consensus-algorithm/)
+* [分布式系统的一致性与共识算法-Paxos](chinalhr.github.io/post/distributed-systems-consensus-algorithm-paxos/)​​​
+
+#### [Algorithms for Decision Making](https://algorithmsbook.com/files/dm.pdf)
+
+* 决策算法;另有同类图书,在[这里](https://algorithmsbook.com/optimization/#)
+
+#### [Linux网络内核源码分析](xingkunz.github.io/tags/源码/)
+
+* 共5篇,内核源码分析类
+
+#### [从0开始的计算机科学-状态与编码](suquark.github.io/lecture/2017/08/01/cs_from0_state_and_encode.html)
+
+* 计算机的一些最基本的要素的认知
+
+#### [linux内核环形队列kfifo](jarsonfang.github.io/Kernel/内核数据结构/kfifo/)
+
+* kfifo, kernel内的fifo实现
+
+### 实用工具
+
+#### [Blush](https://github.com/arsham/blush)
+
+* Grep with colours
+
+#### [gdb cheetsheet](https://www-users.york.ac.uk/~mijp1/teaching/2nd_year_Comp_Lab/guides/GDB_Cheat_Sheet.pdf)
+
+#### [contentideas](https://contentideas.io/)
+
+* 类似搜索引擎
+
+#### [技术博客地址合集:blogsurf](https://blogsurf.io/directory)
+
+#### [抖珍藏](https://douzhencang.com/)
+
+* 抖音下载插件, 下载在[这里](https://microsoftedge.microsoft.com/addons/detail/kaepaapgaokpobjhamjjekinijbcoihe)
+
+#### [youtube-enhancer](https://chrome.google.com/webstore/detail/youtube-enhancer/ejcniippeghnejiodjkkmndlelbagmah)
+
+* chrome插件
+
+#### [缩短命令、调整按键、自动补全，这些代码值得你放进 PowerShell 配置文件](https://sspai.com/post/73019)
+
+#### [素生](https://z.arlmy.me/)
+
+* 博客推荐
+
+#### [blog finder](https://bf.zzxworld.com/)
+
+* 博客集
+
+#### [Best Paper Awards in Computer Science](https://jeffhuang.com/best_paper_awards/)
+
+* 历年最佳论文
+
+#### [Azure Speech Download](https://www.appinn.com/azure-speech-download/)
+
+* 微软文字转语音功能
+* 下载:[油猴脚本](https://greasyfork.org/zh-CN/scripts/444347-azure-speech-download), [命令行工具](https://github.com/kxxt/aspeak)
+
+#### [mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot)
+
+* Aria/qBittorrent Telegram mirror/leech bot
+* 将torrent备份至telegram或者google drive
+
+#### [Containerization of CUDA environment using VSCode](https://blog.kbegiedza.eu/setup-cuda-developement-with-vscode)
+
+* vscode cuda环境
+
+#### [Meilisearch](https://github.com/meilisearch/meilisearch)
+
+* 搜索系统,官网在[这里](https://www.meilisearch.com/)
+
+#### [Brendan Gregg's Blog](https://www.brendangregg.com/blog/2022-05-02/brendan-at-intel.html)
+
+* 火焰图作者跳槽去了intel, 他的博客有许多性能分析相关内容和教程
+* 博客在[这里](https://www.brendangregg.com/)
+* 这条信息的[HN](https://news.ycombinator.com/item?id=31236157)中, 还有一些其他好玩的信息
+  * [Unusual Disk Latency](https://www.brendangregg.com/blog/2008-12-31/unusual-disk-latency.html)
+    * 声音对硬盘延迟有很大影响
+    * 实验视频:[Youtube](https://youtu.be/tDacjrSCeq4)
+  * [magic-trace](https://github.com/janestreet/magic-trace)
+  * [finding a guiding principal for work](https://www.youtube-nocookie.com/embed/PUv66718DII)
+
+#### [Spacedrive](https://github.com/spacedriveapp/spacedrive)
+
+* 文件管理器,MacOS, 将来会支持所有端
+
+#### [Blog is A Room](http://nicodechal.github.io/)
+
+* 内容主要是算法分析、计算机理论基础、VSCode源码分析等
+
+#### [Catalogue](https://github.com/G33kzD3n/Catalogue)
+
+* 一些图书
+
+#### [How to professionally say](https://howtoprofessionallysay.akashrajpurohit.com/)
+
+* 网站:能够将你想表达的意思更加专业的表达出来
+
+#### [使用 pprof 对 Go 程序进行分析优化](https://www.debuginn.cn/7444.html)
+
+* gperftool实用示例
+
+#### [地图资源下载](https://weibo.com/5198011111/LoZJYgHtX)
+
+* [天地图](https://www.tianditu.gov.cn/)
+* [标准地图服务](http://bzdt.ch.mnr.gov.cn/)
+* [阿里云数据可视化平台](http://datav.aliyun.com/portal/school/atlas/area_selector)
+* [国家地球系统科学数据中心共享服务平台](http://www.geodata.cn)
+* [气象地球](https://earth.nullschool.net/#current/wind/surface/level/orthographic=-259.66,16.17,378)
+* [天文通](https://www.darkmap.cn/)
+* [NB三维地图](https://nbcharts.com/map/map.php)
+* [windy-气象地图](https://www.windy.com/?22.291,114.150,5)
+* [中国历史地图集](http://www.ccamc.co/chinese_historical_map/index.php)
+* [中国诗人地图](https://sou-yun.cn/IndexByMap.aspx)
+
+#### [9 个去中心化、端到端、开源的主流社交媒体平台替代品](https://linux.cn/article-14529-1.html?utm_source=rss&utm_medium=rss)
+
+* 最著名的还是mastodon和signal了
+
+#### [Awesome Github REPO](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo)
+
+* github repo推荐
+
+#### [actual](https://github.com/actualbudget/actual)
+
+* 个人财务管理系统,目前只支持web后续会支持多端;
+* [介绍网站](https://actualbudget.com/)
+* [server端代码](https://github.com/actualbudget/actual-server)
+
+#### [Git权威指南](https://gotgit.readthedocs.io/en/latest/)
+
+#### [GDB dashboard](https://github.com/cyrus-and/gdb-dashboard)
+
+* python GDB工具
+
+#### [ipip.net](http://myip.ipip.net/)
+
+* IP位置工具;微博归属地功能
+
+#### [手写模拟](https://github.com/why20021008/hand-write)
+
+* 模拟手写的效果
+
+#### [Memray](https://github.com/bloomberg/memray)
+
+* python内存profiler
+
+#### [fccf: Fast C/C++ Code Finder](https://github.com/p-ranav/fccf)
+
+* 代码搜索工具
+
+#### [Debian 参考手册](https://www.debian.org/doc/manuals/debian-reference/index.zh-cn.html)
+
+* 官方中文版参考手册
+
+#### [go-zero](https://github.com/zeromicro/go-zero)
+
+* rpc框架;[中文文档](https://go-zero.dev/cn/), [英文文档](https://go-zero.dev/en/)
+
+#### [The Linux Perf Master](https://riboseyim.gitbook.io/perf/)
+
+* Linux性能分析工具上手
+
+#### [scarsu](https://www.scarsu.com/)
+
+* 前端女程序猿;有个月刊tag挺不错的
+
+#### [国家智慧教育平台](https://www.smartedu.cn/)
+
+* 国家级网课平台,覆盖义务教育和职业教育
+
+#### [可乐的周报](http://coke.do/)
+
+* 定期分享整理消息
+
+#### [NIVOS](github.com/TheSadError/NIVOS)
+
+* 一个开源的 Python 工具包，可用于深入扫描、破解 WIFI，适用于所有 Linux 系统，部分功能仍在持续升级中
+
+#### [Fan Control](https://github.com/Rem0o/FanControl.Releases)
+
+* 风扇转速控制工具
+
+#### [感受Vim的强大：进阶技巧](https://harttle.land/2015/07/17/vim-advanced.html)
+
+#### [vim-dirtytalk: spellcheck dictionary for programmers](https://github.com/psliwka/vim-dirtytalk)
+
+#### [AI paper collector](https://github.com/MLNLP-World/AI-Paper-collector)
+
+* AI论文搜索工具
+
+#### [vim cheetsheet for programers](http://michael.peopleofhonoronly.com/vim/?continueFlag=5736f6f7a67304664b0f56b2e45e0238)
+
+* 图片版
+
+#### [Bash Shell 脚本编程实践](http://www.uinio.com/Linux/Shell/)
+
+* bash教程
+
+#### [LeetCode难题代码和算法要点分析](https://github.com/wisdompeak/LeetCode)
+
+* 力扣难题解析
+
+#### [Warp](https://github.com/warpdotdev/Warp)
+
+* ssh工具,网站在[这里](https://warp.dev/)
+
+#### [track awesome list](https://www.trackawesomelist.com/)
+
+* 用于追踪github awesome list工具的网站, 也支持[RSS](https://www.trackawesomelist.com/rss.xml)
+
+#### [selenium](https://selenium-python.readthedocs.io/)
+
+* 基于python的web自动化工具
+
+#### [快乐的 Linux 命令行](http://billie66.github.io/TLCL/book/)
+
+* Linux教程
+
+### 工作生活
+
+#### [计算机日常易读错单词](https://cpwp.netlify.app/)
+
+#### [逻辑学简短入门(牛津通识读本)](https://wxflogic.gitbook.io/logic)
+
+#### [天涯神贴「2010年的房地产调控，我们收获了什么？写在房价暴涨前」脱水版](https://github.com/shengcaishizhan/kkndme_tianya)
+
+#### [如何提高情绪阈值？](http://wufazhuce.com/question/3367)
+
+#### [自卑的本质是什么?](http://wufazhuce.com/question/3362)
+
+#### [深度“解码”Y/Z世代 洞察消费新趋势——2021新消费人群报告](http://mi.talkingdata.com/report-detail.html?id=1105)
+
+#### [关于做学术讲演的几条经验](https://zengfk.com.cn/2021/05/25/%E5%85%B3%E4%BA%8E%E5%81%9A%E8%AE%B2%E6%BC%94%E7%9A%84%E5%87%A0%E6%9D%A1%E7%BB%8F%E9%AA%8C/)
+
+* 作者主业数学
+
+#### 疫情下的社区居民自治
+
+* [疫情下的社区居民自治（上）—— 模式总结](https://mp.weixin.qq.com/s/vAAwOSsB-CAde92lhH0dEg)
+* [疫情下的社区居民自治（下）—— 工具包](https://mp.weixin.qq.com/s/DqzXwOwgUi0qaNNxwJvLZQ)
+
+#### [凯文·凯利70岁生日写的103条人生忠告（中文翻译）](https://justinyan.me/post/4911)
+
+#### [Jacob Press on Github](https://jacobzuo.github.io/)
+
+* 科普网站
+
+#### [给女儿的16条建议](https://weibo.com/2365961811/Lr1zPnqke)
+
+#### [物理学咬文嚼字专栏](http://iop.cas.cn/kxcb/kpwz/ywjzzl/)
+
+* 中科院物理所,物理学名词解析
+
+#### [FLY_US](https://github.com/F4bwDP6a6W/FLY_US)
+
+* 美国大学备考资料,GRE和面试等
+
+#### [约会最让人“下头”的13件事，你最讨厌第几件？](https://zhuanlan.zhihu.com/p/507864082)
+
+* 假装你们有着相似的兴趣爱好
+* 炫耀你的资产数目和权力，吹嘘你有多成功
+* 吹嘘你是多么地受欢迎，故意让对方嫉妒
+* 过分炫耀身材
+* 一边飙车一边开着高分贝音响
+* 过于刻意地取悦对方
+* 谈论自己睡过多少人
+* 谈论前任
+* 刻薄
+* 说谎
+* 过早地表现出脆弱
+* 在犯错的时候不道歉
+* 对了解ta的事不感兴趣
+
+#### [How I put my whole life into a single database](https://krausefx.com//blog/how-i-put-my-whole-life-into-a-single-database)
+
+* 作者将自己的所有时间整理成数据库,分析了一些有趣的结果.
+
+#### [looptap](https://looptap.vasanthv.com/)
+
+* 休闲网页小游戏
+
+#### [视频:欧洲少林寺八段锦](https://f.video.weibocdn.com/o0/FeERMFJAlx07VCR34g9a010412045xw20E020.mp4?label=mp4_hd&template=852x480.25.0&ori=0&ps=1BThihd3VLAY5R&Expires=1651574911&ssig=sGjUTaPkhP&KID=unistore,video)
+
+* 刚柔并济
+
+#### [怎样让别人觉得自己很靠谱？](http://wufazhuce.com/question/3366)
+
+* 明确自己的能力边界
+* 帮助对方明确任务的规划和想法
+* 不要完美主义，先把事情做出去
+* 学会邀功
+
+#### [中国芯片替代方案公司名单公布（70个类别）](https://www.dx2025.com/archives/167059.html)
+
+* 东西智库
+
+#### [自我塑造：成功五要素](https://www.cmgemooc.com/course/HIT04011000110_CMGE/10318295?channel=i.area.home_course_ad)
+
+* 哈工大课程
+
+#### [An Amateur Programmer's Blogs](dirtysalt.github.io/html/blogs.html)
+
+* 技术方面以C、算法、高性能计算为主
+
+#### [物资储备指南](https://dig.chouti.com/pic/show?nid=4ae78296f7c9c7cc2e29bb43b56b0290&lid=34821334)
+
+* 指南链接:[指南](https://dig.chouti.com/pic/show?nid=4ae78296f7c9c7cc2e29bb43b56b0290&lid=34821334)
+
+#### [程序员副业交流](https://mobile.twitter.com/waylybaye/status/1517111176999862273)
+
+* 录音也上传到了[google driver](https://drive.google.com/file/d/1_5s4Dfk7_3bYRdluqT4sftAM01ADWUQC/view)
+* 总结在[这里](https://mobile.twitter.com/madawei2699/status/1517150616333656066/photo/1)
+
+#### [代码大全读书笔记](https://pegasuswang.readthedocs.io/zh/latest/code/%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8/)
+
+* 作者的代码大全读书笔记
+* 作者还读了一些其他图书,可以看[这里](https://pegasuswang.readthedocs.io/zh/latest/)
+
+#### [开发者代码审查指南](https://jimmysong.io/eng-practices/docs/review/?utm_campaign=%E9%87%8E%E7%94%9F%E6%9E%B6%E6%9E%84%E5%B8%88&utm_medium=email&utm_source=Revue%20newsletter)
+
+* 作者翻译的谷歌CR代码指南
+
+#### [成为职场优秀程序员的 5 个建议](http://weekly.codelc.com/issues/5-1146179)
+
+* 编写与众不同的简历:[示例1](https://codelc.com/intro_2013/?utm_campaign=%E9%87%8E%E7%94%9F%E6%9E%B6%E6%9E%84%E5%B8%88&utm_medium=email&utm_source=Revue%20newsletter), [示例2](https://github.com/lcomplete/coderinfo?utm_campaign=%E9%87%8E%E7%94%9F%E6%9E%B6%E6%9E%84%E5%B8%88&utm_medium=email&utm_source=Revue%20newsletter)
+* 注重实效，做个敏捷的程序员
+* 制定工作检查清单，做事周全到令他人惊讶
+* 持续扩大在团队中的影响力，但一定要谦虚
+* 持续优化编码方法，在工作中始终保持进步
+
+#### [2022年版60家中国IC设计初创公司（Fabless Startup）调研分析报告](https://www.eet-china.com/news/2022041114233.html)
+
+* 报告介绍了国内主要IC设计公司及其主要涉及领域
+
+#### [来说说这些年相亲遇到的女方伎俩](https://ngabbs.com/read.php?tid=26335583&rand=783)
+
+* bbs论坛大神帖子,共总结了20余条, 心机女如何PUA男生
+
+#### [想找个女朋友，不知道怎么开始](https://www.v2ex.com/t/848795)
+
+* 心态:要自信,找女朋友和月薪没有关系,和身高也没有关系,和年龄也没有关系,不做舔狗
+* 打扮:穿有质感的衣服,经常洗头洗澡,刮胡子,护肤
+* 沟通:提高沟通技巧,学会撩妹,提供情绪价值
+* 接触:心态放平,主动尝试,多去能接触女生的地方(图书馆/学校/羽毛球场),出门走走,扩大朋友圈,多参与集体活动
+* 目标:明确自己喜欢的类型,给出明确指标和要求,然后与接触到的女生匹配,以朋友心态相处
+* 表现:要表现自己,使自己看起来值得信任
+* 心理:与女生交朋友,了解女生的想法和选择,提高沟通效率
+
+#### [这部年度好片，一秒都不想快进](https://post.smzdm.com/p/a8x7r990/)
+
+* 电影推荐:无主之作;另外导演还有另一部窃听风暴值得看
+
 ## 2022-04-30
 
 ### 机器学习
@@ -343,7 +939,9 @@ round(1.123, 2)|取整|%3.2f|前三位对齐,保留2位|%s|字符串
 
 #### [CPU性能和Cache](https://plantegg.github.io/2021/07/19/CPU%E6%80%A7%E8%83%BD%E5%92%8CCACHE/)
 
-* CPU性能介绍
+* CPU性能介绍, 作者是[plantgg](https://weibo.com/n/plantegg)
+* [CPU的制造和概念](https://plantegg.github.io/2021/06/01/CPU的制造和概念)
+* [十年后数据库还是不敢拥抱NUMA](https://plantegg.github.io/2021/05/14/十年后数据库还是不敢拥抱NUMA/)
 
 #### [CPU相关书籍推荐和部分芯片微架构](https://zhuanlan.zhihu.com/p/497495797?utm_source=com.microsoft.todos&utm_medium=social&utm_oi=49336847171584)
 
