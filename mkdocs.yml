@@ -1,3 +1,5 @@
 site_name: 福来鸽的笔记
 theme: readthedocs
 repo_url: https://github.com/flaging/docs/
+plugins:
+  - jekyll-feed
