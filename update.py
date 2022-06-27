@@ -8,8 +8,8 @@ EXCLUDE_DIRS = ['.git', 'docs', '.vscode', '.circleci', 'site']
 README_MD = ['README.md', 'readme.md', 'index.md']
 
 TXT_EXTS = ['md', 'txt']
-TXT_URL_PREFIX = 'https://github.com/QSCTech/zju-icicles/blob/master/'
-BIN_URL_PREFIX = 'https://github.com/QSCTech/zju-icicles/raw/master/'
+TXT_URL_PREFIX = 'https://flaging.github.io/docs/'
+BIN_URL_PREFIX = 'https://flaging.github.io/docs/'
 
 
 def list_files(course: str):
