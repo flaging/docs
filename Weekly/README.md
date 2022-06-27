@@ -4,6 +4,16 @@
 
 ### 机器学习
 
+#### [Deep Learning Interviews book: Hundreds of fully solved job interview questions from a wide range of key topics in AI.](https://github.com/BoltzmannEntropy/interviews.ai)
+
+* AI interview教程
+
+#### [MetaSeq](https://github.com/facebookresearch/metaseq)
+
+* OPT: Open Pretrained Transformer
+
+#### [The Hugging Face Deep Reinforcement Learning Class](https://github.com/huggingface/deep-rl-class)
+
 #### [论文:OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068)
 
 * 程序在[这里](https://github.com/facebookresearch/metaseq), 论文在[这里](https://arxiv.org/pdf/2205.01068)
@@ -74,6 +84,33 @@
 
 ### 异构硬件
 
+#### [Multi-GPU Programming with Standard Parallel C++, Part 1](https://developer.nvidia.com/blog/multi-gpu-programming-with-standard-parallel-c-part-1)
+
+#### [NVIDIA CUDA Programing Guide 2.0 Final](https://www.nvidia.cn/docs/IO/57399/NVIDIA_CUDA_Programming_Guide_2.0Final.pdf)
+
+* 看起来nv在2008年cuda接口就基本稳定了
+
+#### [WinnieS的微博:图书推荐](https://weibo.com/2144454703/LrzAQcqD4)
+
+* 手把手教你设计CPU--RISC-V处理器
+* RISC-V架构与嵌入开发快速入门
+
+#### [M1 CPU 那么多的核，macOS 是怎样管理的？](https://sspai.com/post/73048)
+
+* MacOS的E核(Efficiency Core)和P核(Performancs Core的调度策略)
+* 应用程序通常由 Grand Central Dispatch 使用 QoS 管理
+  * 最低 QoS 线程只在 E 集群上运行
+  * 用户进程优先分配P核,过多后再分配E核
+  * 引导或者更新后,系统可能处于单E核运行状态
+
+![图片](https://cdn.sspai.com/editor/u_/c9q8lhtb34t9etjhlvq0.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)
+
+#### [深入理解混合精度训练：从 Tensor Core 到 CUDA 编程](https://mp.weixin.qq.com/s/CBGymNbAN4pD31oe70-Klw)
+
+* 介绍tensorcore的调用接口
+  * cuda warpper接口
+  * cudnn封装接口
+
 #### [OpenSource GPU](https://github.com/hughperkins/VeriGPU)
 
 * veriGPU, 基于RISC-V ISA的verilog GPU开源项目
@@ -92,6 +129,10 @@
 * CPU缓存一致性协议解析
 
 ### 编程语言
+
+#### [Svar, A Tiny Modern C++ Header Brings Unified Interface for Different Languages](https://github.com/zdzhaoyong/Svar)
+
+* 多语言接口
 
 #### [Go编程语言与环境](https://dl.acm.org/doi/10.1145/3488716)
 
@@ -148,6 +189,18 @@
 * go语言教程
 
 ### 系统原理
+
+#### [@博客推荐: 何照江的微博](https://hezhaojiang.github.io/)
+
+* 音视频算法与数据结构
+
+#### [Computer Network: A Top-Down approach 8-th edition](https://gaia.cs.umass.edu/kurose_ross/wireshark.php)
+
+* 教材
+
+#### [谷歌工程实践文档](https://jimmysong.io/eng-practices/)
+
+* 内含[代码审查者指南](https://jimmysong.io/eng-practices/docs/review/reviewer/)和[代码开发者指南](https://jimmysong.io/eng-practices/docs/review/developer/)
 
 #### [如何写出高性能代码之优化内存回收(GC)](https://segmentfault.com/a/1190000041787331)
 
@@ -261,6 +314,113 @@
 * kfifo, kernel内的fifo实现
 
 ### 实用工具
+
+#### []
+
+#### [What are your most used self-hosted applications? (noted.lol)](https://news.ycombinator.com/item?id=31260061)
+
+* [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager): Proxy for self hosted service
+* [Portainer](https://github.com/portainer/portainer): Docker management
+* [Ghost](https://github.com/TryGhost/Ghost): writing materials management
+* [filebrowser](https://github.com/filebrowser/filebrowser): files
+* [AzuraCast](https://github.com/AzuraCast/AzuraCast): music stream
+* [Tube Archivist](https://github.com/tubearchivist/tubearchivist): youtube media server
+* [grafana](https://github.com/grafana/grafana): monitor
+* [Linkding](https://github.com/sissbruecker/linkding): bookmarks
+* [Audiobookshelf](https://github.com/advplyr/audiobookshelf)
+* [Final Notes and Thoughts](https://noted.lol/tag/self-hosting/): notes
+* Nextcloud: for caldav and carddav calendar, contacts, and tasks
+* Xbrowsersync - sync bookmarks across device
+* Synchthing - backup data from my phone. I use Neo Backup to take a snapshot of all apps, so the phone should theoretically be restorable from scratch.
+* Jellyfin - Spotify replacement. The Finamp app is fantastic.
+* Home Assistant - automate my media center, as well as control outdoor lights and door locks, and check if any doors or windows are open or unlocked when I'm away.
+* OPNSense on a protectli box - amazing open source gateway software that does everything.
+* AdGuard Home (on OPNSense) - DNS based ad blocking
+* Wireguard (on OPNSense) - allows me to have an always on partial tunnel VPN on my phone and laptops that allows access to home services while remote, and also allows me to use my Ad Guard DNS.
+* HAProxy + LetsEncrypt (on OPNSense) - setup to provide subdomains for each of the services at home. Only a couple are public (contacts and calendar), but the rest become available when the VPN is on.
+* Smokeping - use it to collect data to rub into Spectrums face when they go down.
+* Pintry - Pinterest clone
+* Xbrowsersync - sync bookmarks across device
+
+* cadvisor - simple graphs of resource consumption, insights per docker stack
+* cyberchef - a LOT of handy operations packed into one small app. Encode/decode any secrets you need and don't bother about privacy
+* dozzle - logs browser from all docker stacks
+* gogs - git mirror
+* heimdall - all apps main panel
+* minio - private S3 for my side projects
+* nextcloud - private google drive / dropbox
+* photoprism - photo management
+* pypiserver - private pypi
+* registry - docker registry (with UI)
+* traefik - reverse proxy of all these services
+* portainer - easily manage all of the above.
+* Wiki (linked from one of the githubs, has links to all apps and more info than the githubs): https://wiki.servarr.com/
+* Lidarr (Music): https://github.com/Lidarr/Lidarr
+* Radarr (Movies): https://github.com/radarr/radarr
+* Readarr (Books): https://github.com/readarr/readarr
+* Sonarr (TV): https://github.com/sonarr/sonarr
+* Router - pfSense - https://www.pfsense.org/
+* Movies/TV/Home Videos - Plex
+* Minecraft Server - AMP - https://cubecoders.com/AMPInstall
+* Music - Roon - https://roonlabs.com/
+* Automation - HomeAssistant - https://www.home-assistant.io/
+* Unifi Controller
+* Email - Zimbra - https://www.zimbra.com/downloads/
+* Files - Synology
+
+#### [Bash-Oneliner](https://github.com/onceupon/Bash-Oneliner)
+
+* 脚本命令解析
+
+#### [Google 开源项目风格指南——中文版](https://zh-google-styleguide.readthedocs.io/en/latest/)
+
+#### [中文技术文档写作风格指南¶](https://zh-style-guide.readthedocs.io/zh_CN/latest/index.html)
+
+#### [Weibo Spider](https://github.com/dataabc/weiboSpider)
+
+* 微博用户爬虫工具
+
+#### [一日一技：如何批量给PDF添加水印？](https://www.kingname.info/2022/05/05/add-watermark-on-pdf/#more)
+
+#### [Starship](https://starship.rs/zh-cn/)
+
+* 终端,在多端上有相同的使用体验
+
+#### [微博@plantegg:脚本执行时候的一些错误](https://weibo.com/1667773473/LrzEtk4cn)
+
+* login shell与no-login shell的区别
+  * login shell: /etc/profile --> ~/.bash_profile --> ~/.bashrc --> /etc/bashrc
+  * no-login shell: ~/.bashrc --> /etc/bashrc
+* sh 跟bash的区别
+  * 实际上是bash有没开启POSIX模式的区别
+  * /bin/sh 相当于/bin/bash --posix
+
+#### [Super Fast YouTube to MP3/MP4 Converter](https://4fuun.com/)
+
+#### [Mac Setup for Web Development [2022]](https://www.robinwieruch.de/mac-setup-web-development/)
+
+* Mac配置流程
+
+#### [bilibili2local](https://github.com/sansui-orz/bilibili2local)
+
+* B站视频下载工具
+
+#### [Linux 二零](https://itboon.github.io/linux-20/)
+
+* debian/ubuntu实用教程
+
+#### [kill the newsletter](https://kill-the-newsletter.com/)
+
+* 将newsletter转换为RSS
+
+#### [cheatsheets](https://github.com/laylacodes/cheatsheets)
+
+* 一些速查清单
+* SQLjoin的解释清单:[这里](https://github.com/laylacodes/cheatsheets/blob/main/SQL_joins_cheatsheet.pdf)
+
+#### [macosicons](https://macosicons.com/#/)
+
+* Mac下的图标下载
 
 #### [Blush](https://github.com/arsham/blush)
 
