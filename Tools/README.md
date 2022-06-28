@@ -13,3 +13,5 @@
 ### 订阅类工具
 
 #### 微信公众号订阅:[feddd](https://feeddd.org/feeds)
+
+#### 微博订阅:[weiborss](https://github.com/zgq354/weibo-rss),[网站](https://rssfeed.today/weibo/)
