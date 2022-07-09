@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>异构硬件 - 福来鸽的笔记</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "\u5f02\u6784\u786c\u4ef6";
+        var mkdocs_page_input_path = "04.Hardwares.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> 福来鸽的笔记
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">福来鸽的笔记</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../01.Machine-Learning/">机器学习</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../02.Languages/">编程语言</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../03.Operating-System/">操作系统</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">异构硬件</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#multi-gpu-programming-with-standard-parallel-c-part-1">Multi-GPU Programming with Standard Parallel C++, Part 1</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#nvidia-cuda-programing-guide-20-final">NVIDIA CUDA Programing Guide 2.0 Final</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#winnies">WinnieS的微博:图书推荐</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#m1-cpu-macos">M1 CPU 那么多的核，macOS 是怎样管理的？</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tensor-core-cuda">深入理解混合精度训练：从 Tensor Core 到 CUDA 编程</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#opensource-gpu">OpenSource GPU</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cuda">CUDA多个流的使用</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#smartnics-to-xpus-why-is-the-use-of-accelerators-accelerating">SmartNICs to xPUs – Why is the Use of Accelerators Accelerating?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cpu-">CPU缓存一致性协议- 深入理解内存屏障</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#fpga">FPGA并行编程</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cpucache">CPU性能和Cache</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cpu">CPU相关书籍推荐和部分芯片微架构</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tensil-tutorial-for-yolo-v4-tiny-on-ultra96-v2">Tensil tutorial for YOLO v4 Tiny on Ultra96 V2</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_2">讲座:开源,让天下没有难做的芯片</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#nvidia-mps">Nvidia MPS 总结</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cpugpu">CPU和GPU线程概念的异同(英文)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_3">文件列表</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../05.Software-Implement/">软件应用</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../06.System-Configurations/">系统配置</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../07.Tools/">实用工具</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../08.Beyonds/">日常生活</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">福来鸽的笔记</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>异构硬件</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/flaging/docs/edit/master/docs/04.Hardwares.md"
+          class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="_1">异构硬件</h1>
+<h4 id="multi-gpu-programming-with-standard-parallel-c-part-1"><a href="https://developer.nvidia.com/blog/multi-gpu-programming-with-standard-parallel-c-part-1">Multi-GPU Programming with Standard Parallel C++, Part 1</a></h4>
+<h4 id="nvidia-cuda-programing-guide-20-final"><a href="https://www.nvidia.cn/docs/IO/57399/NVIDIA_CUDA_Programming_Guide_2.0Final.pdf">NVIDIA CUDA Programing Guide 2.0 Final</a></h4>
+<ul>
+<li>看起来nv在2008年cuda接口就基本稳定了</li>
+</ul>
+<h4 id="winnies"><a href="https://weibo.com/2144454703/LrzAQcqD4">WinnieS的微博:图书推荐</a></h4>
+<ul>
+<li>手把手教你设计CPU--RISC-V处理器</li>
+<li>RISC-V架构与嵌入开发快速入门</li>
+</ul>
+<h4 id="m1-cpu-macos"><a href="https://sspai.com/post/73048">M1 CPU 那么多的核，macOS 是怎样管理的？</a></h4>
+<ul>
+<li>MacOS的E核(Efficiency Core)和P核(Performancs Core的调度策略)</li>
+<li>应用程序通常由 Grand Central Dispatch 使用 QoS 管理</li>
+<li>最低 QoS 线程只在 E 集群上运行</li>
+<li>用户进程优先分配P核,过多后再分配E核</li>
+<li>引导或者更新后,系统可能处于单E核运行状态</li>
+</ul>
+<p><img alt="图片" src="https://cdn.sspai.com/editor/u_/c9q8lhtb34t9etjhlvq0.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></p>
+<h4 id="tensor-core-cuda"><a href="https://mp.weixin.qq.com/s/CBGymNbAN4pD31oe70-Klw">深入理解混合精度训练：从 Tensor Core 到 CUDA 编程</a></h4>
+<ul>
+<li>介绍tensorcore的调用接口</li>
+<li>cuda warpper接口</li>
+<li>cudnn封装接口</li>
+</ul>
+<h4 id="opensource-gpu"><a href="https://github.com/hughperkins/VeriGPU">OpenSource GPU</a></h4>
+<ul>
+<li>veriGPU, 基于RISC-V ISA的verilog GPU开源项目</li>
+</ul>
+<h4 id="cuda"><a href="https://blog.51cto.com/u_15127618/3929160">CUDA多个流的使用</a></h4>
+<ul>
+<li>cuda多stream编程示例</li>
+<li><a href="https://zhuanlan.zhihu.com/p/51402722">其他多stream教程</a></li>
+</ul>
+<h4 id="smartnics-to-xpus-why-is-the-use-of-accelerators-accelerating"><a href="https://www.brighttalk.com/webcast/663/536971">SmartNICs to xPUs – Why is the Use of Accelerators Accelerating?</a></h4>
+<ul>
+<li>会议:2022-05-20</li>
+</ul>
+<h4 id="cpu-"><a href="icefrozen.github.io/article/why-memory-barriers-1/">CPU缓存一致性协议- 深入理解内存屏障</a></h4>
+<ul>
+<li>CPU缓存一致性协议解析</li>
+</ul>
+<h4 id="fpga"><a href="xupsh.github.io/pp4fpgas-cn/">FPGA并行编程</a></h4>
+<ul>
+<li>FPGA编程;Parallel Programming for FPGAs的中文翻译版</li>
+</ul>
+<h4 id="cpucache"><a href="https://plantegg.github.io/2021/07/19/CPU%E6%80%A7%E8%83%BD%E5%92%8CCACHE/">CPU性能和Cache</a></h4>
+<ul>
+<li>CPU性能介绍, 作者是<a href="https://weibo.com/n/plantegg">plantgg</a></li>
+<li><a href="https://plantegg.github.io/2021/06/01/CPU的制造和概念">CPU的制造和概念</a></li>
+<li><a href="https://plantegg.github.io/2021/05/14/十年后数据库还是不敢拥抱NUMA/">十年后数据库还是不敢拥抱NUMA</a></li>
+</ul>
+<h4 id="cpu"><a href="https://zhuanlan.zhihu.com/p/497495797?utm_source=com.microsoft.todos&amp;utm_medium=social&amp;utm_oi=49336847171584">CPU相关书籍推荐和部分芯片微架构</a></h4>
+<ul>
+<li>CPU相关图书推荐; 另有多张CPU架构图片(如RISC-V)</li>
+</ul>
+<h4 id="tensil-tutorial-for-yolo-v4-tiny-on-ultra96-v2"><a href="https://k155la3.blog/2022/04/04/tensil-tutorial-for-yolo-v4-tiny-on-ultra96-v2/?continueFlag=bfad8aef2f2b537615f634a87deb0d67">Tensil tutorial for YOLO v4 Tiny on Ultra96 V2</a></h4>
+<ul>
+<li>在FPGA上实现了一个深度神经网络</li>
+</ul>
+<h4 id="_2"><a href="https://mp.weixin.qq.com/s/R8a7F7_QLoBuBpi-bncqAg">讲座:开源,让天下没有难做的芯片</a></h4>
+<ul>
+<li>包云岗; 香山RISC-V; 芯片简介; 内有视频</li>
+</ul>
+<h4 id="nvidia-mps"><a href="https://asphelzhn.github.io/2019/04/14/tensor_09_MPS/">Nvidia MPS 总结</a></h4>
+<ul>
+<li>MPS: Multi-Process Scheduling</li>
+<li>多个进程向驱动提交指令, 驱动只有一个队列, 减少context切换导致的性能损失</li>
+</ul>
+<h4 id="cpugpu"><a href="https://itnext.io/graphics-processors-gpus-under-the-hood-4522dbec777d">CPU和GPU线程概念的异同(英文)</a></h4>
+<ul>
+<li>相同点</li>
+<li>都有程序计数器/线程ID/计算单元等内容</li>
+<li>不同点</li>
+<li>GPU线程必须执行相同指令流, 处理的数据可以不相同</li>
+<li>CPU线程上限受限于从内存中读取的指令数据数量, GPU没有此限制, 所以线程数大于CPU</li>
+<li>GPU中对于只访问一次(没有数据依赖)的尽量不用for循环</li>
+<li><a href="https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html">Nvidia CUDA C++ 编程指南</a></li>
+<li><a href="https://docs.nvidia.com/cuda/cuda-binary-utilities/index.html#instruction-set-ref">CUDA 汇编参考手册</a></li>
+</ul>
+<h2 id="_3">文件列表</h2>
+<ul>
+<li>04.Hardwares</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../03.Operating-System/" class="btn btn-neutral float-left" title="操作系统"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../05.Software-Implement/" class="btn btn-neutral float-right" title="软件应用">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/flaging/docs/" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../03.Operating-System/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../05.Software-Implement/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

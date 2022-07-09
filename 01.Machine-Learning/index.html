@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>机器学习 - 福来鸽的笔记</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "\u673a\u5668\u5b66\u4e60";
+        var mkdocs_page_input_path = "01.Machine-Learning.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> 福来鸽的笔记
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">福来鸽的笔记</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">机器学习</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#_2">论文框架</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#deep-learning-interviews-book-hundreds-of-fully-solved-job-interview-questions-from-a-wide-range-of-key-topics-in-ai">Deep Learning Interviews book: Hundreds of fully solved job interview questions from a wide range of key topics in AI.</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#metaseq">MetaSeq</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#the-hugging-face-deep-reinforcement-learning-class">The Hugging Face Deep Reinforcement Learning Class</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#opt-open-pre-trained-transformer-language-models">论文:OPT: Open Pre-trained Transformer Language Models</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#_3">复旦大学邱锡鹏</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#_4">知识图谱可视化技术在美团的实践与探索</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#the-kaggle-book">The Kaggle Book</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#dall-e-2-pytorch">DALL-E 2 - Pytorch</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#python">在 Python 中使用机器学习来检测钓鱼链接</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#text-summarization-with-huggingface-transformers-and-python">Text Summarization with Huggingface Transformers and Python</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#paperwithcodebringing-old-films-back-to-life">paperwithcode:Bringing Old Films Back to Life</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ml-and-nlp-publications-in-2021">ML and NLP Publications in 2021</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#nlp-paper">NLP-Paper</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#chris-manning">斯坦福Chris Manning: 大模型剑指通用人工智能？</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#goopt">Goopt</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#huggingface-onnx-export">huggingface onnx export</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#_5">第十七章 模型压缩及移动端部署</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tvm">Tvm一些基本技术</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#welcome-to-paddle-inferences-documentation">Welcome to Paddle-Inference’s documentation!</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#transformer">transformer库快速体验文本生成</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ml-notebooks">ML-Notebooks</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#_6">数据中心白皮书</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#real-world-recommendation-system-part-1">Real World Recommendation System - Part 1</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#transformer-auto-encoding-bert-1">【Transformer 所有模型串讲】Auto-encoding模型 -Bert 1</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#transformer_1">Transformer性能优化：运算和显存</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#onnx-opcounter">onnx-opcounter</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#onnx2torch">onnx2torch</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#onnx-simplifier">onnx-simplifier</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#paddledetection">PaddleDetection</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#cant-find-model-de_core_news_sm-only-on-debug-mod">Can't find model 'de_core_news_sm'... only on debug mod</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#onnx">ONNX 模型分析与使用</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#pytorch-opcounter">pytorch-opCounter</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#onnx2torch_1">onnx2torch</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#pytorch">PyTorch 内部机制(翻译)</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tensorflow-proto">Tensorflow Proto</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#onnx_1">基于onnx的网络裁剪</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#colossalai">ColossalAI</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#mlperf-inference-benchmark-suites">MLPerf Inference Benchmark Suites</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#onnx-util">onnx-util</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#huggingface-transformers">Huggingface transformers</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tensorflow2">Tensorflow2 深度学习开源书(龙书)</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#finrl-deep-reinforcement-learning-for-quantitative-finance">FinRL: Deep Reinforcement Learning for Quantitative Finance</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#data-science-cheatsheets">Data Science Cheatsheets</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#metaspore">MetaSpore</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#aiscaling-up-your-kenrels-to-31x31-revisiting-large-kernel-design-in-cnn">AI:Scaling Up Your Kenrels to 31x31: Revisiting Large Kernel Design in CNN</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#aitransformers-in-time-series-a-survey">AI:Transformers in Time Series: A Survey</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ai2022">AI:中国信通院:人工智能白皮书(2022)</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_7">开源模型</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#yolo-v7">yolo v7</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#min-dalle">min-dalle</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#crossdqn">美团:基于强化学习的信息流广告分配方法CrossDQN</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#transformer_2">图学习？Transformer：我也行！</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_8">文件列表</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../02.Languages/">编程语言</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../03.Operating-System/">操作系统</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../04.Hardwares/">异构硬件</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../05.Software-Implement/">软件应用</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../06.System-Configurations/">系统配置</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../07.Tools/">实用工具</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../08.Beyonds/">日常生活</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">福来鸽的笔记</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>机器学习</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/flaging/docs/edit/master/docs/01.Machine-Learning.md"
+          class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="_1">机器学习</h1>
+<h2 id="_2">论文框架</h2>
+<h4 id="deep-learning-interviews-book-hundreds-of-fully-solved-job-interview-questions-from-a-wide-range-of-key-topics-in-ai"><a href="https://github.com/BoltzmannEntropy/interviews.ai">Deep Learning Interviews book: Hundreds of fully solved job interview questions from a wide range of key topics in AI.</a></h4>
+<ul>
+<li>AI interview教程</li>
+</ul>
+<h4 id="metaseq"><a href="https://github.com/facebookresearch/metaseq">MetaSeq</a></h4>
+<ul>
+<li>OPT: Open Pretrained Transformer</li>
+</ul>
+<h4 id="the-hugging-face-deep-reinforcement-learning-class"><a href="https://github.com/huggingface/deep-rl-class">The Hugging Face Deep Reinforcement Learning Class</a></h4>
+<h4 id="opt-open-pre-trained-transformer-language-models"><a href="https://arxiv.org/abs/2205.01068">论文:OPT: Open Pre-trained Transformer Language Models</a></h4>
+<ul>
+<li>程序在<a href="https://github.com/facebookresearch/metaseq">这里</a>, 论文在<a href="https://arxiv.org/pdf/2205.01068">这里</a></li>
+</ul>
+<h4 id="_3"><a href="https://xpqiu.github.io/">复旦大学邱锡鹏</a></h4>
+<ul>
+<li>NLP论文集</li>
+<li><a href="https://xpqiu.github.io/slides/%E5%A6%82%E4%BD%95%E5%86%99%E7%A7%91%E7%A0%94%E8%AE%BA%E6%96%87202203.pdf">如何写好科研论文</a></li>
+</ul>
+<h4 id="_4"><a href="https://tech.meituan.com/2022/04/14/the-practice-and-exploration-of-knowledge-graph-visualization-technology-in-meituan.html">知识图谱可视化技术在美团的实践与探索</a></h4>
+<h4 id="the-kaggle-book"><a href="https://github.com/PacktPublishing/The-Kaggle-Book">The Kaggle Book</a></h4>
+<ul>
+<li>kaggle竞赛讲解</li>
+</ul>
+<h4 id="dall-e-2-pytorch"><a href="https://github.com/lucidrains/DALLE2-pytorch">DALL-E 2 - Pytorch</a></h4>
+<ul>
+<li>text-to-image</li>
+</ul>
+<h4 id="python"><a href="https://linux.cn/article-14535-1.html?utm_source=feedly&amp;utm_medium=rss">在 Python 中使用机器学习来检测钓鱼链接</a></h4>
+<ul>
+<li>随机森林</li>
+</ul>
+<h4 id="text-summarization-with-huggingface-transformers-and-python"><a href="https://rubikscode.net/2022/04/25/text-summarization-with-huggingface-transformers/">Text Summarization with Huggingface Transformers and Python</a></h4>
+<ul>
+<li>文本摘要</li>
+</ul>
+<h4 id="paperwithcodebringing-old-films-back-to-life"><a href="https://paperswithcode.com/paper/bringing-old-films-back-to-life">paperwithcode:Bringing Old Films Back to Life</a></h4>
+<h4 id="ml-and-nlp-publications-in-2021"><a href="https://www.marekrei.com/blog/ml-and-nlp-publications-in-2021/">ML and NLP Publications in 2021</a></h4>
+<ul>
+<li>机器学习趋势总结</li>
+</ul>
+<h4 id="nlp-paper"><a href="https://github.com/DengBoCong/nlp-paper">NLP-Paper</a></h4>
+<ul>
+<li>字节跳动; NLP论文代码整理;</li>
+<li>包含 NLP 领域下的对话语音领域，复现模型以及数据处理</li>
+</ul>
+<h4 id="chris-manning"><a href="https://mp.weixin.qq.com/s/pnd2Q-5duMtL0OLzrDJ2JA">斯坦福Chris Manning: 大模型剑指通用人工智能？</a></h4>
+<h4 id="goopt"><a href="https://github.com/jokenox/Goopt">Goopt</a></h4>
+<ul>
+<li>基于GPT-3的搜索引擎</li>
+</ul>
+<h4 id="huggingface-onnx-export"><a href="https://github.com/huggingface/notebooks/blob/main/examples/onnx-export.ipynb">huggingface onnx export</a></h4>
+<ul>
+<li>huggingface官方文档:onnx模型导出</li>
+</ul>
+<h4 id="_5"><a href="https://csbwang.github.io/dl_ch17">第十七章 模型压缩及移动端部署</a></h4>
+<ul>
+<li>深度学习教程;共18章,全文可看<a href="https://csbwang.github.io/tags.html">这里</a></li>
+</ul>
+<h4 id="tvm"><a href="https://wujianming110117.blog.csdn.net/article/details/115782177">Tvm一些基本技术</a></h4>
+<ul>
+<li>算子融合;数据变换;张量优化</li>
+</ul>
+<h4 id="welcome-to-paddle-inferences-documentation"><a href="https://paddle-inference.readthedocs.io/en/latest/">Welcome to Paddle-Inference’s documentation!</a></h4>
+<ul>
+<li>paddle推理引擎</li>
+</ul>
+<h4 id="transformer"><a href="https://weibo.com/1402400261/Lqc4B8JGw">transformer库快速体验文本生成</a></h4>
+<p><img alt="图片" src="https://wx3.sinaimg.cn/mw2000/5396ee05ly1h1muj5to5yj21ey0tujx5.jpg" /></p>
+<h4 id="ml-notebooks"><a href="https://github.com/dair-ai/ML-Notebooks">ML-Notebooks</a></h4>
+<ul>
+<li>pytorch教程</li>
+</ul>
+<h4 id="_6"><a href="http://www.caict.ac.cn/kxyj/qwfb/bps/202204/t20220422_400391.htm">数据中心白皮书</a></h4>
+<ul>
+<li>中国信通原报告;2022年4月;全文下载:<a href="http://www.caict.ac.cn/kxyj/qwfb/bps/202204/P020220422707354529853.pdf">PDF</a></li>
+</ul>
+<h4 id="real-world-recommendation-system-part-1"><a href="https://blog.fennel.ai/p/real-world-recommendation-system?s=r">Real World Recommendation System - Part 1</a></h4>
+<ul>
+<li>推荐系统介绍,第二部分尚未更新</li>
+</ul>
+<h4 id="transformer-auto-encoding-bert-1"><a href="https://zhuanlan.zhihu.com/p/493932190">【Transformer 所有模型串讲】Auto-encoding模型 -Bert 1</a></h4>
+<ul>
+<li>简介transformer;<a href="https://www.zhihu.com/column/c_1380571607480651776">专栏</a>共有5节.</li>
+</ul>
+<h4 id="transformer_1"><a href="https://zhuanlan.zhihu.com/p/474554018">Transformer性能优化：运算和显存</a></h4>
+<ul>
+<li>transformer分析和优化.</li>
+</ul>
+<h4 id="onnx-opcounter"><a href="https://github.com/gmalivenko/onnx-opcounter">onnx-opcounter</a></h4>
+<ul>
+<li>onnx的数据量和计算量解析工具,并不是特别好用</li>
+</ul>
+<h4 id="onnx2torch"><a href="https://github.com/ENOT-AutoDL/onnx2torch?fbclid=IwAR1HpWxialVy-ILdHUYR8CJ_EsUyxbjhrMkZbWPWkQ0DuNuwvYDEpNVuhqc">onnx2torch</a></h4>
+<ul>
+<li>onnx转pytorch工具: 看起来是转换了,但是对象类型还是和原生pytorch代码不太一样</li>
+</ul>
+<h4 id="onnx-simplifier"><a href="https://github.com/daquexian/onnx-simplifier">onnx-simplifier</a></h4>
+<ul>
+<li>onnx简化工具</li>
+</ul>
+<h4 id="paddledetection"><a href="https://github.com/PaddlePaddle/PaddleDetection">PaddleDetection</a></h4>
+<ul>
+<li>paddle目标检测套件</li>
+</ul>
+<h4 id="cant-find-model-de_core_news_sm-only-on-debug-mod"><a href="https://github.com/explosion/spaCy/issues/4638">Can't find model 'de_core_news_sm'... only on debug mod</a></h4>
+<ul>
+<li>数据集下载问题</li>
+<li><code>python -m spacy download de_core_news_sm</code></li>
+</ul>
+<h4 id="onnx"><a href="https://zhuanlan.zhihu.com/p/371177698">ONNX 模型分析与使用</a></h4>
+<ul>
+<li>ONNX proto的解析, 万物皆可proto</li>
+</ul>
+<h4 id="pytorch-opcounter"><a href="https://github.com/Lyken17/pytorch-OpCounter">pytorch-opCounter</a></h4>
+<ul>
+<li>thop, 计算量和数据量检测</li>
+<li>同类产品还有torchsummary/torchstat</li>
+</ul>
+<h4 id="onnx2torch_1"><a href="https://github.com/ENOT-AutoDL/onnx2torch">onnx2torch</a></h4>
+<ul>
+<li>onnx转换为torch</li>
+<li>但是转换后的torch模型并不能用thop计算数据量</li>
+</ul>
+<h4 id="pytorch"><a href="https://archwalker.github.io/blog/2019/05/27/pytorch-internals.html">PyTorch 内部机制(翻译)</a></h4>
+<ul>
+<li>pytorch原理解析</li>
+<li>另原版本在<a href="http://blog.ezyang.com/2019/05/pytorch-internals/">这里</a></li>
+</ul>
+<h4 id="tensorflow-proto"><a href="https://github.com/tensorflow/tensorflow/blob/master/tensorflow/core/protobuf/meta_graph.proto">Tensorflow Proto</a></h4>
+<ul>
+<li>Tensorflow的Proto定义</li>
+</ul>
+<h4 id="onnx_1"><a href="https://zhuanlan.zhihu.com/p/212893519">基于onnx的网络裁剪</a></h4>
+<ul>
+<li>onnx网络修改方法介绍</li>
+</ul>
+<h4 id="colossalai"><a href="https://github.com/hpcaitech/ColossalAI">ColossalAI</a></h4>
+<ul>
+<li>大规模深度学习训练平台, 支持分布式</li>
+</ul>
+<h4 id="mlperf-inference-benchmark-suites"><a href="https://github.com/mlcommons/inference">MLPerf Inference Benchmark Suites</a></h4>
+<h4 id="onnx-util"><a href="https://github.com/saurabh-shandilya/onnx-utils">onnx-util</a></h4>
+<ul>
+<li>onnx剪辑工具</li>
+</ul>
+<h4 id="huggingface-transformers"><a href="https://github.com/huggingface/transformers">Huggingface transformers</a></h4>
+<ul>
+<li>transformer的推理库</li>
+</ul>
+<h4 id="tensorflow2"><a href="https://github.com/dragen1860/Deep-Learning-with-TensorFlow-book">Tensorflow2 深度学习开源书(龙书)</a></h4>
+<ul>
+<li>中文图书, PDF版, 深度学习, tensorflow2</li>
+</ul>
+<h4 id="finrl-deep-reinforcement-learning-for-quantitative-finance"><a href="https://github.com/AI4Finance-Foundation/FinRL">FinRL: Deep Reinforcement Learning for Quantitative Finance</a></h4>
+<ul>
+<li>基于强化学习的量化交易框架</li>
+</ul>
+<h4 id="data-science-cheatsheets"><a href="https://github.com/FavioVazquez/ds-cheatsheets">Data Science Cheatsheets</a></h4>
+<ul>
+<li>数据科学;总结</li>
+</ul>
+<h4 id="metaspore"><a href="https://github.com/meta-soul/MetaSpore">MetaSpore</a></h4>
+<ul>
+<li>一站式机器学习开发平台; 框架</li>
+</ul>
+<h4 id="aiscaling-up-your-kenrels-to-31x31-revisiting-large-kernel-design-in-cnn"><a href="https://paperswithcode.com/paper/scaling-up-your-kernels-to-31x31-revisiting">AI:Scaling Up Your Kenrels to 31x31: Revisiting Large Kernel Design in CNN</a></h4>
+<ul>
+<li>通过大卷积核实现好的训练效果</li>
+</ul>
+<h4 id="aitransformers-in-time-series-a-survey"><a href="https://paperswithcode.com/paper/transformers-in-time-series-a-survey">AI:Transformers in Time Series: A Survey</a></h4>
+<ul>
+<li>Transformer 综述论文</li>
+</ul>
+<h4 id="ai2022"><a href="http://www.caict.ac.cn/kxyj/qwfb/bps/202204/t20220412_399752.htm">AI:中国信通院:人工智能白皮书(2022)</a></h4>
+<ul>
+<li><a href="http://www.caict.ac.cn/kxyj/qwfb/bps/202204/P020220412613255124271.pdf">下载</a></li>
+</ul>
+<h2 id="_7">开源模型</h2>
+<h4 id="yolo-v7"><a href="https://github.com/jinfagang/yolov7">yolo v7</a></h4>
+<ul>
+<li>添加对transformer的支持</li>
+<li>对NV GPU的适配</li>
+</ul>
+<h4 id="min-dalle"><a href="https://github.com/kuprel/min-dalle">min-dalle</a></h4>
+<ul>
+<li>DALLE的精简版实现(for 推理)</li>
+</ul>
+<h4 id="crossdqn"><a href="https://mp.weixin.qq.com/s/4Eq2ldcqb6TwOiDtVp7nAQ">美团:基于强化学习的信息流广告分配方法CrossDQN</a></h4>
+<ul>
+<li>广告推荐算法</li>
+<li><a href="https://arxiv.org/abs/2109.04353">论文预印版</a></li>
+</ul>
+<h4 id="transformer_2"><a href="https://mp.weixin.qq.com/s/EBFs7ptwgyCAmRJS8_dcYQ">图学习？Transformer：我也行！</a></h4>
+<ul>
+<li>transformer在图学习领域应用,介绍了四篇主要工作</li>
+</ul>
+<h2 id="_8">文件列表</h2>
+<ul>
+<li>01.Machine-Learning</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="福来鸽的笔记"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../02.Languages/" class="btn btn-neutral float-right" title="编程语言">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/flaging/docs/" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../02.Languages/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
