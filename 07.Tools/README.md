@@ -509,3 +509,43 @@ traceroute|Linux yum|-|[教程](https://wangchujiang.com/linux-command/c/tracero
 #### [strace: 谁杀了我的进程](https://www.cnblogs.com/xybaby/p/8098229.html)
 
 * ```strace -T -tt -e trace=all -p 1035```
+
+#### [pikepdf](https://github.com/pikepdf/pikepdf): pdf 编辑的python库
+
+#### lensm: [github](https://github.com/loov/lensm), 基于golang的C语言与汇编映射工具,用于调试
+
+#### graph: [github](https://github.com/dominikbraun/graph), 类似于Graphviz, 画图工具, 可以以代码形式自定义节点
+
+#### [veinmind-tools](https://github.com/chaitin/veinmind-tools): 问脉, 容器内安全扫描工具
+
+* Effective Debugging: [github](https://github.com/Celthi/effective-debugging-zh)
+* Deepspeed Model Implementations for Inference: [github](https://github.com/microsoft/DeepSpeed-MII), bert类模型加速库,对标FasterTransformer
+* YOLOv5-Lite：Lighter, faster and easier to deploy: [github](https://github.com/ppogg/YOLOv5-Lite)
+
+### 实用工具
+
+* Meson: 号称下一代编译工具,依赖ninja, [github](https://github.com/mesonbuild/meson), [doc](https://mesonbuild.com/)
+* rsync: 传输工具, [blog](https://www.linuxjournal.com/content/how-use-rsync-command)
+* mount nfs: [blog](https://vitux.com/debian-nfs-mount/)
+
+### docker用法
+
+#### [docker安装与启动](https://ostechnix.com/install-docker-almalinux-centos-rocky-linux/)
+
+```bash
+sudo yum install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo systemctl enable docker
+sudo systemctl start docker
+```
+
+#### [docker常用命令](https://linux.cn/article-14849-1.html?utm_source=rss&utm_medium=rss)
+
+命令|功能
+:-|:-|
+```docker ps (-a)```|查看运行的container
+```docker images```|查看本地镜像
+```docker search ubuntu```|查找dockerhub镜像
+```docker pull ubuntu:latest```|拉取镜像
+```docker run -it -d ubuntu:latest```|启动container
+```docker attach <container id>```|进入container
+

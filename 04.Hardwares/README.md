@@ -82,3 +82,28 @@
   * [Nvidia CUDA C++ 编程指南](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
   * [CUDA 汇编参考手册](https://docs.nvidia.com/cuda/cuda-binary-utilities/index.html#instruction-set-ref)
 
+#### [图书: The Art of Multiprocessor Programming](http://cs.ipm.ac.ir/asoc2016/Resources/Theartofmulticore.pdf)
+
+#### [Everything You Need to Know About the NVMe® 2.0 Specifications and New Technical Proposals](https://nvmexpress.org/everything-you-need-to-know-about-the-nvme-2-0-specifications-and-new-technical-proposals/): NVMe 2.0
+
+#### NVMe® Key Value Command Set Provides the Key to Storage Efficiency: [blog](https://nvmexpress.org/nvme-key-value-command-set-provides-the-key-to-storage-efficiency/), NVMe KVS
+
+* Rust for Linux | 用 Rust 写 Linux 内核模块: [微信](https://mp.weixin.qq.com/s/m2eZ0lEzQHjrNVC6YCC_IA)
+* OneAPI documnents: [docs](https://www.intel.cn/content/www/cn/zh/developer/tools/oneapi/documentation-library.html?s=Newest), Intel Libs Documents, [sycl docs](https://www.intel.cn/content/www/cn/zh/developer/tools/oneapi/data-parallel-c-plus-plus.html#gs.6oqu0b), [DPC++ books](https://resource-cms.springernature.com/springer-cms/rest/v1/content/17382710/data/v1)
+
+
+## NVIDIA CUDA
+
+### 教程
+
+* [GPU development with Python 101 Tutorial](https://github.com/jacobtomlinson/gpu-python-tutorial): 用Python开发GPU程序
+* TRAINING VS INFERENCE – NUMERICAL PRECISION: [blog](https://frankdenneman.nl/2022/07/26/training-vs-inference-numerical-precision/), AI训练和推理中的数据精度, 好文系列
+
+### 使用技巧
+
+* [A100系列需要11.1及以上版版本cuda的pytorch才能运行](https://stackoverflow.com/questions/66992585/how-does-one-use-pytorch-cuda-with-an-a100-gpu)
+
+  ```bash
+  pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+  ```
+* [CUDA_VISIABLE_DEVICES="0,1,2"可以控制使用的卡](https://developer.nvidia.com/zh-cn/blog/cuda-pro-tip-control-gpu-visibility-cuda_visible_devices/)

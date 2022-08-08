@@ -1,20 +1,25 @@
 # 机器学习
 
+## 图书教程
+
+* [Deep Learning Interviews book](https://github.com/BoltzmannEntropy/interviews.ai): [PDF](https://arxiv.org/ftp/arxiv/papers/2201/2201.00650.pdf)
+
+## 开源模型
+
+名称|地址|论文|说明
+--|:-:|:-:|--
+OPT: Open Pre-trained Transformer Language Models|[github](https://github.com/facebookresearch/metaseq)|[arxiv](https://arxiv.org/abs/2205.01068)| facebook
+
+## 工程实现
+
+#### [TVM 自底向上](https://zhuanlan.zhihu.com/p/532873577)
+
+* TVM解析
+
+
 ## 论文框架
 
-#### [Deep Learning Interviews book: Hundreds of fully solved job interview questions from a wide range of key topics in AI.](https://github.com/BoltzmannEntropy/interviews.ai)
-
-* AI interview教程
-
-#### [MetaSeq](https://github.com/facebookresearch/metaseq)
-
-* OPT: Open Pretrained Transformer
-
 #### [The Hugging Face Deep Reinforcement Learning Class](https://github.com/huggingface/deep-rl-class)
-
-#### [论文:OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068)
-
-* 程序在[这里](https://github.com/facebookresearch/metaseq), 论文在[这里](https://arxiv.org/pdf/2205.01068)
 
 #### [复旦大学邱锡鹏](https://xpqiu.github.io/)
 
@@ -30,6 +35,8 @@
 #### [DALL-E 2 - Pytorch](https://github.com/lucidrains/DALLE2-pytorch)
 
 * text-to-image
+
+#### [imagen-torch](https://github.com/lucidrains/imagen-pytorch): text to image, pytorch, imagen
 
 #### [在 Python 中使用机器学习来检测钓鱼链接](https://linux.cn/article-14535-1.html?utm_source=feedly&utm_medium=rss)
 
@@ -206,3 +213,23 @@
 #### [图学习？Transformer：我也行！](https://mp.weixin.qq.com/s/EBFs7ptwgyCAmRJS8_dcYQ)
 
 * transformer在图学习领域应用,介绍了四篇主要工作
+
+#### [教程: Transformer United(Stanford)](https://web.stanford.edu/class/cs25/):[Youtube](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)
+
+#### 教程: Attention Mechanisms: [Youtube](https://www.youtube.com/watch?v=s4xohg-t7RI), [slides](https://drive.google.com/file/d/1FYXSr_WmwRzxSaSPSQn_Bm1ZlzsZKDit/view)
+
+#### 清华大学刘知远预训练模型:[b站](https://weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1UG411p7zv%3Fspm_id_from%3D333.999.0.0%26vd_source%3D7602c84c24e4a2630c111cbc2b727f59)
+
+#### OneFlow源码阅读6：自动微分机制: [blog](https://segmentfault.com/a/1190000042199820)
+
+#### 盘点22年各大顶会，对比学习它来了！: [微信](https://mp.weixin.qq.com/s/bly6xM4NxbdYfXjam-XMKA)
+
+#### AI-GPU显存优化领域前沿工作发展史:[知乎](https://zhuanlan.zhihu.com/p/536940298?utm_source=ZHShareTargetIDMore&utm_medium=social&utm_oi=49336847171584)
+
+#### Improving Efficiency and Robustness of Transformer-based Information Retrieval Systems: [github](https://github.com/ebegoli/SIGIR2022-Efficient-Transfomers), [ppt](https://github.com/ebegoli/SIGIR2022-Efficient-Transfomers/blob/main/SIGIR%202022%20-%20Efficient%20Transformers%20for%20IR.pdf), Transformer信息检索效率和鲁棒性
+
+* A visual introduction to information theory: [arxiv](https://arxiv.org/pdf/2206.07867.pdf)
+* A Survey on Vision Transformer: [arxiv](https://arxiv.org/pdf/2012.12556.pdf), 中科院vit综述论文
+* 评估和选择最佳学习模型的一些指标总结: [微信](https://mp.weixin.qq.com/s/aD1ZJ9qOjM2o3vfcNzyByA)
+* theseus: [github](https://github.com/facebookresearch/theseus), [homepage](https://sites.google.com/view/theseus-ai), [paper](https://paperswithcode.com/paper/theseus-a-library-for-differentiable), FB开源的非线性函数优化库,可与nn模型联合使用
+* Dive into Big Model Training: [blog](https://github.com/qhliu26/bm-training), 大模型训练经典论文集

@@ -1,5 +1,13 @@
 # 日常生活
 
+### 教程
+
+* 500 Free Computer Science Courses from the World’s Top CS Universities: [site](https://www.freecodecamp.org/news/free-courses-top-cs-universities)
+
+#### 程序员面试手册: [blog](https://www.techinterviewhandbook.org/software-engineering-interview-guide/)
+
+#### [Technical writing is everywhere](https://css-tricks.com/technical-writing-for-developers): 技术写作技巧
+
 #### [计算机日常易读错单词](https://cpwp.netlify.app/)
 
 #### [逻辑学简短入门(牛津通识读本)](https://wxflogic.gitbook.io/logic)

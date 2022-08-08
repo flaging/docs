@@ -254,3 +254,21 @@
 #### [博客推荐:dunwu](https://dunwu.github.io/)
 
 * 分布式/操作系统/设计模式/网络/大数据/架构设计等都有涉及
+
+#### [v86]:[github](https://github.com/copy/v86), x86 + webassembly
+
+#### 深入剖析共识性算法Raft: [微信](https://mp.weixin.qq.com/s/Fc1mgAsa1aDOpfosUtcJhQ?v_p=90&WBAPIAnalysisOriUICodes=10000001&launchid=10000365--x&wm=3333_2001&aid=01A2GUVvCiJ0bN45VH0AOVftc20OVPaYUZmVa1h1s_8-8xrdg.&from=10C7193010)
+
+#### 云原生核心技术之：Service Mesh 的实现—— Istio: [blog](https://blog.51cto.com/yaocoder/5483857)
+
+#### CTO技术手册: [github](https://github.com/yaocoder/Architect-CTO-growth)
+
+#### swar: [github](https://github.com/zdzhaoyong/Svar), 编程接口
+
+* BasicSR 中文解读文档: [github](https://github.com/XPixelGroup/BasicSR-docs), 基于 PyTorch 的开源图像视频复原工具箱，提供了诸如超分辨率、去噪、去模糊、去 JPEG 压缩噪声等功能
+
+#### [Lepton 无损压缩原理及性能分析](https://mp.weixin.qq.com/s?__biz=MzI4NjY4MTU5Nw==&mid=2247493933&idx=2&sn=435787bef69a36057e8081b726e5cc12&utm_source=tuicool&utm_medium=referral)
+
+* Intel DAOS 笔记: [blog](http://www.chenshake.com/intel-daos-notes/), [傲腾学习笔记](http://www.chenshake.com/take-a-note-of-pride-and-take-notes/),  作者还有一些[云计算的博客](http://www.chenshake.com/cloud-computing/)
+* H.264 is Magic: [blog](https://sidbala.com/h-264-is-magic/), h264格式讲解
+* 大规模分布式系统中的级联故障: [blog](http://weekly.dockone.io/article/2434929)
