@@ -10,12 +10,29 @@
 --|:-:|:-:|--
 OPT: Open Pre-trained Transformer Language Models|[github](https://github.com/facebookresearch/metaseq)|[arxiv](https://arxiv.org/abs/2205.01068)| facebook
 
-## 工程实现
+* GLM-130B : [github](https://github.com/THUDM/GLM-130B), [demo](https://huggingface.co/spaces/THUDM/GLM-130B), [blog](http://keg.cs.tsinghua.edu.cn/glm-130b/posts/glm-130b/)
+* PanGu-Coder: Program Synthesis with Function-Level Language Modeling: [arxiv](https://arxiv.org/abs/2207.11280), 盘古, 华为开源的copilot工具
+* hybird AI: [blog](https://ai.googleblog.com/2022/07/ml-enhanced-code-completion-improves.html?m=1)
+## 框架原理
 
-#### [TVM 自底向上](https://zhuanlan.zhihu.com/p/532873577)
+* [TVM 自底向上](https://zhuanlan.zhihu.com/p/532873577)
+* 静态图 VS 动态图: [blog](https://test.eson.org/wiki/ML/deep%20learning/toolbox/-%E9%9D%99%E6%80%81%E5%9B%BE-%E5%8A%A8%E6%80%81%E5%9B%BE/%E9%9D%99%E6%80%81%E5%9B%BE%20VS%20%E5%8A%A8%E6%80%81%E5%9B%BE/)
 
-* TVM解析
+## 具体实现
 
+* torchmetrics: [doc](https://torchmetrics.readthedocs.io/en/stable/pages/quickstart.html), 精度计算工具
+* torch script简介: [doc](https://pytorch.panchuang.net/EigthSection/torchScript/), 解析[blog](https://zhpmatrix.github.io/2019/03/09/torch-jit-pytorch/)
+* PaddlePaddle文档: [doc](https://www.paddlepaddle.org.cn/documentation/docs/zh/guides/index_cn.html)
+* Jittor: a Just-in-time(JIT) deep learning framework: [github](https://github.com/Jittor/jittor), 清华大学, 自动融合算子的框架
+* MindSpore编程指南: [doc](https://mindspore.cn/docs/programming_guide/zh-CN/r1.5/index.html), 华为训练框架
+
+## 解决问题
+
+* Issues installing PyTorch 1.4 - "No matching distribution found for torch===1.4.0": [stackoverflow](https://stackoverflow.com/questions/60137572/issues-installing-pytorch-1-4-no-matching-distribution-found-for-torch-1-4)
+```
+pip install https://download.pytorch.org/whl/cu101/torch-1.4.0-cp38-cp38-win_amd64.whl
+pip install torch===1.6.0 torchvision===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
+```
 
 ## 论文框架
 

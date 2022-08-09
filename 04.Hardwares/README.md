@@ -107,3 +107,7 @@
   pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
   ```
 * [CUDA_VISIABLE_DEVICES="0,1,2"可以控制使用的卡](https://developer.nvidia.com/zh-cn/blog/cuda-pro-tip-control-gpu-visibility-cuda_visible_devices/)
+* Train With Mixed Precision: [doc](https://docs.nvidia.com/deeplearning/performance/mixed-precision-training/index.html), [pdf](https://docs.nvidia.com/deeplearning/performance/pdf/Training-Mixed-Precision-User-Guide.pdf), NV混合精度训练文档, 中文翻译版[csdn](https://blog.csdn.net/baidu_32048673/article/details/103715333)
+* TorchScript GELU error: [issue](https://github.com/triton-inference-server/server/issues/3909), torch版本问题, 需要NV官方docker```nvcr.io/Nvidia/pytorch:21.12-py3```以后能解决, 也可以将镜像内/opt/下的torch及编译的依赖库拷贝出来编译安装
+* NVIDIA Deep Learning Frameworks: [doc](https://docs.nvidia.com/deeplearning/frameworks/index.html), NV支持的深度学习库更新的release note
+* NVIDIA AI Platform Delivers Big Gains for Large Language Models: [blog](https://developer.nvidia.com/blog/nvidia-ai-platform-delivers-big-gains-for-large-language-models/), NV加速大型语言模型训练,最多有30%

@@ -5,6 +5,19 @@
 ### python
 
 * Organize Python code like a PRO: [blog](https://guicommits.com/organize-python-code-like-a-pro/)
+* conda: [doc](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/index.html), python环境管理工具
+
+### Java
+
+* 调试 JNI: [blog](http://longed.top/index.php/2019/11/30/%E8%B0%83%E8%AF%95-jni/), 使用jdb和gdb调试JNI的C++代码
+* Java中的native是如何实现的（JNI）: [blog](https://segmentfault.com/a/1190000022812099), JNI的使用方法
+
+### C++
+
+* Bazel Tutorial: Build a C++ Project: [doc](https://docs.bazel.build/versions/main/tutorial/cpp.html), bazel使用手册, 工程编译工具, [github release](https://github.com/bazelbuild/bazel/releases), 
+* 记录一些bazel适配用编译选项: [blog](https://owent.net/2022/2202.html)
+* Bazel自定义规则实现将多个静态库合并为一个动态库或静态库: [zhihu](https://zhuanlan.zhihu.com/p/202663666)
+* glog error- ‘google’ has not been declared: [github issue](https://github.com/facebook/rocksdb/issues/139), 添加```#include <gflags/gflags.h>```
 
 #### [Svar, A Tiny Modern C++ Header Brings Unified Interface for Different Languages](https://github.com/zdzhaoyong/Svar)
 

@@ -527,6 +527,8 @@ traceroute|Linux yum|-|[教程](https://wangchujiang.com/linux-command/c/tracero
 * Meson: 号称下一代编译工具,依赖ninja, [github](https://github.com/mesonbuild/meson), [doc](https://mesonbuild.com/)
 * rsync: 传输工具, [blog](https://www.linuxjournal.com/content/how-use-rsync-command)
 * mount nfs: [blog](https://vitux.com/debian-nfs-mount/)
+* dec-to-ip: [site](https://www.browserling.com/tools/dec-to-ip), int32转IP的工具
+* Bash wait Command: [blog](https://linuxize.com/post/bash-wait/), wait命令使用方法
 
 ### docker用法
 
