@@ -272,3 +272,10 @@
 * Intel DAOS 笔记: [blog](http://www.chenshake.com/intel-daos-notes/), [傲腾学习笔记](http://www.chenshake.com/take-a-note-of-pride-and-take-notes/),  作者还有一些[云计算的博客](http://www.chenshake.com/cloud-computing/)
 * H.264 is Magic: [blog](https://sidbala.com/h-264-is-magic/), h264格式讲解
 * 大规模分布式系统中的级联故障: [blog](http://weekly.dockone.io/article/2434929)
+
+### 软件实现
+
+* 从零开始写数据库：500行代码实现 LSM 数据库: [blog](https://developer.aliyun.com/article/784800?source=5176.11533457&userCode=e4nptrfl), 500行代码实现rocksdb的lsm tree结构
+* Google软件工程之过程篇: [blog](https://www.bmpi.dev/dev/software-engineering-at-google/process), Software Engineering at Google一书的读书笔记
+* Uber的20万容器实践：如何避免容器化环境中的CPU节流: [wechat](https://mp.weixin.qq.com/s/x3_IaNdSbwb3R5ukQ9nqug), 绑核提升性能
+* 容器 CPU 和 Memory 限制行为简述: [blog](https://mp.weixin.qq.com/s/-5lAfIR2lGUI49BeoXItbQ), k8s中内存的机制

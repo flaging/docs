@@ -25,6 +25,8 @@ OPT: Open Pre-trained Transformer Language Models|[github](https://github.com/fa
 * PaddlePaddle文档: [doc](https://www.paddlepaddle.org.cn/documentation/docs/zh/guides/index_cn.html)
 * Jittor: a Just-in-time(JIT) deep learning framework: [github](https://github.com/Jittor/jittor), 清华大学, 自动融合算子的框架
 * MindSpore编程指南: [doc](https://mindspore.cn/docs/programming_guide/zh-CN/r1.5/index.html), 华为训练框架
+* OneEmbedding: [doc](https://docs.oneflow.org/master/cookies/one_embedding.html), Oneflow的Embedding组件
+* OpenEmbedding: [github](https://github.com/4paradigm/OpenEmbedding), 第四范式开源的Embedding方案, 基于Tensorflow
 
 ## 解决问题
 
@@ -250,3 +252,13 @@ pip install torch===1.6.0 torchvision===0.7.0 -f https://download.pytorch.org/wh
 * 评估和选择最佳学习模型的一些指标总结: [微信](https://mp.weixin.qq.com/s/aD1ZJ9qOjM2o3vfcNzyByA)
 * theseus: [github](https://github.com/facebookresearch/theseus), [homepage](https://sites.google.com/view/theseus-ai), [paper](https://paperswithcode.com/paper/theseus-a-library-for-differentiable), FB开源的非线性函数优化库,可与nn模型联合使用
 * Dive into Big Model Training: [blog](https://github.com/qhliu26/bm-training), 大模型训练经典论文集
+* 如何高效、精准地进行图片搜索？看看轻量化视觉预训练模型: [blog](https://www.msra.cn/zh-cn/news/features/lightweight-vision-pre-training), 微软视觉理解深度学习模型
+* This repo supplements our 3D Vision with Transformers Survey: [github](https://github.com/lahoud/3d-vision-transformers), [arxiv](https://arxiv.org/abs/2208.04309v1), 3D视觉模型整理, 约有几十篇论文和模型
+* “推荐系统” 值得一读的五本书: [blog](https://www.msra.cn/zh-cn/news/features/book-list-on-recommender-systems)
+  * Recommender Systems: An introduction /《推荐系统》
+  * Recommender Systems: The Textbook / 《推荐系统：原理与实践》
+  * Recommender System Handbook /《推荐系统：技术、评估及高效算法》
+  * 《推荐系统实践》
+  * 《推荐系统：前沿与实践》
+* AI 框架发展白皮书2022: [pdf](https://www.dx2025.com/wp-content/uploads/2022/03/ai_framework_development_white_paper_2022.pdf), 信通院报告
+* 矩阵运算库blas, cblas, openblas, atlas, lapack, mkl之间有什么关系，在性能上区别大吗？: [zhihu](https://www.zhihu.com/question/27872849/answer/583943070?utm_medium=social&utm_oi=49336847171584&utm_psn=1541895754742685696&utm_source=ZHShareTargetIDMore), 介绍了BLAS类的几种库及其联系

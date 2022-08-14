@@ -529,6 +529,8 @@ traceroute|Linux yum|-|[教程](https://wangchujiang.com/linux-command/c/tracero
 * mount nfs: [blog](https://vitux.com/debian-nfs-mount/)
 * dec-to-ip: [site](https://www.browserling.com/tools/dec-to-ip), int32转IP的工具
 * Bash wait Command: [blog](https://linuxize.com/post/bash-wait/), wait命令使用方法
+* 如何干掉一条tcp 连接（活跃/非活跃）: [blog](https://developer.aliyun.com/article/59308), 通过syn包获取序列号,然后组织reset包
+* Composer 国内全量镜像大全: [list](https://blog.p2hp.com/archives/9324), 国内镜像源整理, 阿里/腾讯/华为
 
 ### docker用法
 

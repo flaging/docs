@@ -27,6 +27,7 @@
 #### 2021.07.13 我们是这样崩的: [微信](https://mp.weixin.qq.com/s?__biz=Mzg3Njc0NTgwMg==&mid=2247487272&idx=1&sn=038a30ce61706c97e3397eee982b1486&scene=21#wechat_redirect), 使用的[OpenResty XRay工具介绍](https://mp.weixin.qq.com/s/YWucrzAH5LnVYLel4zpUOw?v_p=90&WBAPIAnalysisOriUICodes=10000001&launchid=10000365--x&wm=3333_2001&aid=01A2GUVvCiJ0bN45VH0AOVftc20OVPaYUZmVa1h1s_8-8xrdg.&from=10C7193010), [介绍](https://blog.openresty.com.cn/cn/lua-cpu-flame-graph/), [Ylang](https://blog.openresty.com/en/ylang-intro-part1/)
 
 * How Computers Work ：Processor and Main Memory: [books](http://www.fastchip.net/howcomputerswork/p1.html), [pdf](http://www.fastchip.net/howcomputerswork/bookbpdf.pdf)
+* Blink-Tree: [blog](https://www.codedump.info/post/20220807-weekly-23/), b+树的优化版本,支持多线程访问
 
 ### 操作系统课
 
