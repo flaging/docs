@@ -14,3 +14,4 @@
 06|系统配置|开发环境使用和配置|Linux/Shell/Bash/Vim/Built-in Tools
 07|实用工具|多端实用工具|Linux/Bash/Win/Mac/Android/工具类教程
 08|日常生活|非技术类文章|新闻/时政/生活/建议
+09|本周见闻|本周技术积累|-
