@@ -252,3 +252,10 @@
 
 * 统一大市场的讨论
 
+* [A course in Time Series Analys](https://web.stat.tamu.edu/~suhasini/teaching673/time_series.pdf)
+  * 时间序列分析
+  * 作者[Suhasini](https://web.stat.tamu.edu/~suhasini/), 个人主页下还有许多[课程](https://web.stat.tamu.edu/~suhasini/teaching.html)和[论文](https://web.stat.tamu.edu/~suhasini/papers.html)
+  * 脑洞大开:采样是否能用作模型压缩
+* [leetcode](https://github.com/doocs/leetcode)
+  * 编程刷题整理
+  * 还形成了一个[社区](https://doocs.github.io/#/README_CN)

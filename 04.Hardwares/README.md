@@ -111,3 +111,6 @@
 * TorchScript GELU error: [issue](https://github.com/triton-inference-server/server/issues/3909), torch版本问题, 需要NV官方docker```nvcr.io/Nvidia/pytorch:21.12-py3```以后能解决, 也可以将镜像内/opt/下的torch及编译的依赖库拷贝出来编译安装
 * NVIDIA Deep Learning Frameworks: [doc](https://docs.nvidia.com/deeplearning/frameworks/index.html), NV支持的深度学习库更新的release note
 * NVIDIA AI Platform Delivers Big Gains for Large Language Models: [blog](https://developer.nvidia.com/blog/nvidia-ai-platform-delivers-big-gains-for-large-language-models/), NV加速大型语言模型训练,最多有30%
+* [pytorch cuda kernel gelu](https://github.com/pytorch/pytorch/blob/master/aten/src/ATen/native/cuda/ActivationGeluKernel.cu): gelu的pytorch实现
+* [Nvidia profiling工具](https://indico-jsc.fz-juelich.de/event/32/material/0/5.pdf)
+  * nvprof, 另外还有nsys

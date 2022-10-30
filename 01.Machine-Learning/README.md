@@ -73,6 +73,8 @@ OPT: Open Pre-trained Transformer Language Models|[github](https://github.com/fa
 * Dive into Big Model Training: [blog](https://github.com/qhliu26/bm-training), 大模型训练经典论文集
 * 如何高效、精准地进行图片搜索？看看轻量化视觉预训练模型: [blog](https://www.msra.cn/zh-cn/news/features/lightweight-vision-pre-training), 微软视觉理解深度学习模型
 * This repo supplements our 3D Vision with Transformers Survey: [github](https://github.com/lahoud/3d-vision-transformers), [arxiv](https://arxiv.org/abs/2208.04309v1), 3D视觉模型整理, 约有几十篇论文和模型
+* How codesearch.ai works: [blog](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6MTU1OQ==?)
+  * 基于 AI 的代码搜索的源代码级演练
 
 
 ## 框架原理分析
@@ -93,6 +95,7 @@ OPT: Open Pre-trained Transformer Language Models|[github](https://github.com/fa
 * AI-GPU显存优化领域前沿工作发展史:[知乎](https://zhuanlan.zhihu.com/p/536940298?utm_source=ZHShareTargetIDMore&utm_medium=social&utm_oi=49336847171584)
 
 * 评估和选择最佳学习模型的一些指标总结: [微信](https://mp.weixin.qq.com/s/aD1ZJ9qOjM2o3vfcNzyByA)
+* [Transformer](https://docs.google.com/presentation/d/1ZXFIhYczos679r70Yu8vV9uO6B1J0ztzeDxbnBxD1S0/edit#slide=id.g31364026ad_3_2): ppt
 
 ## 框架工具实现
 
@@ -137,6 +140,7 @@ OPT: Open Pre-trained Transformer Language Models|[github](https://github.com/fa
 * [onnx-util](https://github.com/saurabh-shandilya/onnx-utils)
   * onnx剪辑工具
 * theseus: [github](https://github.com/facebookresearch/theseus), [homepage](https://sites.google.com/view/theseus-ai), [paper](https://paperswithcode.com/paper/theseus-a-library-for-differentiable), FB开源的非线性函数优化库,可与nn模型联合使用
+* [awesome-AIops](https://github.com/OpsPAI/awesome-AIOps): github awesome系列 AIOps资料整理
 
 ## 缺陷修复技巧
 
@@ -152,6 +156,7 @@ OPT: Open Pre-trained Transformer Language Models|[github](https://github.com/fa
 * [Can't find model 'de_core_news_sm'... only on debug mod](https://github.com/explosion/spaCy/issues/4638)
   * 数据集下载问题
   * ```python -m spacy download de_core_news_sm```
+* [GeLU的pytorch实现](https://github.com/pytorch/pytorch/issues/20464)
 
 ## 历史人物杂谈
 
@@ -169,3 +174,10 @@ OPT: Open Pre-trained Transformer Language Models|[github](https://github.com/fa
   * [下载](http://www.caict.ac.cn/kxyj/qwfb/bps/202204/P020220412613255124271.pdf)
 * AI 框架发展白皮书2022: [pdf](https://www.dx2025.com/wp-content/uploads/2022/03/ai_framework_development_white_paper_2022.pdf), 信通院报告
 * 矩阵运算库blas, cblas, openblas, atlas, lapack, mkl之间有什么关系，在性能上区别大吗？: [zhihu](https://www.zhihu.com/question/27872849/answer/583943070?utm_medium=social&utm_oi=49336847171584&utm_psn=1541895754742685696&utm_source=ZHShareTargetIDMore), 介绍了BLAS类的几种库及其联系
+* [深度学习激活函数](https://developer.aliyun.com/article/936333): sigmoid/tanh/ReLU/Leaky ReLU/ELU/GELU/Maxout
+* [知识图谱发展报告（2022）](http://cips-upload.bj.bcebos.com/KGDevReport2022.pdf)
+  * 中文信息学会发布
+* [你是什么时候对深度学习失去信心的？](https://mp.weixin.qq.com/s/fnZRK6Sd-pBrFuTxXnROZw)
+  * 统一大模型加蒸馏/剪枝/量化/部署的学习方式
+  * 图形界面拖拖乐的交互模式
+  * 通过业务理解对模型进行拆分和分类

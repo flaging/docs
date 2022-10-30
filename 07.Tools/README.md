@@ -531,6 +531,7 @@ traceroute|Linux yum|-|[教程](https://wangchujiang.com/linux-command/c/tracero
 * Bash wait Command: [blog](https://linuxize.com/post/bash-wait/), wait命令使用方法
 * 如何干掉一条tcp 连接（活跃/非活跃）: [blog](https://developer.aliyun.com/article/59308), 通过syn包获取序列号,然后组织reset包
 * Composer 国内全量镜像大全: [list](https://blog.p2hp.com/archives/9324), 国内镜像源整理, 阿里/腾讯/华为
+* [wfrest: C++ Web Framework REST API](https://github.com/wfrest/wfrest): github开源的web框架
 
 ### docker用法
 
@@ -552,4 +553,33 @@ sudo systemctl start docker
 ```docker pull ubuntu:latest```|拉取镜像
 ```docker run -it -d ubuntu:latest```|启动container
 ```docker attach <container id>```|进入container
+
+### git
+
+* [git分支比较](https://devconnected.com/how-to-compare-two-git-branches/): ```git diff master..feature1```
+
+### gdb
+
+* [调试正在运行的程序](https://www.cnblogs.com/Forever-Kenlen-Ja/p/9429882.html)
+  * ```gdb attach $pid```
+  * ```gdb --pid $pid```
+* [多线程调试](https://www.cnblogs.com/xuxm2007/archive/2011/04/01/2002162.html)
+  * ```info threads```
+  * ```thread $id```
+  * ```set scheduler-locking on```
+  
+### bazel
+
+* TBC...
+
+### bash
+
+* [for loop example](https://stackoverflow.com/questions/8880603/loop-through-an-array-of-strings-in-bash)
+  * ```bash
+    arr=("v1", "v2")
+    for item in ${arr[@]}
+    do
+      echo $item
+    done
+    ```
 

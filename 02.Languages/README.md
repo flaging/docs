@@ -23,6 +23,18 @@
 
 * 多语言接口
 
+* [The Advanced Guide To Lambda Expression In C++ Software](https://blogs.embarcadero.com/the-advanced-guide-to-lambda-expression-in-c-software/)
+  * C++ lambda函数教程
+
+#### 静态库和动态库
+
+* [静态库链接](https://www.cnblogs.com/liushui-sky/articles/9487600.html)
+  * 编译时需要头文件, 链接时直接添加路径即可
+  * 动态库不需要头文件
+  * 依赖多个库时候注意依赖顺序:被依赖的库放在后面
+
+### Golang
+
 #### [Go编程语言与环境](https://dl.acm.org/doi/10.1145/3488716)
 
 * go语言综述,来自语言核心团队,pdf版在[这里](https://dl.acm.org/doi/pdf/10.1145/3488716)
@@ -176,6 +188,11 @@ round(1.123, 2)|取整|%3.2f|前三位对齐,保留2位|%s|字符串
 #### 详解函数式编程、再聊设计模式: [微信](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI3MzEzMDI1OQ==&action=getalbum&album_id=2423505869138100225&scene=173&from_msgid=2651835694&from_itemidx=1&count=3&nolastread=1), 布鲁斯 • 埃克尔（Bruce Eckel），C++ 标准委员会的创始成员之一，知名技术顾问，专注于编程语言和软件系统设计方面的研究.
 
 * Python Design Patterns: [github](https://github.com/brandon-rhodes/python-patterns), [book](https://python-patterns.guide/)
+
+
+## 通用编程技巧
+
+* [List of Common Bugs and Programming Practices to avoid them](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.9856&rep=rep1&type=pdf): 一些编程注意事项
 
 ## 推荐资料
 
