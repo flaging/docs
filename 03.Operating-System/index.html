@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>操作系统 - 福来鸽的笔记</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">福来鸽的笔记</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">福来鸽的笔记</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../01.Machine-Learning/" class="nav-link">机器学习和计算框架</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../02.Languages/" class="nav-link">编程语言</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">操作系统</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../04.Hardwares/" class="nav-link">异构硬件</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../05.Software-Implement/" class="nav-link">软件应用</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../06.System-Configurations/" class="nav-link">系统配置</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../07.Tools/" class="nav-link">实用工具</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../08.Beyonds/" class="nav-link">日常生活</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../09.Weekly/" class="nav-link">2022-11-05</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../02.Languages/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../04.Hardwares/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/flaging/docs/edit/master/docs/03.Operating-System.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#_1" class="nav-link">操作系统</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#_2" class="nav-link">博客</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_3" class="nav-link">图书</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_4" class="nav-link">视频</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_6" class="nav-link">文件列表</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="_1">操作系统</h1>
+<p>计算机操作系统, CPU体系结构和相关软硬件优化技术.</p>
+<h2 id="_2">博客</h2>
+<ul>
+<li>Rust linux kernel development: <a href="https://www.jackos.io/rust-kernel/rust-for-linux.html">blog</a></li>
+<li>Linux kernel development: <a href="https://www.kernel.org/doc/html/v4.16/process/howto.html">blog</a></li>
+<li>NUMA DEEP DIVE: <a href="https://frankdenneman.nl/2016/07/06/introduction-2016-numa-deep-dive-series/">目录</a>, 共分为<a href="https://frankdenneman.nl/2016/07/07/numa-deep-dive-part-1-uma-numa/">part1</a>, <a href="https://frankdenneman.nl/2016/07/08/numa-deep-dive-part-2-system-architecture/">part2</a>, <a href="https://frankdenneman.nl/2016/07/11/numa-deep-dive-part-3-cache-coherency/">part3</a>, <a href="https://frankdenneman.nl/2016/07/13/numa-deep-dive-4-local-memory-optimization/">part4</a>, <a href="https://frankdenneman.nl/2016/08/22/numa-deep-dive-part-5-esxi-vmkernel-numa-constructs/">part5</a></li>
+<li>Linux CPU 性能优化指南: <a href="https://cloud.tencent.com/developer/article/1677341?fromSource=gwzcw.1293314.1293314.1293314&amp;cps_key=ad1dd5b36e1c498308f7302ab4cdabb7">blog</a></li>
+<li>Linux tracing/profiling 基础：符号表、调用栈、perf/bpftrace 示例等（2022）: <a href="http://arthurchiao.art/blog/linux-tracing-basis-zh/">blog</a></li>
+<li>xv6-riscv: <a href="https://github.com/mit-pdos/xv6-riscv">github</a>, 教学操作系统xv6的risc-v版本</li>
+</ul>
+<h2 id="_3">图书</h2>
+<ul>
+<li>Operating system: Three Easy Piece(OSTEP): <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/">英文版</a>/<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/Chinese/">中文版</a></li>
+<li>Computer System: A Programmer's Perspective(CSAPP)</li>
+<li><a href="https://archive.org/details/ost-computer-science-the_art_of_unix_programming-1/page/n37/mode/2up?continueFlag=139a2ddd232637f566f76a1678299ff7">The Art of Unix Programming</a>: UNIX编程艺术;本书主要介绍了Unix系统领域中的设计和开发哲学、思想文化体系、原则与经验，由公认的Unix编程大师、开源运动领袖人物之一Eric S. Raymond倾力多年写作而成。</li>
+</ul>
+<h2 id="_4">视频</h2>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1N741177F5?p=1">[完结] 2020 南京大学 “操作系统：设计与实现” (蒋炎岩)</a></li>
+</ul>
+<h4 id="time_wait-blog">从一次经历谈 TIME_WAIT 的那些事: <a href="https://coolshell.cn/articles/22263.html">blog</a></h4>
+<h4 id="20210713-openresty-xray-ylang">2021.07.13 我们是这样崩的: <a href="https://mp.weixin.qq.com/s?__biz=Mzg3Njc0NTgwMg==&amp;mid=2247487272&amp;idx=1&amp;sn=038a30ce61706c97e3397eee982b1486&amp;scene=21#wechat_redirect">微信</a>, 使用的<a href="https://mp.weixin.qq.com/s/YWucrzAH5LnVYLel4zpUOw?v_p=90&amp;WBAPIAnalysisOriUICodes=10000001&amp;launchid=10000365--x&amp;wm=3333_2001&amp;aid=01A2GUVvCiJ0bN45VH0AOVftc20OVPaYUZmVa1h1s_8-8xrdg.&amp;from=10C7193010">OpenResty XRay工具介绍</a>, <a href="https://blog.openresty.com.cn/cn/lua-cpu-flame-graph/">介绍</a>, <a href="https://blog.openresty.com/en/ylang-intro-part1/">Ylang</a></h4>
+<ul>
+<li>How Computers Work ：Processor and Main Memory: <a href="http://www.fastchip.net/howcomputerswork/p1.html">books</a>, <a href="http://www.fastchip.net/howcomputerswork/bookbpdf.pdf">pdf</a></li>
+<li>Blink-Tree: <a href="https://www.codedump.info/post/20220807-weekly-23/">blog</a>, b+树的优化版本,支持多线程访问</li>
+</ul>
+<h3 id="_5">操作系统课</h3>
+<h4 id="p15linux">P15[虚拟化]:Linux地址进程空间</h4>
+<p>pmap $pid 查看程序的内存空间
+mmap()/munmap(): 系统调用, 文件映射到进程地址空间
+pmap调用:strace pmap $pid
+proc fs: /proc/$pid/maps
+gdb starti: 在第一条停下来
+ld.so用于加载libc
+vdso: 不陷入内核的系统调用(要求只读)
+vvar: 内核和进程共享的数据
+vsyscall: 系统调用地址</p>
+<h2 id="_6">文件列表</h2>
+<ul>
+<li>03.Operating-System</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

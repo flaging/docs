@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>实用工具 - 福来鸽的笔记</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">福来鸽的笔记</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">福来鸽的笔记</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../01.Machine-Learning/" class="nav-link">机器学习和计算框架</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../02.Languages/" class="nav-link">编程语言</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../03.Operating-System/" class="nav-link">操作系统</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../04.Hardwares/" class="nav-link">异构硬件</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../05.Software-Implement/" class="nav-link">软件应用</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../06.System-Configurations/" class="nav-link">系统配置</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">实用工具</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../08.Beyonds/" class="nav-link">日常生活</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../09.Weekly/" class="nav-link">2022-11-05</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../06.System-Configurations/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../08.Beyonds/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/flaging/docs/edit/master/docs/07.Tools.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#_1" class="nav-link">实用工具</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#_2" class="nav-link">日常使用</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_3" class="nav-link">游戏娱乐</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_4" class="nav-link">其他工具</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_16" class="nav-link">文件列表</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="_1">实用工具</h1>
+<p>本文整理福来鸽日常使用的一些工具和设置.</p>
+<h2 id="_2">日常使用</h2>
+<ul>
+<li>选词翻译工具:<a href="https://quest-app.appspot.com/">Qtranslate(Windows)</a>/<a href="https://github.com/ripperhe/Bob">Bob(MacOS)</a></li>
+<li>快捷键:ctrl + D</li>
+<li>微信公众号订阅:<a href="https://feeddd.org/feeds">feddd</a></li>
+<li>微博订阅:<a href="https://github.com/zgq354/weibo-rss">weiborss</a>,<a href="https://rssfeed.today/weibo/">网站</a></li>
+</ul>
+<h2 id="_3">游戏娱乐</h2>
+<ul>
+<li>vircadia: <a href="https://github.com/vircadia/vircadia">github</a>, 元宇宙平台, 包括server和interface等</li>
+</ul>
+<h2 id="_4">其他工具</h2>
+<h4 id="what-are-your-most-used-self-hosted-applications-notedlol"><a href="https://news.ycombinator.com/item?id=31260061">What are your most used self-hosted applications? (noted.lol)</a></h4>
+<ul>
+<li><a href="https://github.com/NginxProxyManager/nginx-proxy-manager">Nginx Proxy Manager</a>: Proxy for self hosted service</li>
+<li><a href="https://github.com/portainer/portainer">Portainer</a>: Docker management</li>
+<li><a href="https://github.com/TryGhost/Ghost">Ghost</a>: writing materials management</li>
+<li><a href="https://github.com/filebrowser/filebrowser">filebrowser</a>: files</li>
+<li><a href="https://github.com/AzuraCast/AzuraCast">AzuraCast</a>: music stream</li>
+<li><a href="https://github.com/tubearchivist/tubearchivist">Tube Archivist</a>: youtube media server</li>
+<li><a href="https://github.com/grafana/grafana">grafana</a>: monitor</li>
+<li><a href="https://github.com/sissbruecker/linkding">Linkding</a>: bookmarks</li>
+<li><a href="https://github.com/advplyr/audiobookshelf">Audiobookshelf</a></li>
+<li><a href="https://noted.lol/tag/self-hosting/">Final Notes and Thoughts</a>: notes</li>
+<li>Nextcloud: for caldav and carddav calendar, contacts, and tasks</li>
+<li>Xbrowsersync - sync bookmarks across device</li>
+<li>Synchthing - backup data from my phone. I use Neo Backup to take a snapshot of all apps, so the phone should theoretically be restorable from scratch.</li>
+<li>Jellyfin - Spotify replacement. The Finamp app is fantastic.</li>
+<li>Home Assistant - automate my media center, as well as control outdoor lights and door locks, and check if any doors or windows are open or unlocked when I'm away.</li>
+<li>OPNSense on a protectli box - amazing open source gateway software that does everything.</li>
+<li>AdGuard Home (on OPNSense) - DNS based ad blocking</li>
+<li>Wireguard (on OPNSense) - allows me to have an always on partial tunnel VPN on my phone and laptops that allows access to home services while remote, and also allows me to use my Ad Guard DNS.</li>
+<li>HAProxy + LetsEncrypt (on OPNSense) - setup to provide subdomains for each of the services at home. Only a couple are public (contacts and calendar), but the rest become available when the VPN is on.</li>
+<li>Smokeping - use it to collect data to rub into Spectrums face when they go down.</li>
+<li>Pintry - Pinterest clone</li>
+<li>
+<p>Xbrowsersync - sync bookmarks across device</p>
+</li>
+<li>
+<p>cadvisor - simple graphs of resource consumption, insights per docker stack</p>
+</li>
+<li>cyberchef - a LOT of handy operations packed into one small app. Encode/decode any secrets you need and don't bother about privacy</li>
+<li>dozzle - logs browser from all docker stacks</li>
+<li>gogs - git mirror</li>
+<li>heimdall - all apps main panel</li>
+<li>minio - private S3 for my side projects</li>
+<li>nextcloud - private google drive / dropbox</li>
+<li>photoprism - photo management</li>
+<li>pypiserver - private pypi</li>
+<li>registry - docker registry (with UI)</li>
+<li>traefik - reverse proxy of all these services</li>
+<li>portainer - easily manage all of the above.</li>
+<li>Wiki (linked from one of the githubs, has links to all apps and more info than the githubs): https://wiki.servarr.com/</li>
+<li>Lidarr (Music): https://github.com/Lidarr/Lidarr</li>
+<li>Radarr (Movies): https://github.com/radarr/radarr</li>
+<li>Readarr (Books): https://github.com/readarr/readarr</li>
+<li>Sonarr (TV): https://github.com/sonarr/sonarr</li>
+<li>Router - pfSense - https://www.pfsense.org/</li>
+<li>Movies/TV/Home Videos - Plex</li>
+<li>Minecraft Server - AMP - https://cubecoders.com/AMPInstall</li>
+<li>Music - Roon - https://roonlabs.com/</li>
+<li>Automation - HomeAssistant - https://www.home-assistant.io/</li>
+<li>Unifi Controller</li>
+<li>Email - Zimbra - https://www.zimbra.com/downloads/</li>
+<li>Files - Synology</li>
+<li><a href="https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo">Awesome Github REPO</a>: git整理</li>
+</ul>
+<h4 id="bash-oneliner"><a href="https://github.com/onceupon/Bash-Oneliner">Bash-Oneliner</a></h4>
+<ul>
+<li>脚本命令解析</li>
+</ul>
+<h4 id="google"><a href="https://zh-google-styleguide.readthedocs.io/en/latest/">Google 开源项目风格指南——中文版</a></h4>
+<h4 id="_5"><a href="https://zh-style-guide.readthedocs.io/zh_CN/latest/index.html">中文技术文档写作风格指南¶</a></h4>
+<h4 id="weibo-spider"><a href="https://github.com/dataabc/weiboSpider">Weibo Spider</a></h4>
+<ul>
+<li>微博用户爬虫工具</li>
+</ul>
+<h4 id="pdf"><a href="https://www.kingname.info/2022/05/05/add-watermark-on-pdf/#more">一日一技：如何批量给PDF添加水印？</a></h4>
+<h4 id="starship"><a href="https://starship.rs/zh-cn/">Starship</a></h4>
+<ul>
+<li>终端,在多端上有相同的使用体验</li>
+</ul>
+<h4 id="plantegg"><a href="https://weibo.com/1667773473/LrzEtk4cn">微博@plantegg:脚本执行时候的一些错误</a></h4>
+<ul>
+<li>login shell与no-login shell的区别</li>
+<li>login shell: /etc/profile --&gt; ~/.bash_profile --&gt; ~/.bashrc --&gt; /etc/bashrc</li>
+<li>no-login shell: ~/.bashrc --&gt; /etc/bashrc</li>
+<li>sh 跟bash的区别</li>
+<li>实际上是bash有没开启POSIX模式的区别</li>
+<li>/bin/sh 相当于/bin/bash --posix</li>
+</ul>
+<h4 id="super-fast-youtube-to-mp3mp4-converter"><a href="https://4fuun.com/">Super Fast YouTube to MP3/MP4 Converter</a></h4>
+<h4 id="mac-setup-for-web-development-2022"><a href="https://www.robinwieruch.de/mac-setup-web-development/">Mac Setup for Web Development [2022]</a></h4>
+<ul>
+<li>Mac配置流程</li>
+</ul>
+<h4 id="bilibili2local"><a href="https://github.com/sansui-orz/bilibili2local">bilibili2local</a></h4>
+<ul>
+<li>B站视频下载工具</li>
+</ul>
+<h4 id="linux"><a href="https://itboon.github.io/linux-20/">Linux 二零</a></h4>
+<ul>
+<li>debian/ubuntu实用教程</li>
+</ul>
+<h4 id="kill-the-newsletter"><a href="https://kill-the-newsletter.com/">kill the newsletter</a></h4>
+<ul>
+<li>将newsletter转换为RSS</li>
+</ul>
+<h4 id="cheatsheets"><a href="https://github.com/laylacodes/cheatsheets">cheatsheets</a></h4>
+<ul>
+<li>一些速查清单</li>
+<li>SQLjoin的解释清单:<a href="https://github.com/laylacodes/cheatsheets/blob/main/SQL_joins_cheatsheet.pdf">这里</a></li>
+</ul>
+<h4 id="macosicons"><a href="https://macosicons.com/#/">macosicons</a></h4>
+<ul>
+<li>Mac下的图标下载</li>
+</ul>
+<h4 id="blush"><a href="https://github.com/arsham/blush">Blush</a></h4>
+<ul>
+<li>Grep with colours</li>
+</ul>
+<h4 id="gdb-cheetsheet"><a href="https://www-users.york.ac.uk/~mijp1/teaching/2nd_year_Comp_Lab/guides/GDB_Cheat_Sheet.pdf">gdb cheetsheet</a></h4>
+<h4 id="contentideas"><a href="https://contentideas.io/">contentideas</a></h4>
+<ul>
+<li>类似搜索引擎</li>
+</ul>
+<h4 id="blogsurf"><a href="https://blogsurf.io/directory">技术博客地址合集:blogsurf</a></h4>
+<h4 id="_6"><a href="https://douzhencang.com/">抖珍藏</a></h4>
+<ul>
+<li>抖音下载插件, 下载在<a href="https://microsoftedge.microsoft.com/addons/detail/kaepaapgaokpobjhamjjekinijbcoihe">这里</a></li>
+</ul>
+<h4 id="youtube-enhancer"><a href="https://chrome.google.com/webstore/detail/youtube-enhancer/ejcniippeghnejiodjkkmndlelbagmah">youtube-enhancer</a></h4>
+<ul>
+<li>chrome插件</li>
+</ul>
+<h4 id="powershell"><a href="https://sspai.com/post/73019">缩短命令、调整按键、自动补全，这些代码值得你放进 PowerShell 配置文件</a></h4>
+<h4 id="_7"><a href="https://z.arlmy.me/">素生</a></h4>
+<ul>
+<li>博客推荐</li>
+</ul>
+<h4 id="blog-finder"><a href="https://bf.zzxworld.com/">blog finder</a></h4>
+<ul>
+<li>博客集</li>
+</ul>
+<h4 id="best-paper-awards-in-computer-science"><a href="https://jeffhuang.com/best_paper_awards/">Best Paper Awards in Computer Science</a></h4>
+<ul>
+<li>历年最佳论文</li>
+</ul>
+<h4 id="azure-speech-download"><a href="https://www.appinn.com/azure-speech-download/">Azure Speech Download</a></h4>
+<ul>
+<li>微软文字转语音功能</li>
+<li>下载:<a href="https://greasyfork.org/zh-CN/scripts/444347-azure-speech-download">油猴脚本</a>, <a href="https://github.com/kxxt/aspeak">命令行工具</a></li>
+</ul>
+<h4 id="mirror-leech-telegram-bot"><a href="https://github.com/anasty17/mirror-leech-telegram-bot">mirror-leech-telegram-bot</a></h4>
+<ul>
+<li>Aria/qBittorrent Telegram mirror/leech bot</li>
+<li>将torrent备份至telegram或者google drive</li>
+</ul>
+<h4 id="containerization-of-cuda-environment-using-vscode"><a href="https://blog.kbegiedza.eu/setup-cuda-developement-with-vscode">Containerization of CUDA environment using VSCode</a></h4>
+<ul>
+<li>vscode cuda环境</li>
+</ul>
+<h4 id="meilisearch"><a href="https://github.com/meilisearch/meilisearch">Meilisearch</a></h4>
+<ul>
+<li>搜索系统,官网在<a href="https://www.meilisearch.com/">这里</a></li>
+</ul>
+<h4 id="brendan-greggs-blog"><a href="https://www.brendangregg.com/blog/2022-05-02/brendan-at-intel.html">Brendan Gregg's Blog</a></h4>
+<ul>
+<li>火焰图作者跳槽去了intel, 他的博客有许多性能分析相关内容和教程</li>
+<li>博客在<a href="https://www.brendangregg.com/">这里</a></li>
+<li>这条信息的<a href="https://news.ycombinator.com/item?id=31236157">HN</a>中, 还有一些其他好玩的信息</li>
+<li><a href="https://www.brendangregg.com/blog/2008-12-31/unusual-disk-latency.html">Unusual Disk Latency</a><ul>
+<li>声音对硬盘延迟有很大影响</li>
+<li>实验视频:<a href="https://youtu.be/tDacjrSCeq4">Youtube</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/janestreet/magic-trace">magic-trace</a></li>
+<li><a href="https://www.youtube-nocookie.com/embed/PUv66718DII">finding a guiding principal for work</a></li>
+</ul>
+<h4 id="spacedrive"><a href="https://github.com/spacedriveapp/spacedrive">Spacedrive</a></h4>
+<ul>
+<li>文件管理器,MacOS, 将来会支持所有端</li>
+</ul>
+<h4 id="blog-is-a-room"><a href="http://nicodechal.github.io/">Blog is A Room</a></h4>
+<ul>
+<li>内容主要是算法分析、计算机理论基础、VSCode源码分析等</li>
+</ul>
+<h4 id="catalogue"><a href="https://github.com/G33kzD3n/Catalogue">Catalogue</a></h4>
+<ul>
+<li>一些图书</li>
+</ul>
+<h4 id="how-to-professionally-say"><a href="https://howtoprofessionallysay.akashrajpurohit.com/">How to professionally say</a></h4>
+<ul>
+<li>网站:能够将你想表达的意思更加专业的表达出来</li>
+</ul>
+<h4 id="pprof-go"><a href="https://www.debuginn.cn/7444.html">使用 pprof 对 Go 程序进行分析优化</a></h4>
+<ul>
+<li>gperftool实用示例</li>
+</ul>
+<h4 id="_8"><a href="https://weibo.com/5198011111/LoZJYgHtX">地图资源下载</a></h4>
+<ul>
+<li><a href="https://www.tianditu.gov.cn/">天地图</a></li>
+<li><a href="http://bzdt.ch.mnr.gov.cn/">标准地图服务</a></li>
+<li><a href="http://datav.aliyun.com/portal/school/atlas/area_selector">阿里云数据可视化平台</a></li>
+<li><a href="http://www.geodata.cn">国家地球系统科学数据中心共享服务平台</a></li>
+<li><a href="https://earth.nullschool.net/#current/wind/surface/level/orthographic=-259.66,16.17,378">气象地球</a></li>
+<li><a href="https://www.darkmap.cn/">天文通</a></li>
+<li><a href="https://nbcharts.com/map/map.php">NB三维地图</a></li>
+<li><a href="https://www.windy.com/?22.291,114.150,5">windy-气象地图</a></li>
+<li><a href="http://www.ccamc.co/chinese_historical_map/index.php">中国历史地图集</a></li>
+<li><a href="https://sou-yun.cn/IndexByMap.aspx">中国诗人地图</a></li>
+</ul>
+<h4 id="9"><a href="https://linux.cn/article-14529-1.html?utm_source=rss&amp;utm_medium=rss">9 个去中心化、端到端、开源的主流社交媒体平台替代品</a></h4>
+<ul>
+<li>最著名的还是mastodon和signal了</li>
+</ul>
+<h4 id="awesome-github-repo"><a href="https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo">Awesome Github REPO</a></h4>
+<ul>
+<li>github repo推荐</li>
+</ul>
+<h4 id="actual"><a href="https://github.com/actualbudget/actual">actual</a></h4>
+<ul>
+<li>个人财务管理系统,目前只支持web后续会支持多端;</li>
+<li><a href="https://actualbudget.com/">介绍网站</a></li>
+<li><a href="https://github.com/actualbudget/actual-server">server端代码</a></li>
+</ul>
+<h4 id="git"><a href="https://gotgit.readthedocs.io/en/latest/">Git权威指南</a></h4>
+<h4 id="gdb-dashboard"><a href="https://github.com/cyrus-and/gdb-dashboard">GDB dashboard</a></h4>
+<ul>
+<li>python GDB工具</li>
+</ul>
+<h4 id="ipipnet"><a href="http://myip.ipip.net/">ipip.net</a></h4>
+<ul>
+<li>IP位置工具;微博归属地功能</li>
+</ul>
+<h4 id="_9"><a href="https://github.com/why20021008/hand-write">手写模拟</a></h4>
+<ul>
+<li>模拟手写的效果</li>
+</ul>
+<h4 id="memray"><a href="https://github.com/bloomberg/memray">Memray</a></h4>
+<ul>
+<li>python内存profiler</li>
+</ul>
+<h4 id="fccf-fast-cc-code-finder"><a href="https://github.com/p-ranav/fccf">fccf: Fast C/C++ Code Finder</a></h4>
+<ul>
+<li>代码搜索工具</li>
+</ul>
+<h4 id="debian"><a href="https://www.debian.org/doc/manuals/debian-reference/index.zh-cn.html">Debian 参考手册</a></h4>
+<ul>
+<li>官方中文版参考手册</li>
+</ul>
+<h4 id="go-zero"><a href="https://github.com/zeromicro/go-zero">go-zero</a></h4>
+<ul>
+<li>rpc框架;<a href="https://go-zero.dev/cn/">中文文档</a>, <a href="https://go-zero.dev/en/">英文文档</a></li>
+</ul>
+<h4 id="the-linux-perf-master"><a href="https://riboseyim.gitbook.io/perf/">The Linux Perf Master</a></h4>
+<ul>
+<li>Linux性能分析工具上手</li>
+</ul>
+<h4 id="scarsu"><a href="https://www.scarsu.com/">scarsu</a></h4>
+<ul>
+<li>前端女程序猿;有个月刊tag挺不错的</li>
+</ul>
+<h4 id="_10"><a href="https://www.smartedu.cn/">国家智慧教育平台</a></h4>
+<ul>
+<li>国家级网课平台,覆盖义务教育和职业教育</li>
+</ul>
+<h4 id="_11"><a href="http://coke.do/">可乐的周报</a></h4>
+<ul>
+<li>定期分享整理消息</li>
+</ul>
+<h4 id="nivos"><a href="github.com/TheSadError/NIVOS">NIVOS</a></h4>
+<ul>
+<li>一个开源的 Python 工具包，可用于深入扫描、破解 WIFI，适用于所有 Linux 系统，部分功能仍在持续升级中</li>
+</ul>
+<h4 id="fan-control"><a href="https://github.com/Rem0o/FanControl.Releases">Fan Control</a></h4>
+<ul>
+<li>风扇转速控制工具</li>
+</ul>
+<h4 id="vim"><a href="https://harttle.land/2015/07/17/vim-advanced.html">感受Vim的强大：进阶技巧</a></h4>
+<h4 id="vim-dirtytalk-spellcheck-dictionary-for-programmers"><a href="https://github.com/psliwka/vim-dirtytalk">vim-dirtytalk: spellcheck dictionary for programmers</a></h4>
+<h4 id="ai-paper-collector"><a href="https://github.com/MLNLP-World/AI-Paper-collector">AI paper collector</a></h4>
+<ul>
+<li>AI论文搜索工具</li>
+</ul>
+<h4 id="vim-cheetsheet-for-programers"><a href="http://michael.peopleofhonoronly.com/vim/?continueFlag=5736f6f7a67304664b0f56b2e45e0238">vim cheetsheet for programers</a></h4>
+<ul>
+<li>图片版</li>
+</ul>
+<h4 id="bash-shell"><a href="http://www.uinio.com/Linux/Shell/">Bash Shell 脚本编程实践</a></h4>
+<ul>
+<li>bash教程</li>
+</ul>
+<h4 id="leetcode"><a href="https://github.com/wisdompeak/LeetCode">LeetCode难题代码和算法要点分析</a></h4>
+<ul>
+<li>力扣难题解析</li>
+</ul>
+<h4 id="warp"><a href="https://github.com/warpdotdev/Warp">Warp</a></h4>
+<ul>
+<li>ssh工具,网站在<a href="https://warp.dev/">这里</a></li>
+</ul>
+<h4 id="track-awesome-list"><a href="https://www.trackawesomelist.com/">track awesome list</a></h4>
+<ul>
+<li>用于追踪github awesome list工具的网站, 也支持<a href="https://www.trackawesomelist.com/rss.xml">RSS</a></li>
+</ul>
+<h4 id="selenium"><a href="https://selenium-python.readthedocs.io/">selenium</a></h4>
+<ul>
+<li>基于python的web自动化工具</li>
+</ul>
+<h4 id="linux_1"><a href="http://billie66.github.io/TLCL/book/">快乐的 Linux 命令行</a></h4>
+<ul>
+<li>Linux教程</li>
+</ul>
+<h4 id="_12"><a href="https://wizardforcel.gitbooks.io/100-gdb-tips/content/print-source-lines.html">打印源代码行</a></h4>
+<ul>
+<li>gdb打印源代码技巧</li>
+</ul>
+<h4 id="gdblayout"><a href="https://www.cnblogs.com/dylancao/p/9213235.html">gdb调试的layout使用</a></h4>
+<ul>
+<li>gdb有不同的layout, 比如src/asm/split等</li>
+</ul>
+<h4 id="valgrind"><a href="https://yuanfentiank789.github.io/2018/11/01/%E7%94%A8Valgrind%E6%A3%80%E6%B5%8B%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F/">用Valgrind检测内存泄漏</a></h4>
+<ul>
+<li>valgrind使用教程</li>
+</ul>
+<h4 id="creating-a-cluster-with-kubeadm"><a href="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/">Creating a cluster with kubeadm</a></h4>
+<ul>
+<li>创建k8s集群</li>
+</ul>
+<h4 id="pprof-golang"><a href="https://wallenotes.github.io/2020/04/05/%E7%BC%96%E7%A8%8B/%E8%B0%83%E8%AF%95/how-to-use-go-pprof/">如何使用 pprof 调试 golang 应用</a></h4>
+<ul>
+<li>gperftool使用方式</li>
+<li>使用教程2:<a href="https://gperftools.github.io/gperftools/cpuprofile.html">cpuprofiler</a>,<a href="https://gperftools.github.io/gperftools/heapprofile.html">heapprofiler</a></li>
+<li>使用教程3:<a href="https://cloud.tencent.com/developer/article/1433465">网址</a></li>
+<li>使用教程4:<a href="https://www.openjq.com/thread-6858-1-1.html">网址</a></li>
+<li>使用教程5:<a href="https://github.com/NIGHTFIGHTING/gperftools-tutorial">网址</a></li>
+</ul>
+<h4 id="execute-an-instructioncommand-in-gdb"><a href="https://stackoverflow.com/questions/63533955/execute-an-instruction-command-in-gdb">Execute an instruction/command in gdb</a></h4>
+<ul>
+<li>starti命令无法使用</li>
+</ul>
+<h4 id="linux-shell"><a href="http://datascript.top/2021/06/03/linux-shell/?continueFlag=7518eeeb402c5210c2d1940add6896ba">Linux-Shell</a></h4>
+<ul>
+<li>博主整理的一些常用linux命令</li>
+</ul>
+<h4 id="dockerfile-env"><a href="https://yeasy.gitbook.io/docker_practice/image/dockerfile/env">Dockerfile ENV</a></h4>
+<ul>
+<li><code>ENV &lt;KEY1&gt;=&lt;VAL1&gt; &lt;KEY2&gt;=&lt;VAL2&gt; ...</code></li>
+<li><code>ARG &lt;KEY1&gt;=&lt;VAL1&gt; &lt;KEY2&gt;=&lt;VAL2&gt; ...</code>, 见<a href="https://zhuanlan.zhihu.com/p/119301742">这里</a></li>
+</ul>
+<h4 id="in-linux-which-source-return-nothing"><a href="https://stackoverflow.com/questions/17487514/in-linux-which-source-returns-nothing">in linux which source return nothing</a></h4>
+<ul>
+<li>source是bash命令,在sh中没有,所以某些docker中sh运行脚本时候source找不到命令</li>
+</ul>
+<h4 id="dockerlsls-cant-open-permission-denied"><a href="https://blog.csdn.net/weixin_38469592/article/details/92803993">Docker容器中运行ls，出现ls: can't open '.': Permission denied错误</a></h4>
+<ul>
+<li>docker内ls失败的错误: selinux权限严格</li>
+<li>解决方法</li>
+<li>临时: 添加参数<code>--privileged=true</code></li>
+<li>更改权限:<code>chcon -Rt svirt_sandbox_file_t &lt;dir&gt;</code></li>
+<li>更改selinux配置:<code>setenforce 0</code></li>
+</ul>
+<h4 id="copy-directory-to-another-directory-using-add-command"><a href="https://stackoverflow.com/questions/26504846/copy-directory-to-another-directory-using-add-command">Copy directory to another directory using ADD command</a></h4>
+<ul>
+<li>向docker中拷贝文件夹; Dockerfile</li>
+<li><code>ADD go /usr/local/</code></li>
+</ul>
+<h4 id="linux-lsof-command-explained-with-12-practical-examples"><a href="https://vitux.com/linux-lsof-command-explained-with-12-practical-examples/">Linux lsof command explained with 12 practical examples</a></h4>
+<ul>
+<li>lsof命令介绍</li>
+</ul>
+<h4 id="lookscanned"><a href="https://github.com/rwv/lookscanned.io">lookscanned</a></h4>
+<ul>
+<li>将PDF转换为扫码格式</li>
+</ul>
+<h4 id="60linux"><a href="https://jeremyxu2010.github.io/2019/12/60%E7%A7%92%E5%AE%8C%E6%88%90linux%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E8%AF%91/#heading">60秒完成Linux系统的性能分析(译)</a></h4>
+<ul>
+<li>一些排查工具介绍; 原文在<a href="https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55">这里</a></li>
+<li>同系列:<a href="https://netflixtechblog.com/netflix-at-velocity-2015-linux-performance-tools-51964ddb81cf">其他排查工具介绍</a></li>
+</ul>
+<h4 id="netstat"><a href="http://jialeicui.github.io/blog/netstat.html">netstat的实现方法分析</a></h4>
+<ul>
+<li>linux万物皆文件, 可以从虚拟文件系统中找到对应的状态值.</li>
+</ul>
+<h4 id="docker"><a href="https://yeasy.gitbook.io/docker_practice/">docker从入门到实践</a></h4>
+<ul>
+<li>docker使用教程</li>
+</ul>
+<h4 id="linux_2"><a href="https://linux.cn/article-14488-1.html?utm_source=rss&amp;utm_medium=rss">新式 Linux 命令行工具大全</a></h4>
+<ul>
+<li>Linux工具类型和功能整理</li>
+</ul>
+<h4 id="the-awk-programming-language"><a href="github.com/wuzhouhui/awk">The AWK Programming Language(中译)</a></h4>
+<ul>
+<li>awk也可以被看作为一种语言</li>
+</ul>
+<h4 id="shell"><a href="http://kuanghy.github.io/shell-tutorial/">Shell 程序设计教程</a></h4>
+<ul>
+<li>一个shell教程</li>
+</ul>
+<h4 id="statefulset-pods"><a href="https://kubernetes.io/zh/docs/tasks/run-application/force-delete-stateful-set-pod/">强制删除 StatefulSet 中的 Pods</a></h4>
+<ul>
+<li><code>kubectl delete pods &lt;pod&gt; --grace-period=0 --force</code></li>
+</ul>
+<h4 id="uivision"><a href="https://ui.vision/">ui.vision</a></h4>
+<ul>
+<li>网页自动化工具;自动化表单填写</li>
+</ul>
+<h4 id="mermaid"><a href="https://github.com/mermaid-js/mermaid">mermaid</a></h4>
+<ul>
+<li>流程图引擎;github已支持,但gitpage尚未支持</li>
+</ul>
+<h4 id="vim_1"><a href="https://yianwillis.github.io/vimcdoc/doc/help.html">vim帮助文档</a></h4>
+<h4 id="gperftools"><a href="https://luyuhuang.tech/2022/04/10/gperftools.html">gperftools</a></h4>
+<ul>
+<li>gperf tools的几种使用方法</li>
+</ul>
+<h4 id="_13">图书下载网站</h4>
+<ul>
+<li><a href="https://www.bookzz.ren/?continueFlag=cdb48726f74fe95a2e0a2009a9d8d5b8">bookzz</a></li>
+<li><a href="https://zh.libsolutions.net/?continueFlag=cdb48726f74fe95a2e0a2009a9d8d5b8">zlib</a></li>
+<li><a href="https://libgen.li/index.php">libgen</a></li>
+</ul>
+<h4 id="vscodevimctrl-c"><a href="https://blog.csdn.net/sea_snow/article/details/83375726">VSCode解决Vim插件不能使用ctrl-c的问题</a></h4>
+<ul>
+<li>File -&gt; Preference -&gt; Settings-&gt;vim.useCtrlKeys:false</li>
+</ul>
+<h4 id="markdown"><a href="https://blog.csdn.net/microcosmv/article/details/51868178">Markdown表格内如何进行换行?</a></h4>
+<ul>
+<li>html换行符<code>&lt;br&gt;</code></li>
+</ul>
+<h4 id="linux_3"><a href="https://developer.aliyun.com/article/632400">Linux下调试与性能分析工具的总结</a></h4>
+<ul>
+<li>kernel ftrace工具使用</li>
+<li>位于/sys/kernel/debug/trace路径下</li>
+<li>gdb的一些使用命令</li>
+<li>valgrind使用命令</li>
+</ul>
+<h4 id="freds-imagemagick-scripts"><a href="http://www.fmwconcepts.com/imagemagick/space/index.php">Fred's ImageMagick Scripts</a></h4>
+<ul>
+<li>图像处理脚本</li>
+</ul>
+<h4 id="how-to-add-a-new-audio-not-mixing-into-a-video-using-ffmpeg"><a href="https://stackoverflow.com/questions/11779490/how-to-add-a-new-audio-not-mixing-into-a-video-using-ffmpeg#11783474">How to add a new audio (not mixing) into a video using ffmpeg?</a></h4>
+<ul>
+<li>详细解释了如何使用ffmpeg为视频增加音轨</li>
+</ul>
+<h4 id="awesome-latex-drawing"><a href="https://github.com/xinychen/awesome-latex-drawing">awesome-latex-drawing</a></h4>
+<ul>
+<li>latex画图教程</li>
+</ul>
+<h4 id="_14"><a href="https://h5.moo-e.com/roomis/?continueFlag=cdb48726f74fe95a2e0a2009a9d8d5b8">魔都头像生成器</a></h4>
+<h4 id="warp_1"><a href="https://www.warp.dev/">warp</a></h4>
+<ul>
+<li>新型终端; MacOS</li>
+</ul>
+<h4 id="nitter"><a href="https://nitter.net/">nitter</a></h4>
+<ul>
+<li>twitter的新浏览方式, 可以直接搜索用户并浏览, 风格清爽; 代码库在<a href="https://github.com/zedeus/nitter">这里</a></li>
+</ul>
+<h4 id="hertzbeat"><a href="https://github.com/dromara/hertzbeat">HertzBeat</a></h4>
+<ul>
+<li>云监控系统</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="left">名称</th>
+<th align="center">平台</th>
+<th align="center">同类</th>
+<th align="center">教程</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">tiptop</td>
+<td align="center"><a href="https://github.com/nschloe/tiptop">Linux</a></td>
+<td align="center">top</td>
+<td align="center">-</td>
+<td>操作系统资源监控工具, TUI较为精美</td>
+</tr>
+<tr>
+<td align="left">LOL先知</td>
+<td align="center"><a href="https://github.com/real-web-world/hh-lol-prophet">Win</a></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td>根据客户端接口预测对局中的大腿</td>
+</tr>
+<tr>
+<td align="left">Linux工具使用手册</td>
+<td align="center">Linux</td>
+<td align="center">-</td>
+<td align="center"><a href="https://linuxtools-rst.readthedocs.io/zh_CN/latest/base/index.html">教程</a></td>
+<td>作者整理的doc</td>
+</tr>
+<tr>
+<td align="left">gperftool</td>
+<td align="center"><a href="https://github.com/gperftools/gperftools">Linux</a></td>
+<td align="center">perf</td>
+<td align="center"><a href="https://gperftools.github.io/gperftools/heapprofile.html">教程1</a><br><a href="https://www.cnblogs.com/GODYCA/archive/2013/05/28/3104281.html">教程2</a></td>
+<td>gperftool可用于分析性能和内存使用</td>
+</tr>
+<tr>
+<td align="left">warpd</td>
+<td align="center"><a href="https://github.com/rvaiya/warpd">Mac/Linux</a></td>
+<td align="center">vimium</td>
+<td align="center">-</td>
+<td>键盘控制鼠标,上手难度较大</td>
+</tr>
+<tr>
+<td align="left">Efficient Linux at the Command Line</td>
+<td align="center">Linux</td>
+<td align="center">-</td>
+<td align="center"><a href="https://pan.baidu.com/s/1lwsJ2dvDJZ_2iTOkDsrAGg?pwd=ts5z">教程</a></td>
+<td>-</td>
+</tr>
+<tr>
+<td align="left">爬取你需要的数据:爬虫技术</td>
+<td align="center">*</td>
+<td align="center">-</td>
+<td align="center"><a href="https://book.crifan.org/books/crawl_your_data_spider_technology/website/">教程</a></td>
+<td><a href="https://github.com/crifan/crifan_ebook_readme">同类型教程</a></td>
+</tr>
+<tr>
+<td align="left"><a href="https://espanso.org/">espanso</a></td>
+<td align="center"><a href="https://espanso.org/">Win/Mac/Linux</a></td>
+<td align="center">-</td>
+<td align="center"><a href="https://espanso.org/docs/get-started/">教程</a></td>
+<td>增强打字体验的工具</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.cockos.com/licecap/">licecap</a></td>
+<td align="center"><a href="https://www.cockos.com/licecap/licecap128-install.exe">Win</a>/<a href="https://www.cockos.com/licecap/licecap131.dmg">Mac</a></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td>截屏并保存至gif</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/TranslucentTB/TranslucentTB">TranslucentTB</a></td>
+<td align="center"><a href="https://github.com/TranslucentTB/TranslucentTB">Win</a></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td>任务栏美化工具, 透明工具栏</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.microsoft.com/zh-cn/p/quicklook/9nv4bs3l1h4s#activetab=pivot:overviewtab">QuickLook</a></td>
+<td align="center"><a href="https://www.microsoft.com/zh-cn/p/quicklook/9nv4bs3l1h4s#activetab=pivot:overviewtab">Win-Store</a></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td>用空格键预览文件</td>
+</tr>
+<tr>
+<td align="left"><a href="https://eartrumpet.app/">EarTrumpet</a></td>
+<td align="center"><a href="https://eartrumpet.app">Win</a></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td>应用音量单独调整</td>
+</tr>
+<tr>
+<td align="left"><a href="https://shuax.com/project/mouseinc/">mouseinc</a></td>
+<td align="center"><a href="https://shuax.com/project/mouseinc/">Win</a></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td>鼠标手势工具</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.ghisler.com/">Total Commander</a></td>
+<td align="center"><a href="https://www.ghisler.com/">Win</a></td>
+<td align="center">explorer</td>
+<td align="center">-</td>
+<td>老牌文件管理器</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/brookhong/Surfingkeys">SurfingKeys</a></td>
+<td align="center"><a href="https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc">Chrome</a></td>
+<td align="center"><a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb">Vimium</a></td>
+<td align="center">-</td>
+<td>快捷键工具</td>
+</tr>
+<tr>
+<td align="left"><a href="https://diskanalyzer.com/">WizTree</a></td>
+<td align="center"><a href="https://diskanalyzer.com/files/wiztree_4_08_setup.exe">Win</a></td>
+<td align="center"><a href="http://www.uderzo.it/main_products/space_sniffer/">spacesniffer</a></td>
+<td align="center">-</td>
+<td>磁盘空间显示</td>
+</tr>
+<tr>
+<td align="left"><a href="https://ditto-cp.sourceforge.io/">Ditto</a></td>
+<td align="center"><a href="https://ditto-cp.sourceforge.io/">Win/Mac/Linux</a></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td>剪切板管理工具</td>
+</tr>
+<tr>
+<td align="left"><a href="https://greasyfork.org/zh-CN/scripts/442187-open-the-link-directly">油猴脚本: Open link directly</a></td>
+<td align="center"><a href="https://greasyfork.org/zh-CN/scripts/442187-open-the-link-directly">Chrome</a></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td>跳过第三方跳转</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.jamieonkeys.dev/posts/keyboard-shortcuts/">My MacOS HotKeys</a></td>
+<td align="center">Mac</td>
+<td align="center">-</td>
+<td align="center"><a href="https://www.jamieonkeys.dev/posts/keyboard-shortcuts/">教程</a></td>
+<td>作者的一些Mac快捷键, 供参考</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.raycast.com/">Raycast</a></td>
+<td align="center"><a href="https://www.raycast.com/">Mac</a></td>
+<td align="center">utools</td>
+<td align="center"><a href="https://sspai.com/post/72540">教程</a></td>
+<td>MacOS启动器类应用:<br><tab>剪贴板历史: 类似Windows下Ditto<br>窗口管理: 替代Rectangle<br>卸载应用: 腾讯柠檬<br>Snippets: 文本替换<br>状态栏菜单<br>查词: dictionary<br>有第三方extention</td>
+</tr>
+<tr>
+<td align="left"><a href="https://youtu.be/Uszj_k0DGsg">Git for Professionals</a></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"><a href="https://youtu.be/Uszj_k0DGsg">视频</a></td>
+<td>Youtube视频</td>
+</tr>
+<tr>
+<td align="left"><a href="https://proxyman.io/?continueFlag=bfad8aef2f2b537615f634a87deb0d67">proxyman</a></td>
+<td align="center"><a href="https://proxyman.io/?continueFlag=bfad8aef2f2b537615f634a87deb0d67">Mac</a></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td>抓包工具</td>
+</tr>
+<tr>
+<td align="left"><a href="https://kodango.com/bash-one-liners-explained-part-one?continueFlag=bfad8aef2f2b537615f634a87deb0d67">Bash One-Liner Explained</a></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"><a href="https://kodango.com/bash-one-liners-explained-part-one?continueFlag=bfad8aef2f2b537615f634a87deb0d67">教程</a></td>
+<td>一行bash命令实现一个功能, 带解释, 中文翻译版</td>
+</tr>
+<tr>
+<td align="left">traceroute</td>
+<td align="center">Linux yum</td>
+<td align="center">-</td>
+<td align="center"><a href="https://wangchujiang.com/linux-command/c/traceroute.html">教程</a></td>
+<td>网络追踪工具</td>
+</tr>
+</tbody>
+</table>
+<h4 id="how-to-solve-ptrace-operation-not-permitted-when-trying-to-attach-gdb-to-a-process"><a href="https://stackoverflow.com/questions/19215177/how-to-solve-ptrace-operation-not-permitted-when-trying-to-attach-gdb-to-a-pro">How to solve "ptrace operation not permitted" when trying to attach GDB to a process?</a></h4>
+<ul>
+<li>ptrace can't run with gdb</li>
+</ul>
+<h4 id="tmux-getting-extra-characters-when-pasting"><a href="https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard/issues/31#issuecomment-56107455">tmux: Getting extra characters when pasting</a></h4>
+<ul>
+<li>tmux 粘贴时候有多余字符: <code>printf '\e[?2004l'</code> 或者 <code>printf '\e[?2004h'</code></li>
+</ul>
+<h4 id="strace"><a href="https://www.cnblogs.com/xybaby/p/8098229.html">strace: 谁杀了我的进程</a></h4>
+<ul>
+<li><code>strace -T -tt -e trace=all -p 1035</code></li>
+</ul>
+<h4 id="pikepdf-pdf-python"><a href="https://github.com/pikepdf/pikepdf">pikepdf</a>: pdf 编辑的python库</h4>
+<h4 id="lensm-github-golangc">lensm: <a href="https://github.com/loov/lensm">github</a>, 基于golang的C语言与汇编映射工具,用于调试</h4>
+<h4 id="graph-github-graphviz">graph: <a href="https://github.com/dominikbraun/graph">github</a>, 类似于Graphviz, 画图工具, 可以以代码形式自定义节点</h4>
+<h4 id="veinmind-tools"><a href="https://github.com/chaitin/veinmind-tools">veinmind-tools</a>: 问脉, 容器内安全扫描工具</h4>
+<ul>
+<li>Effective Debugging: <a href="https://github.com/Celthi/effective-debugging-zh">github</a></li>
+<li>Deepspeed Model Implementations for Inference: <a href="https://github.com/microsoft/DeepSpeed-MII">github</a>, bert类模型加速库,对标FasterTransformer</li>
+<li>YOLOv5-Lite：Lighter, faster and easier to deploy: <a href="https://github.com/ppogg/YOLOv5-Lite">github</a></li>
+</ul>
+<h3 id="_15">实用工具</h3>
+<ul>
+<li>Meson: 号称下一代编译工具,依赖ninja, <a href="https://github.com/mesonbuild/meson">github</a>, <a href="https://mesonbuild.com/">doc</a></li>
+<li>rsync: 传输工具, <a href="https://www.linuxjournal.com/content/how-use-rsync-command">blog</a></li>
+<li>mount nfs: <a href="https://vitux.com/debian-nfs-mount/">blog</a></li>
+<li>dec-to-ip: <a href="https://www.browserling.com/tools/dec-to-ip">site</a>, int32转IP的工具</li>
+<li>Bash wait Command: <a href="https://linuxize.com/post/bash-wait/">blog</a>, wait命令使用方法</li>
+<li>如何干掉一条tcp 连接（活跃/非活跃）: <a href="https://developer.aliyun.com/article/59308">blog</a>, 通过syn包获取序列号,然后组织reset包</li>
+<li>Composer 国内全量镜像大全: <a href="https://blog.p2hp.com/archives/9324">list</a>, 国内镜像源整理, 阿里/腾讯/华为</li>
+<li><a href="https://github.com/wfrest/wfrest">wfrest: C++ Web Framework REST API</a>: github开源的web框架</li>
+</ul>
+<h3 id="docker_1">docker用法</h3>
+<h4 id="docker_2"><a href="https://ostechnix.com/install-docker-almalinux-centos-rocky-linux/">docker安装与启动</a></h4>
+<pre><code class="language-bash">sudo yum install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo systemctl enable docker
+sudo systemctl start docker
+</code></pre>
+<h4 id="docker_3"><a href="https://linux.cn/article-14849-1.html?utm_source=rss&amp;utm_medium=rss">docker常用命令</a></h4>
+<p>命令|功能
+:-|:-|
+<code>docker ps (-a)</code>|查看运行的container
+<code>docker images</code>|查看本地镜像
+<code>docker search ubuntu</code>|查找dockerhub镜像
+<code>docker pull ubuntu:latest</code>|拉取镜像
+<code>docker run -it -d ubuntu:latest</code>|启动container
+<code>docker attach &lt;container id&gt;</code>|进入container</p>
+<h3 id="git_1">git</h3>
+<ul>
+<li><a href="https://devconnected.com/how-to-compare-two-git-branches/">git分支比较</a>: <code>git diff master..feature1</code></li>
+</ul>
+<h3 id="gdb">gdb</h3>
+<ul>
+<li><a href="https://www.cnblogs.com/Forever-Kenlen-Ja/p/9429882.html">调试正在运行的程序</a></li>
+<li><code>gdb attach $pid</code></li>
+<li><code>gdb --pid $pid</code></li>
+<li><a href="https://www.cnblogs.com/xuxm2007/archive/2011/04/01/2002162.html">多线程调试</a></li>
+<li><code>info threads</code></li>
+<li><code>thread $id</code></li>
+<li><code>set scheduler-locking on</code></li>
+</ul>
+<h3 id="bazel">bazel</h3>
+<ul>
+<li>TBC...</li>
+</ul>
+<h3 id="bash">bash</h3>
+<ul>
+<li><a href="https://stackoverflow.com/questions/8880603/loop-through-an-array-of-strings-in-bash">for loop example</a></li>
+<li><code>bash
+    arr=("v1", "v2")
+    for item in ${arr[@]}
+    do
+      echo $item
+    done</code></li>
+</ul>
+<h2 id="_16">文件列表</h2>
+<ul>
+<li>07.Tools</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

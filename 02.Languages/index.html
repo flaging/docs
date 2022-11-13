@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>编程语言 - 福来鸽的笔记</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">福来鸽的笔记</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">福来鸽的笔记</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../01.Machine-Learning/" class="nav-link">机器学习和计算框架</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">编程语言</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../03.Operating-System/" class="nav-link">操作系统</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../04.Hardwares/" class="nav-link">异构硬件</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../05.Software-Implement/" class="nav-link">软件应用</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../06.System-Configurations/" class="nav-link">系统配置</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../07.Tools/" class="nav-link">实用工具</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../08.Beyonds/" class="nav-link">日常生活</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../09.Weekly/" class="nav-link">2022-11-05</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../01.Machine-Learning/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../03.Operating-System/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/flaging/docs/edit/master/docs/02.Languages.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#_1" class="nav-link">编程语言</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#_2" class="nav-link">博客教程</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_5" class="nav-link">通用编程技巧</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_6" class="nav-link">推荐资料</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_9" class="nav-link">文件列表</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="_1">编程语言</h1>
+<h2 id="_2">博客教程</h2>
+<h3 id="python">python</h3>
+<ul>
+<li>Organize Python code like a PRO: <a href="https://guicommits.com/organize-python-code-like-a-pro/">blog</a></li>
+<li>conda: <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/index.html">doc</a>, python环境管理工具</li>
+<li><a href="https://pythontutor.com/">pythontutor</a>: python/cpp/js/java可视化执行</li>
+<li><a href="https://mathspp.com/blog/how-to-create-a-python-package-in-2022">How to create a Python package in 2022</a>: python打包库的工具</li>
+</ul>
+<h3 id="java">Java</h3>
+<ul>
+<li>调试 JNI: <a href="http://longed.top/index.php/2019/11/30/%E8%B0%83%E8%AF%95-jni/">blog</a>, 使用jdb和gdb调试JNI的C++代码</li>
+<li>Java中的native是如何实现的（JNI）: <a href="https://segmentfault.com/a/1190000022812099">blog</a>, JNI的使用方法</li>
+</ul>
+<h3 id="c">C++</h3>
+<ul>
+<li>Bazel Tutorial: Build a C++ Project: <a href="https://docs.bazel.build/versions/main/tutorial/cpp.html">doc</a>, bazel使用手册, 工程编译工具, <a href="https://github.com/bazelbuild/bazel/releases">github release</a>, </li>
+<li>记录一些bazel适配用编译选项: <a href="https://owent.net/2022/2202.html">blog</a></li>
+<li>Bazel自定义规则实现将多个静态库合并为一个动态库或静态库: <a href="https://zhuanlan.zhihu.com/p/202663666">zhihu</a></li>
+<li>glog error- ‘google’ has not been declared: <a href="https://github.com/facebook/rocksdb/issues/139">github issue</a>, 添加<code>#include &lt;gflags/gflags.h&gt;</code></li>
+</ul>
+<h4 id="svar-a-tiny-modern-c-header-brings-unified-interface-for-different-languages"><a href="https://github.com/zdzhaoyong/Svar">Svar, A Tiny Modern C++ Header Brings Unified Interface for Different Languages</a></h4>
+<ul>
+<li>
+<p>多语言接口</p>
+</li>
+<li>
+<p><a href="https://blogs.embarcadero.com/the-advanced-guide-to-lambda-expression-in-c-software/">The Advanced Guide To Lambda Expression In C++ Software</a></p>
+</li>
+<li>C++ lambda函数教程</li>
+</ul>
+<h4 id="_3">静态库和动态库</h4>
+<ul>
+<li><a href="https://www.cnblogs.com/liushui-sky/articles/9487600.html">静态库链接</a></li>
+<li>编译时需要头文件, 链接时直接添加路径即可</li>
+<li>动态库不需要头文件</li>
+<li>
+<p>依赖多个库时候注意依赖顺序:被依赖的库放在后面</p>
+</li>
+<li>
+<p><a href="https://github.com/isocpp/CppCoreGuidelines">C++ Core Guide</a>: C++核心指南,权威(Bjarne Stroustrup)</p>
+</li>
+</ul>
+<h3 id="golang">Golang</h3>
+<h4 id="go"><a href="https://dl.acm.org/doi/10.1145/3488716">Go编程语言与环境</a></h4>
+<ul>
+<li>go语言综述,来自语言核心团队,pdf版在<a href="https://dl.acm.org/doi/pdf/10.1145/3488716">这里</a></li>
+</ul>
+<h4 id="btree-implementation-for-go"><a href="https://github.com/google/btree">BTree implementation for Go</a></h4>
+<ul>
+<li>google官方的go语言btree实现</li>
+</ul>
+<h4 id="pl-papers-you-might-love"><a href="https://newsletter.papersyoumightlove.pl/">PL Papers You Might Love</a></h4>
+<ul>
+<li>program language papers, rss链接在<a href="https://newsletter.papersyoumightlove.pl/">这里</a></li>
+</ul>
+<h4 id="c_1"><a href="https://liujiacai.net/blog/2022/04/30/modern-c/">现代化 C 使用体验</a></h4>
+<h4 id="using-stdchrono"><a href="https://akrzemi1.wordpress.com/2022/04/11/using-stdchrono/">Using std::chrono</a></h4>
+<ul>
+<li>chrono库介绍</li>
+</ul>
+<h4 id="three-benchmarks-of-c20-ranges-vs-standard-algorithms"><a href="https://www.cppstories.com/2022/ranges-perf/">Three Benchmarks of C++20 Ranges vs Standard Algorithms</a></h4>
+<ul>
+<li>C++测试</li>
+</ul>
+<h4 id="reloadium"><a href="https://github.com/reloadware/reloadium">reloadium</a></h4>
+<ul>
+<li>python 变量实时显示插件; 目前只支持pycharm</li>
+</ul>
+<h4 id="c_2"><a href="https://tinylab-1.gitbook.io/cbook/?continueFlag=5736f6f7a67304664b0f56b2e45e0238">C 语言编程透视</a></h4>
+<ul>
+<li>C语言教程</li>
+</ul>
+<h4 id="learncpp"><a href="https://www.learncpp.com/">learncpp</a></h4>
+<ul>
+<li>C++知识点查阅</li>
+</ul>
+<h4 id="redb"><a href="https://github.com/cberner/redb">redb</a></h4>
+<ul>
+<li>KV-store;rust</li>
+</ul>
+<h4 id="c-concurrency-in-action-2ed"><a href="https://github.com/downdemo/Cpp-Concurrency-in-Action-2ed">C++ Concurrency in Action 2ed 笔记</a></h4>
+<h4 id="c_3"><a href="fuzhe1989.github.io/2020/01/22/optimizations-in-cpp-compilers/">C++编译器中的优化</a></h4>
+<ul>
+<li>编译器和代码生产方面的概念</li>
+<li>编译器为你所做的令人印象深刻的转换工作</li>
+<li>优化方式的一些实际例子</li>
+</ul>
+<h4 id="linuxc"><a href="https://tech.meituan.com/2022/04/21/cross-language-call.html">Linux下跨语言调用C++实践</a></h4>
+<ul>
+<li>美团;java/python调用C++</li>
+</ul>
+<h4 id="go_1"><a href="https://github.com/java-aodeng/golang-examples">Go语言从入门到精通</a></h4>
+<ul>
+<li>go语言教程</li>
+</ul>
+<h4 id="policy"><a href="http://www.modernescpp.com/index.php/policy-and-traits">Policy</a></h4>
+<ul>
+<li>C++新特性; 本网站值得关注</li>
+</ul>
+<h4 id="python-think-in-python-2e"><a href="https://tairraos.github.io/ThinkPython/index.html">#python Think in Python 2e</a></h4>
+<ul>
+<li>一本python教程</li>
+</ul>
+<h4 id="c-c"><a href="https://www.bilibili.com/video/BV1Vf4y1P7pq?spm_id_from=333.999.0.0">#C++ C++程序设计</a></h4>
+<ul>
+<li>b站课程; 南方科大于仕琪(openCV中国团队负责人), 另外主页还有<a href="https://space.bilibili.com/519963684/channel/seriesdetail?sid=323687&amp;ctype=0">HID2021</a>和<a href="https://space.bilibili.com/519963684/channel/seriesdetail?sid=323689&amp;ctype=0">HID2020</a>的论文解读</li>
+</ul>
+<h4 id="typeerror-only-length-1-arrays-can-be-converted-to-python-scalars-while-plot-showing"><a href="https://stackoverflow.com/questions/36680402/typeerror-only-length-1-arrays-can-be-converted-to-python-scalars-while-plot-sh">TypeError: only length-1 arrays can be converted to Python scalars while plot showing</a></h4>
+<ul>
+<li>python matplotlib输入需要是一组数</li>
+</ul>
+<h4 id="python_format"><a href="https://www.cnblogs.com/fat39/p/7159881.html">python基础_格式化输出（%用法和format用法）</a></h4>
+<ul>
+<li><code>print('%o' % 20)</code></li>
+<li><code>print('d1: {d1} \td2: {d2}'.format(d1=1, d2=2))</code></li>
+<li><code>print('d1: {2} \td2: {1}'.format(d2, d1))</code></li>
+<li><code>print('{0:b}'.format(3)) #二进制输出</code></li>
+<li>format还有更多用法</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">格式</th>
+<th align="center">含义</th>
+<th align="center">格式</th>
+<th align="center">含义</th>
+<th align="center">格式</th>
+<th align="center">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">%o</td>
+<td align="center">8进制</td>
+<td align="center">%d</td>
+<td align="center">10进制</td>
+<td align="center">%x</td>
+<td align="center">16进制</td>
+</tr>
+<tr>
+<td align="center">%f</td>
+<td align="center">float</td>
+<td align="center">%e</td>
+<td align="center">科学计数法</td>
+<td align="center">%g</td>
+<td align="center">科学计数法/小数</td>
+</tr>
+<tr>
+<td align="center">round(1.123, 2)</td>
+<td align="center">取整</td>
+<td align="center">%3.2f</td>
+<td align="center">前三位对齐,保留2位</td>
+<td align="center">%s</td>
+<td align="center">字符串</td>
+</tr>
+<tr>
+<td align="center">%10s</td>
+<td align="center">占10位右对齐</td>
+<td align="center">%-10s</td>
+<td align="center">左对齐占10位</td>
+<td align="center">%.2s</td>
+<td align="center">截取两位</td>
+</tr>
+<tr>
+<td align="center">%i</td>
+<td align="center">整数</td>
+<td align="center">%c</td>
+<td align="center">字符</td>
+<td align="center">%u</td>
+<td align="center">无符号数</td>
+</tr>
+<tr>
+<td align="center">%X</td>
+<td align="center">大写16进制</td>
+<td align="center">%%</td>
+<td align="center">文字</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="rust"><a href="https://course.rs/about-book.html">Rust语言圣经</a></h4>
+<ul>
+<li>Rust教程</li>
+</ul>
+<h4 id="30c"><a href="https://github.com/yuesong-feng/30dayMakeCppServer">30天自制C++服务器</a></h4>
+<ul>
+<li>C++教程; C++服务开发</li>
+</ul>
+<h4 id="python-how-to-use-a-variable-number-of-arguments-in-python-functions"><a href="https://towardsdatascience.com/how-to-use-variable-number-of-arguments-in-python-functions-d3a49a9b7db6">#Python How To Use A Variable Number of Arguments in Python Functions</a></h4>
+<ul>
+<li>python不定参数数量的方法</li>
+<li>args 按位置输入</li>
+<li>**kwargs 输入dict</li>
+</ul>
+<h4 id="cs110l-safety-in-system-programing"><a href="https://reberhardt.com/cs110l/spring-2021/">CS110L: Safety in System Programing</a></h4>
+<ul>
+<li>斯坦福大学课程; Rust</li>
+</ul>
+<h4 id="free-programming-books"><a href="https://ebookfoundation.github.io/free-programming-books/">资料:Free Programming Books</a></h4>
+<ul>
+<li>免费的编程书; 中文图书见<a href="https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-zh.html">这里</a></li>
+</ul>
+<h4 id="design-pattern-for-humans"><a href="https://github.com/kamranahmedse/design-patterns-for-humans">design pattern for humans</a></h4>
+<ul>
+<li>设计模式, 读书笔记, PHP 语言</li>
+</ul>
+<h4 id="c-vs-rust"><a href="https://mp.weixin.qq.com/s/HDPybSPNdOLe5SIu7h8ZQQ">C++ vs Rust</a></h4>
+<ul>
+<li>C++ 与 Rust 的一些不同,仅供参考</li>
+</ul>
+<h4 id="c-best-practices"><a href="https://salttiger.com/cpp-best-practices/">C++ Best Practices</a></h4>
+<ul>
+<li><a href="https://leanpub.com/cppbestpractices">图书介绍</a>, <a href="https://pan.baidu.com/s/1L3Oh05FKTou9BdtdfkJcKg?pwd=dfse">图书下载</a></li>
+</ul>
+<h4 id="_4"><a href="https://wanghenshui.github.io/archives.html">王很水的博客</a></h4>
+<ul>
+<li>C++ and NoSQL</li>
+<li>作者还维护了一个C++新闻周报, 地址在<a href="https://wanghenshui.github.io/cppweeklynews/">这里</a>, RSS地址在<a href="https://github.com/wanghenshui/cppweeklynews/releases.atom">这里</a></li>
+</ul>
+<h4 id="stdthis_threadget_id"><a href="https://en.cppreference.com/w/cpp/thread/get_id">std::this_thread::get_id()</a></h4>
+<ul>
+<li>C++ 线程号获取接口, C++11</li>
+</ul>
+<h4 id="cxx-safe-interop-between-rust-and-c"><a href="https://cxx.rs/?continueFlag=bfad8aef2f2b537615f634a87deb0d67">CXX — safe interop between Rust and C++</a></h4>
+<ul>
+<li>C++ 和 Rust 之间的一些安全互操作</li>
+</ul>
+<h4 id="opencv-fourier-transform-using-c"><a href="https://anothertechs.com/programming/cpp/opencv-fourier-transform-cpp/?continueFlag=bfad8aef2f2b537615f634a87deb0d67">OpenCV Fourier Transform using C++</a></h4>
+<ul>
+<li>使用OpenCV C++进行傅里叶变换</li>
+</ul>
+<h4 id="pythonhow-can-i-sort-a-dictionary-by-key"><a href="https://stackoverflow.com/questions/9001509/how-can-i-sort-a-dictionary-by-key">Python:How can I sort a dictionary by key?</a></h4>
+<ul>
+<li>python dict排序的几种方法</li>
+<li>import collections; collections.OrderedDict(sorted(unorderd.item()))</li>
+<li>for python &gt; 3.7<ul>
+<li>sorted_dict = dict(sorted(unsorted_dict.items()))</li>
+<li>dict本来就是有序的,可以直接使用: for k, v in od.items(): print(k, v)</li>
+</ul>
+</li>
+</ul>
+<h4 id="pythonappending-list-but-error-nonetype-object-has-no-attribute-append-duplicate"><a href="https://stackoverflow.com/questions/12894795/appending-list-but-error-nonetype-object-has-no-attribute-append">Python:appending list but error 'NoneType' object has no attribute 'append' [duplicate]</a></h4>
+<ul>
+<li>将<code>last_list=last_list.append(p.last_name)</code>替换为<code>last_list.append(p.last_name)</code></li>
+</ul>
+<h4 id="bruce-eckelc">详解函数式编程、再聊设计模式: <a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI3MzEzMDI1OQ==&amp;action=getalbum&amp;album_id=2423505869138100225&amp;scene=173&amp;from_msgid=2651835694&amp;from_itemidx=1&amp;count=3&amp;nolastread=1">微信</a>, 布鲁斯 • 埃克尔（Bruce Eckel），C++ 标准委员会的创始成员之一，知名技术顾问，专注于编程语言和软件系统设计方面的研究.</h4>
+<ul>
+<li>Python Design Patterns: <a href="https://github.com/brandon-rhodes/python-patterns">github</a>, <a href="https://python-patterns.guide/">book</a></li>
+</ul>
+<h2 id="_5">通用编程技巧</h2>
+<ul>
+<li><a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.9856&amp;rep=rep1&amp;type=pdf">List of Common Bugs and Programming Practices to avoid them</a>: 一些编程注意事项</li>
+</ul>
+<h2 id="_6">推荐资料</h2>
+<h3 id="_7">图书</h3>
+<ul>
+<li>C++ primer</li>
+<li>effective C++</li>
+</ul>
+<h3 id="_8">视频</h3>
+<p>暂无.</p>
+<h2 id="_9">文件列表</h2>
+<ul>
+<li>02.Languages</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

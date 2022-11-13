@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>异构硬件 - 福来鸽的笔记</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">福来鸽的笔记</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">福来鸽的笔记</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../01.Machine-Learning/" class="nav-link">机器学习和计算框架</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../02.Languages/" class="nav-link">编程语言</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../03.Operating-System/" class="nav-link">操作系统</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">异构硬件</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../05.Software-Implement/" class="nav-link">软件应用</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../06.System-Configurations/" class="nav-link">系统配置</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../07.Tools/" class="nav-link">实用工具</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../08.Beyonds/" class="nav-link">日常生活</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../09.Weekly/" class="nav-link">2022-11-05</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../03.Operating-System/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../05.Software-Implement/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/flaging/docs/edit/master/docs/04.Hardwares.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#_1" class="nav-link">异构硬件</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#nvidia-cuda" class="nav-link">NVIDIA CUDA</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_5" class="nav-link">文件列表</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="_1">异构硬件</h1>
+<h4 id="multi-gpu-programming-with-standard-parallel-c-part-1"><a href="https://developer.nvidia.com/blog/multi-gpu-programming-with-standard-parallel-c-part-1">Multi-GPU Programming with Standard Parallel C++, Part 1</a></h4>
+<h4 id="nvidia-cuda-programing-guide-20-final"><a href="https://www.nvidia.cn/docs/IO/57399/NVIDIA_CUDA_Programming_Guide_2.0Final.pdf">NVIDIA CUDA Programing Guide 2.0 Final</a></h4>
+<ul>
+<li>看起来nv在2008年cuda接口就基本稳定了</li>
+</ul>
+<h4 id="winnies"><a href="https://weibo.com/2144454703/LrzAQcqD4">WinnieS的微博:图书推荐</a></h4>
+<ul>
+<li>手把手教你设计CPU--RISC-V处理器</li>
+<li>RISC-V架构与嵌入开发快速入门</li>
+</ul>
+<h4 id="m1-cpu-macos"><a href="https://sspai.com/post/73048">M1 CPU 那么多的核，macOS 是怎样管理的？</a></h4>
+<ul>
+<li>MacOS的E核(Efficiency Core)和P核(Performancs Core的调度策略)</li>
+<li>应用程序通常由 Grand Central Dispatch 使用 QoS 管理</li>
+<li>最低 QoS 线程只在 E 集群上运行</li>
+<li>用户进程优先分配P核,过多后再分配E核</li>
+<li>引导或者更新后,系统可能处于单E核运行状态</li>
+</ul>
+<p><img alt="图片" src="https://cdn.sspai.com/editor/u_/c9q8lhtb34t9etjhlvq0.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></p>
+<h4 id="tensor-core-cuda"><a href="https://mp.weixin.qq.com/s/CBGymNbAN4pD31oe70-Klw">深入理解混合精度训练：从 Tensor Core 到 CUDA 编程</a></h4>
+<ul>
+<li>介绍tensorcore的调用接口</li>
+<li>cuda warpper接口</li>
+<li>cudnn封装接口</li>
+</ul>
+<h4 id="opensource-gpu"><a href="https://github.com/hughperkins/VeriGPU">OpenSource GPU</a></h4>
+<ul>
+<li>veriGPU, 基于RISC-V ISA的verilog GPU开源项目</li>
+</ul>
+<h4 id="cuda"><a href="https://blog.51cto.com/u_15127618/3929160">CUDA多个流的使用</a></h4>
+<ul>
+<li>cuda多stream编程示例</li>
+<li><a href="https://zhuanlan.zhihu.com/p/51402722">其他多stream教程</a></li>
+</ul>
+<h4 id="smartnics-to-xpus-why-is-the-use-of-accelerators-accelerating"><a href="https://www.brighttalk.com/webcast/663/536971">SmartNICs to xPUs – Why is the Use of Accelerators Accelerating?</a></h4>
+<ul>
+<li>会议:2022-05-20</li>
+</ul>
+<h4 id="cpu-"><a href="icefrozen.github.io/article/why-memory-barriers-1/">CPU缓存一致性协议- 深入理解内存屏障</a></h4>
+<ul>
+<li>CPU缓存一致性协议解析</li>
+</ul>
+<h4 id="fpga"><a href="xupsh.github.io/pp4fpgas-cn/">FPGA并行编程</a></h4>
+<ul>
+<li>FPGA编程;Parallel Programming for FPGAs的中文翻译版</li>
+</ul>
+<h4 id="cpucache"><a href="https://plantegg.github.io/2021/07/19/CPU%E6%80%A7%E8%83%BD%E5%92%8CCACHE/">CPU性能和Cache</a></h4>
+<ul>
+<li>CPU性能介绍, 作者是<a href="https://weibo.com/n/plantegg">plantgg</a></li>
+<li><a href="https://plantegg.github.io/2021/06/01/CPU的制造和概念">CPU的制造和概念</a></li>
+<li><a href="https://plantegg.github.io/2021/05/14/十年后数据库还是不敢拥抱NUMA/">十年后数据库还是不敢拥抱NUMA</a></li>
+</ul>
+<h4 id="cpu"><a href="https://zhuanlan.zhihu.com/p/497495797?utm_source=com.microsoft.todos&amp;utm_medium=social&amp;utm_oi=49336847171584">CPU相关书籍推荐和部分芯片微架构</a></h4>
+<ul>
+<li>CPU相关图书推荐; 另有多张CPU架构图片(如RISC-V)</li>
+</ul>
+<h4 id="tensil-tutorial-for-yolo-v4-tiny-on-ultra96-v2"><a href="https://k155la3.blog/2022/04/04/tensil-tutorial-for-yolo-v4-tiny-on-ultra96-v2/?continueFlag=bfad8aef2f2b537615f634a87deb0d67">Tensil tutorial for YOLO v4 Tiny on Ultra96 V2</a></h4>
+<ul>
+<li>在FPGA上实现了一个深度神经网络</li>
+</ul>
+<h4 id="_2"><a href="https://mp.weixin.qq.com/s/R8a7F7_QLoBuBpi-bncqAg">讲座:开源,让天下没有难做的芯片</a></h4>
+<ul>
+<li>包云岗; 香山RISC-V; 芯片简介; 内有视频</li>
+</ul>
+<h4 id="nvidia-mps"><a href="https://asphelzhn.github.io/2019/04/14/tensor_09_MPS/">Nvidia MPS 总结</a></h4>
+<ul>
+<li>MPS: Multi-Process Scheduling</li>
+<li>多个进程向驱动提交指令, 驱动只有一个队列, 减少context切换导致的性能损失</li>
+</ul>
+<h4 id="cpugpu"><a href="https://itnext.io/graphics-processors-gpus-under-the-hood-4522dbec777d">CPU和GPU线程概念的异同(英文)</a></h4>
+<ul>
+<li>相同点</li>
+<li>都有程序计数器/线程ID/计算单元等内容</li>
+<li>不同点</li>
+<li>GPU线程必须执行相同指令流, 处理的数据可以不相同</li>
+<li>CPU线程上限受限于从内存中读取的指令数据数量, GPU没有此限制, 所以线程数大于CPU</li>
+<li>GPU中对于只访问一次(没有数据依赖)的尽量不用for循环</li>
+<li><a href="https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html">Nvidia CUDA C++ 编程指南</a></li>
+<li><a href="https://docs.nvidia.com/cuda/cuda-binary-utilities/index.html#instruction-set-ref">CUDA 汇编参考手册</a></li>
+</ul>
+<h4 id="the-art-of-multiprocessor-programming"><a href="http://cs.ipm.ac.ir/asoc2016/Resources/Theartofmulticore.pdf">图书: The Art of Multiprocessor Programming</a></h4>
+<h4 id="everything-you-need-to-know-about-the-nvme-20-specifications-and-new-technical-proposals-nvme-20"><a href="https://nvmexpress.org/everything-you-need-to-know-about-the-nvme-2-0-specifications-and-new-technical-proposals/">Everything You Need to Know About the NVMe® 2.0 Specifications and New Technical Proposals</a>: NVMe 2.0</h4>
+<h4 id="nvme-key-value-command-set-provides-the-key-to-storage-efficiency-blog-nvme-kvs">NVMe® Key Value Command Set Provides the Key to Storage Efficiency: <a href="https://nvmexpress.org/nvme-key-value-command-set-provides-the-key-to-storage-efficiency/">blog</a>, NVMe KVS</h4>
+<ul>
+<li>Rust for Linux | 用 Rust 写 Linux 内核模块: <a href="https://mp.weixin.qq.com/s/m2eZ0lEzQHjrNVC6YCC_IA">微信</a></li>
+<li>OneAPI documnents: <a href="https://www.intel.cn/content/www/cn/zh/developer/tools/oneapi/documentation-library.html?s=Newest">docs</a>, Intel Libs Documents, <a href="https://www.intel.cn/content/www/cn/zh/developer/tools/oneapi/data-parallel-c-plus-plus.html#gs.6oqu0b">sycl docs</a>, <a href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/17382710/data/v1">DPC++ books</a></li>
+</ul>
+<h2 id="nvidia-cuda">NVIDIA CUDA</h2>
+<h3 id="_3">教程</h3>
+<ul>
+<li><a href="https://github.com/jacobtomlinson/gpu-python-tutorial">GPU development with Python 101 Tutorial</a>: 用Python开发GPU程序</li>
+<li>TRAINING VS INFERENCE – NUMERICAL PRECISION: <a href="https://frankdenneman.nl/2022/07/26/training-vs-inference-numerical-precision/">blog</a>, AI训练和推理中的数据精度, 好文系列</li>
+</ul>
+<h3 id="_4">使用技巧</h3>
+<ul>
+<li><a href="https://stackoverflow.com/questions/66992585/how-does-one-use-pytorch-cuda-with-an-a100-gpu">A100系列需要11.1及以上版版本cuda的pytorch才能运行</a></li>
+</ul>
+<p><code>bash
+  pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html</code>
+* <a href="https://developer.nvidia.com/zh-cn/blog/cuda-pro-tip-control-gpu-visibility-cuda_visible_devices/">CUDA_VISIABLE_DEVICES="0,1,2"可以控制使用的卡</a>
+* Train With Mixed Precision: <a href="https://docs.nvidia.com/deeplearning/performance/mixed-precision-training/index.html">doc</a>, <a href="https://docs.nvidia.com/deeplearning/performance/pdf/Training-Mixed-Precision-User-Guide.pdf">pdf</a>, NV混合精度训练文档, 中文翻译版<a href="https://blog.csdn.net/baidu_32048673/article/details/103715333">csdn</a>
+* TorchScript GELU error: <a href="https://github.com/triton-inference-server/server/issues/3909">issue</a>, torch版本问题, 需要NV官方docker<code>nvcr.io/Nvidia/pytorch:21.12-py3</code>以后能解决, 也可以将镜像内/opt/下的torch及编译的依赖库拷贝出来编译安装
+* NVIDIA Deep Learning Frameworks: <a href="https://docs.nvidia.com/deeplearning/frameworks/index.html">doc</a>, NV支持的深度学习库更新的release note
+* NVIDIA AI Platform Delivers Big Gains for Large Language Models: <a href="https://developer.nvidia.com/blog/nvidia-ai-platform-delivers-big-gains-for-large-language-models/">blog</a>, NV加速大型语言模型训练,最多有30%
+* <a href="https://github.com/pytorch/pytorch/blob/master/aten/src/ATen/native/cuda/ActivationGeluKernel.cu">pytorch cuda kernel gelu</a>: gelu的pytorch实现
+* <a href="https://indico-jsc.fz-juelich.de/event/32/material/0/5.pdf">Nvidia profiling工具</a>
+  * nvprof, 另外还有nsys</p>
+<h2 id="_5">文件列表</h2>
+<ul>
+<li>04.Hardwares</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
