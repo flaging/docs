@@ -6,6 +6,8 @@
 
 * Organize Python code like a PRO: [blog](https://guicommits.com/organize-python-code-like-a-pro/)
 * conda: [doc](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/index.html), python环境管理工具
+* [pythontutor](https://pythontutor.com/): python/cpp/js/java可视化执行
+* [How to create a Python package in 2022](https://mathspp.com/blog/how-to-create-a-python-package-in-2022): python打包库的工具
 
 ### Java
 
@@ -32,6 +34,8 @@
   * 编译时需要头文件, 链接时直接添加路径即可
   * 动态库不需要头文件
   * 依赖多个库时候注意依赖顺序:被依赖的库放在后面
+
+* [C++ Core Guide](https://github.com/isocpp/CppCoreGuidelines): C++核心指南,权威(Bjarne Stroustrup)
 
 ### Golang
 

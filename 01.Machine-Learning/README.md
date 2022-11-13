@@ -75,6 +75,7 @@ OPT: Open Pre-trained Transformer Language Models|[github](https://github.com/fa
 * This repo supplements our 3D Vision with Transformers Survey: [github](https://github.com/lahoud/3d-vision-transformers), [arxiv](https://arxiv.org/abs/2208.04309v1), 3D视觉模型整理, 约有几十篇论文和模型
 * How codesearch.ai works: [blog](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6MTU1OQ==?)
   * 基于 AI 的代码搜索的源代码级演练
+* [Basic Graph Theory](https://libgen.rocks/ads.php?md5=108D071625F2E4C053071B7223DE6E4D): 图论基础书籍
 
 
 ## 框架原理分析
@@ -113,12 +114,10 @@ OPT: Open Pre-trained Transformer Language Models|[github](https://github.com/fa
 * [PaddleDetection](https://github.com/PaddlePaddle/PaddleDetection)
   * paddle目标检测套件
 * 大规模深度学习训练平台, 支持分布式
-* [Huggingface transformers](https://github.com/huggingface/transformers)
-  * transformer的推理库
-* [FinRL: Deep Reinforcement Learning for Quantitative Finance](https://github.com/AI4Finance-Foundation/FinRL)
-  * 基于强化学习的量化交易框架
-* [MetaSpore](https://github.com/meta-soul/MetaSpore)
-  * 一站式机器学习开发平台; 框架
+* [Huggingface transformers](https://github.com/huggingface/transformers): transformer的推理库
+* [FinRL: Deep Reinforcement Learning for Quantitative Finance](https://github.com/AI4Finance-Foundation/FinRL): 基于强化学习的量化交易框架
+* [MetaSpore](https://github.com/meta-soul/MetaSpore):一站式机器学习开发平台; 框架
+* [BigDL](https://github.com/intel-analytics/BigDL): intel 提供的机器学习加速库, 应用于各个方面.
 
 ### 实用工具
   

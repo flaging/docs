@@ -259,3 +259,8 @@
 * [leetcode](https://github.com/doocs/leetcode)
   * 编程刷题整理
   * 还形成了一个[社区](https://doocs.github.io/#/README_CN)
+
+* [AIMATH-TEXTBOOKS](https://aimath.org/textbooks/approved-textbooks/): AI-MATH推荐的一些数学方面的书籍
+
+* [ideas-to-simplify-life](ideas-to-simplify-life): 一些生活建议
+* [engineeringladders](https://github.com/jorgef/engineeringladders): 程序员天梯,各个等级以及需要掌握的能力
